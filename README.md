@@ -12,6 +12,8 @@ Unfold는 [Claude Code](https://claude.com/claude-code)용 스킬이에요. "갤
 
 **▶ 설치 없이 예제 보기: https://jaythealpha.github.io/unfold/**
 
+![갤럭시 Z 폴드8이 펼쳐지고, 부품으로 흩어졌다가 다시 조립되기 시작하는 장면](docs/assets/demo.gif)
+
 | [갤럭시 S24](https://jaythealpha.github.io/unfold/examples/galaxy-s24.html) | [갤럭시 Z 폴드8](https://jaythealpha.github.io/unfold/examples/galaxy-z-fold8.html) | [갤럭시 Z 플립8](https://jaythealpha.github.io/unfold/examples/galaxy-z-flip8.html) | [아이폰 17 Pro](https://jaythealpha.github.io/unfold/examples/iphone-17-pro.html) | [아이폰 듀오](https://jaythealpha.github.io/unfold/examples/iphone-duo.html) |
 |---|---|---|---|---|
 | 바 형태, 뒤로 열기 | 책처럼 접기 | 위아래로 접기 | 앞으로 열기 | 책처럼 접기 |
