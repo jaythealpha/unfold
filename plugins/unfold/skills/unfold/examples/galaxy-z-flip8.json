@@ -1,0 +1,2932 @@
+{
+ "product": {
+  "name": {
+   "ko": "갤럭시 Z 플립8",
+   "en": "Galaxy Z Flip8"
+  },
+  "maker": "Samsung Electronics",
+  "kind": "foldable",
+  "dims": {
+   "w": 75.4,
+   "l": 166.9,
+   "t": 6.1
+  },
+  "foldedDims": {
+   "w": 75.4,
+   "l": 85.7,
+   "t": 13.1
+  },
+  "modelCodes": [
+   "SM-F776N (Korea)",
+   "SM-F776B",
+   "SM-F776U"
+  ],
+  "weight_g": 180,
+  "battery_mAh": 4300,
+  "fold": {
+   "axis": "x",
+   "at": 83.45,
+   "gap": 0.9,
+   "b": "+",
+   "spine": 2.25
+  },
+  "notes": "Clamshell. Fold line across the width at y = 83.45 (half of 166.9, assumed centred). gap = 13.1 - 2 x 6.1 = 0.9 mm; spine = 85.7 - 83.45 = 2.25 mm. Half A = bottom (USB-C, back glass, big cell); half B = top (cover screen, cameras, main board, small cell)."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "title": "Samsung Korea - Galaxy Z Flip8 specifications",
+   "url": "https://www.samsung.com/sec/smartphones/galaxy-z-flip8/specs/",
+   "covers": "official unfolded 166.9x75.4x6.1 mm and folded 85.7x75.4x13.1 mm, 180 g, 4,300 mAh, 6.9 in main and 4.1 in cover screens, 50+12 MP rear and 10 MP front cameras, flash"
+  },
+  {
+   "id": "s2",
+   "title": "iFixit - Samsung Galaxy Z Flip8 device page",
+   "url": "https://www.ifixit.com/Device/Samsung_Galaxy_Z_Flip8",
+   "covers": "model codes SM-F776x, aluminium frame, glass back, IP48, side fingerprint key, Exynos 2600, USB-C, 15 W wireless; no guides yet"
+  },
+  {
+   "id": "s3",
+   "title": "Samsung Canada - Z Fold8 Ultra, Z Fold8 and Z Flip8 specifications and features",
+   "url": "https://www.samsung.com/ca/support/mobile-devices/galaxy-z-fold8-ultra-galaxy-z-fold8-and-galaxy-z-flip8-specifications-and-features/",
+   "covers": "Armor FlexHinge, Advanced Armor Aluminum frame, 4.1 in FlexWindow, IP48"
+  },
+  {
+   "id": "s4",
+   "title": "9to5Google - Galaxy Z Flip 8 leaks in full (same shell as Flip7)",
+   "url": "https://9to5google.com/?p=721763",
+   "covers": "Flip8 reuses the Flip7 shell; used to carry Flip7 teardown facts over"
+  },
+  {
+   "id": "s5",
+   "title": "SamMobile - JerryRigEverything Galaxy Z Flip 7 teardown",
+   "url": "https://www.sammobile.com/news/brutal-teardown-video-shows-how-easily-repairable-the-galaxy-z-flip-7-is/",
+   "covers": "two batteries with pull tabs, Phillips screws, cover glass on a ribbon cable"
+  },
+  {
+   "id": "s6",
+   "title": "Android Headlines - Galaxy Z Flip 7 teardown",
+   "url": "https://www.androidheadlines.com/2025/08/galaxy-z-flip-7-teardown-reveals-easier-repairs-but-still-tricky-display.html",
+   "covers": "removable batteries with pull tabs, Phillips screws, inlaid cover glass in the aluminium frame"
+  },
+  {
+   "id": "s7",
+   "title": "3DNews - Galaxy Z Flip 7 teardown (JerryRigEverything)",
+   "url": "https://3dnews.ru/1128219",
+   "covers": "inner screen bumpers, two batteries totalling 4,300 mAh, Armor Flex hinge, protective layer between screen and hinge"
+  },
+  {
+   "id": "s8",
+   "title": "Samsung Galaxy Z Flip5 (2023) service repair guide (iFixit document) - predecessor, not Flip8",
+   "url": "https://www.ifixit.com/Document/vaUX5mFbF6LTCfoy",
+   "covers": "predecessor: disassembly order, back glass on the bottom half, cover screen unit on the top, rear assembly pieces, main and sub PBA contents, SIM tray top left"
+  },
+  {
+   "id": "s9",
+   "title": "GSMArena - Galaxy Z Flip5 teardown video (PBKreviews)",
+   "url": "https://www.gsmarena.com/teardown_video_shows_that_the_samsung_galaxy_z_flip5_is_much_easier_to_repair-news-59544.php",
+   "covers": "predecessor: small cell top, large cell bottom, pull tabs, glued selfie camera"
+  },
+  {
+   "id": "s10",
+   "title": "Android Headlines - Galaxy Z Flip 5 teardown",
+   "url": "https://www.androidheadlines.com/2023/09/samsung-galaxy-z-flip-5-teardown.html",
+   "covers": "predecessor: removal order (back glass, cover screen, coil, cables, batteries), inner screen cable to the board on the other half, geared hinge"
+  },
+  {
+   "id": "s11",
+   "title": "Notebookcheck - Galaxy Z Flip 6 teardown (vapour chamber)",
+   "url": "https://www.notebookcheck.net/Galaxy-Z-Flip-6-teardown-shows-the-first-vapor-chamber-cooling-in-a-Samsung-flip-phone.865736.0.html",
+   "covers": "predecessor: first vapour chamber in a Flip"
+  },
+  {
+   "id": "s12",
+   "title": "iFixit - Galaxy Z Flip 5 back glass replacement",
+   "url": "https://www.ifixit.com/Guide/Samsung+Galaxy+Z+Flip+5+Back+Glass+Replacement/185285",
+   "covers": "back glass held by adhesive, released with heat"
+  }
+ ],
+ "parts": [
+  {
+   "id": "inner-display",
+   "name": {
+    "ko": "안쪽 접이식 화면 6.9인치",
+    "en": "Inner folding display 6.9 in (UTG + flexible OLED)"
+   },
+   "category": "display",
+   "half": "hinge",
+   "bbox": [
+    1,
+    1,
+    0,
+    74.4,
+    165.9,
+    0.45
+   ],
+   "shape": {
+    "template": "flexdisplay",
+    "r": 7,
+    "bezel": 1.2,
+    "hole": [
+     37.7,
+     158.5,
+     1.3
+    ]
+   },
+   "step": 1,
+   "sourceIds": [
+    "s1",
+    "s6",
+    "s7"
+   ],
+   "confidence": "verified",
+   "key": true,
+   "desc": {
+    "ko": "펼치면 6.9인치가 되는 접이식 화면. 가운데가 가로로 휘어요.",
+    "en": "The 6.9-inch folding screen; it bends across the middle."
+   },
+   "notes": "Size and resolution from s1. Many-layer build with ultra-thin glass from s6/s7. Thickness estimated."
+  },
+  {
+   "id": "inner-display-bumper",
+   "name": {
+    "ko": "안쪽 화면 테두리 범퍼",
+    "en": "Inner display plastic bumper"
+   },
+   "category": "housing",
+   "half": "hinge",
+   "bbox": [
+    1,
+    1,
+    0,
+    74.4,
+    165.9,
+    0.45
+   ],
+   "shape": {
+    "template": "box",
+    "columns": true,
+    "mat": "black"
+   },
+   "step": 1,
+   "confidence": "estimated",
+   "attachedTo": "inner-display",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "passesThrough": [
+    "inner-display"
+   ],
+   "notes": "Flip7 teardown starts with the bumpers around the folding screen (s7). Drawn as the panel's rim layer."
+  },
+  {
+   "id": "display-support-plate",
+   "name": {
+    "ko": "화면 지지판 (메탈)",
+    "en": "Display metal support plate"
+   },
+   "category": "display",
+   "half": "hinge",
+   "bbox": [
+    1,
+    1,
+    0.45,
+    74.4,
+    165.9,
+    0.55
+   ],
+   "shape": {
+    "template": "box",
+    "columns": true,
+    "mat": "metalDark"
+   },
+   "step": 1,
+   "sourceIds": [
+    "s8"
+   ],
+   "confidence": "estimated",
+   "attachedTo": "inner-display",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "notes": "Flip5 service guide names a 'front metal' in the display module (s8). Thickness and extent estimated."
+  },
+  {
+   "id": "hinge-protect-layer",
+   "name": {
+    "ko": "힌지 보호층",
+    "en": "Protective layer between screen and hinge"
+   },
+   "category": "display",
+   "half": "hinge",
+   "bbox": [
+    3,
+    80.95,
+    0.55,
+    72.4,
+    85.95,
+    0.85
+   ],
+   "shape": {
+    "template": "box",
+    "columns": true,
+    "mat": "black"
+   },
+   "step": 1,
+   "sourceIds": [
+    "s7"
+   ],
+   "confidence": "verified",
+   "attachedTo": "display-support-plate",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "notes": "Flip7 teardown reports a new protective layer between the screen and the hinge (s7). Size estimated."
+  },
+  {
+   "id": "frame-adhesive-a",
+   "name": {
+    "ko": "프레임 접착 (아래쪽)",
+    "en": "Frame adhesive, bottom half"
+   },
+   "category": "adhesive",
+   "half": "a",
+   "bbox": [
+    1,
+    1,
+    0.55,
+    74.4,
+    80.95,
+    0.6
+   ],
+   "shape": {
+    "template": "adhesive",
+    "r": 6,
+    "ring": 3
+   },
+   "step": 2,
+   "sourceIds": [
+    "s8"
+   ],
+   "confidence": "estimated",
+   "attachedTo": "display-support-plate",
+   "fastening": {
+    "type": "adhesive"
+   }
+  },
+  {
+   "id": "frame-adhesive-b",
+   "name": {
+    "ko": "프레임 접착 (위쪽)",
+    "en": "Frame adhesive, top half"
+   },
+   "category": "adhesive",
+   "half": "b",
+   "bbox": [
+    1,
+    85.95,
+    0.55,
+    74.4,
+    165.9,
+    0.6
+   ],
+   "shape": {
+    "template": "adhesive",
+    "r": 6,
+    "ring": 3
+   },
+   "step": 2,
+   "sourceIds": [
+    "s8"
+   ],
+   "confidence": "estimated",
+   "attachedTo": "display-support-plate",
+   "fastening": {
+    "type": "adhesive"
+   }
+  },
+  {
+   "id": "frame-a",
+   "name": {
+    "ko": "아래쪽 알루미늄 프레임",
+    "en": "Aluminium frame + midplate, bottom half"
+   },
+   "category": "housing",
+   "half": "a",
+   "bbox": [
+    0,
+    0,
+    0.6,
+    75.4,
+    80.95,
+    5.55
+   ],
+   "shape": {
+    "template": "housing",
+    "r": 7,
+    "wall": 1,
+    "floorAt": [
+     0.6,
+     1
+    ],
+    "floorMat": "metal",
+    "bands": [
+     [
+      "x0",
+      14
+     ],
+     [
+      "x1",
+      14
+     ],
+     [
+      "y0",
+      52
+     ]
+    ],
+    "colors": {
+     "alu": "#c9c2b4"
+    }
+   },
+   "step": 2,
+   "sourceIds": [
+    "s2",
+    "s3"
+   ],
+   "confidence": "verified",
+   "attachedTo": "inner-display",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "notes": "Aluminium frame (s2, s3 'Advanced Armor Aluminum'). Rail and floor thickness estimated."
+  },
+  {
+   "id": "frame-b",
+   "name": {
+    "ko": "위쪽 알루미늄 프레임",
+    "en": "Aluminium frame + midplate, top half"
+   },
+   "category": "housing",
+   "half": "b",
+   "bbox": [
+    0,
+    85.95,
+    0.6,
+    75.4,
+    166.9,
+    4.95
+   ],
+   "shape": {
+    "template": "housing",
+    "r": 7,
+    "wall": 1,
+    "floorAt": [
+     0.6,
+     1
+    ],
+    "floorMat": "metal",
+    "bands": [
+     [
+      "x0",
+      150
+     ],
+     [
+      "x1",
+      150
+     ],
+     [
+      "y1",
+      22
+     ]
+    ],
+    "colors": {
+     "alu": "#c9c2b4"
+    }
+   },
+   "step": 2,
+   "sourceIds": [
+    "s2",
+    "s3"
+   ],
+   "confidence": "verified",
+   "attachedTo": "inner-display",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "notes": "Top frame is lower (to z 4.95) because the cover screen takes more of the thickness. Estimated."
+  },
+  {
+   "id": "power-key",
+   "name": {
+    "ko": "전원·지문 인식 키",
+    "en": "Power key with fingerprint sensor"
+   },
+   "category": "button",
+   "half": "b",
+   "bbox": [
+    0,
+    98,
+    1.6,
+    1,
+    111,
+    3.4
+   ],
+   "shape": {
+    "template": "button",
+    "r": 0.5
+   },
+   "step": 2,
+   "confidence": "estimated",
+   "attachedTo": "frame-b",
+   "fastening": {
+    "type": "clip"
+   },
+   "notes": "Side fingerprint key (s2). Right side seen from the front = x 0 here. Position estimated."
+  },
+  {
+   "id": "volume-key",
+   "name": {
+    "ko": "음량 키",
+    "en": "Volume key"
+   },
+   "category": "button",
+   "half": "b",
+   "bbox": [
+    0,
+    113,
+    1.6,
+    1,
+    127,
+    3.4
+   ],
+   "shape": {
+    "template": "button",
+    "r": 0.5
+   },
+   "step": 2,
+   "sourceIds": [
+    "s8"
+   ],
+   "confidence": "estimated",
+   "attachedTo": "frame-b",
+   "fastening": {
+    "type": "clip"
+   },
+   "notes": "Volume keys belong to the display module in the Flip5 guide (s8). Position estimated."
+  },
+  {
+   "id": "fingerprint-flex",
+   "name": {
+    "ko": "지문 센서 연결 케이블",
+    "en": "Fingerprint key flex"
+   },
+   "category": "flex",
+   "half": "b",
+   "bbox": [
+    -0.1,
+    102.5,
+    1.05,
+    7,
+    105.5,
+    1.85
+   ],
+   "shape": {
+    "template": "flex",
+    "width": 3,
+    "path": [
+     [
+      1.4,
+      104,
+      1.15
+     ],
+     [
+      5.5,
+      104,
+      1.15
+     ]
+    ]
+   },
+   "step": 2,
+   "sourceIds": [
+    "s8"
+   ],
+   "confidence": "estimated",
+   "attachedTo": "power-key",
+   "fastening": {
+    "type": "adhesive+press-connector"
+   }
+  },
+  {
+   "id": "hinge-left",
+   "name": {
+    "ko": "힌지 기어 모듈 (왼쪽)",
+    "en": "Hinge gear module, left"
+   },
+   "category": "hinge",
+   "half": "hinge",
+   "bbox": [
+    3,
+    78.45,
+    0.9,
+    19,
+    88.45,
+    1.75
+   ],
+   "shape": {
+    "template": "box",
+    "columns": true,
+    "mat": "metalDark"
+   },
+   "step": 3,
+   "confidence": "estimated",
+   "attachedTo": "frame-a",
+   "fastening": {
+    "type": "screw"
+   },
+   "passesThrough": [
+    "frame-a",
+    "frame-b"
+   ],
+   "notes": "Armor FlexHinge (s3, s7). Gears seen in the Flip5 (s10). Two end modules at the long edges of the fold are estimated."
+  },
+  {
+   "id": "hinge-right",
+   "name": {
+    "ko": "힌지 기어 모듈 (오른쪽)",
+    "en": "Hinge gear module, right"
+   },
+   "category": "hinge",
+   "half": "hinge",
+   "bbox": [
+    56.4,
+    78.45,
+    0.9,
+    72.4,
+    88.45,
+    1.75
+   ],
+   "shape": {
+    "template": "box",
+    "columns": true,
+    "mat": "metalDark"
+   },
+   "step": 3,
+   "confidence": "estimated",
+   "attachedTo": "frame-a",
+   "fastening": {
+    "type": "screw"
+   },
+   "key": true,
+   "desc": {
+    "ko": "아머 플렉스 힌지. 기어가 위아래 반쪽을 함께 돌려요.",
+    "en": "Armor FlexHinge; its gears turn both halves together."
+   },
+   "passesThrough": [
+    "frame-a",
+    "frame-b"
+   ]
+  },
+  {
+   "id": "hinge-housing",
+   "name": {
+    "ko": "힌지 커버 (등판)",
+    "en": "Hinge housing (spine cover)"
+   },
+   "category": "hinge",
+   "half": "hinge",
+   "bbox": [
+    0.5,
+    81.05,
+    3,
+    74.9,
+    85.85,
+    6.1
+   ],
+   "shape": {
+    "template": "box",
+    "columns": true,
+    "mat": "metal",
+    "colors": {
+     "metal": "#c9c2b4"
+    }
+   },
+   "step": 3,
+   "sourceIds": [
+    "s3"
+   ],
+   "confidence": "estimated",
+   "attachedTo": "hinge-right",
+   "fastening": {
+    "type": "screw"
+   },
+   "notes": "The exposed hinge bar between back glass and cover screen when open. Shape estimated."
+  },
+  {
+   "id": "screws-hinge-housing",
+   "name": {
+    "ko": "힌지 커버 나사",
+    "en": "Hinge housing screws"
+   },
+   "category": "fastener",
+   "half": "hinge",
+   "bbox": [
+    8,
+    82.6,
+    1.8,
+    67.4,
+    84.3,
+    3
+   ],
+   "shape": {
+    "template": "screw",
+    "head": 1.4,
+    "positions": [
+     [
+      22,
+      83.45
+     ],
+     [
+      53.400000000000006,
+      83.45
+     ]
+    ]
+   },
+   "step": 3,
+   "confidence": "estimated",
+   "count": 2,
+   "attachedTo": "hinge-right",
+   "fastening": {
+    "type": "screw",
+    "spec": "Phillips, length unknown",
+    "count": 2
+   },
+   "path": "screw",
+   "notes": "Phillips type from s5/s6; count and place estimated."
+  },
+  {
+   "id": "screws-hinge-a",
+   "name": {
+    "ko": "힌지-아래 프레임 나사",
+    "en": "Hinge-to-frame screws, bottom half"
+   },
+   "category": "fastener",
+   "half": "a",
+   "bbox": [
+    5,
+    78.65,
+    1,
+    70.4,
+    80.45,
+    1.95
+   ],
+   "shape": {
+    "template": "screw",
+    "head": 1.4,
+    "positions": [
+     [
+      6,
+      79.55
+     ],
+     [
+      16,
+      79.55
+     ],
+     [
+      59.400000000000006,
+      79.55
+     ],
+     [
+      69.4,
+      79.55
+     ]
+    ]
+   },
+   "step": 3,
+   "confidence": "estimated",
+   "count": 4,
+   "attachedTo": "hinge-left",
+   "fastening": {
+    "type": "screw",
+    "spec": "Phillips",
+    "count": 4
+   },
+   "path": "screw"
+  },
+  {
+   "id": "screws-hinge-b",
+   "name": {
+    "ko": "힌지-위 프레임 나사",
+    "en": "Hinge-to-frame screws, top half"
+   },
+   "category": "fastener",
+   "half": "b",
+   "bbox": [
+    5,
+    86.45,
+    1,
+    70.4,
+    88.25,
+    1.95
+   ],
+   "shape": {
+    "template": "screw",
+    "head": 1.4,
+    "positions": [
+     [
+      6,
+      87.35000000000001
+     ],
+     [
+      16,
+      87.35000000000001
+     ],
+     [
+      59.400000000000006,
+      87.35000000000001
+     ],
+     [
+      69.4,
+      87.35000000000001
+     ]
+    ]
+   },
+   "step": 3,
+   "confidence": "estimated",
+   "count": 4,
+   "attachedTo": "hinge-right",
+   "fastening": {
+    "type": "screw",
+    "spec": "Phillips",
+    "count": 4
+   },
+   "path": "screw"
+  },
+  {
+   "id": "battery-a-tabs",
+   "name": {
+    "ko": "아래 배터리 당김 테이프",
+    "en": "Pull-tab adhesive, bottom battery"
+   },
+   "category": "adhesive",
+   "half": "a",
+   "bbox": [
+    6,
+    17,
+    1,
+    69.4,
+    73,
+    1.05
+   ],
+   "shape": {
+    "template": "adhesive",
+    "r": 2
+   },
+   "step": 4,
+   "sourceIds": [
+    "s5",
+    "s6"
+   ],
+   "confidence": "verified",
+   "attachedTo": "frame-a",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "notes": "Flip7 batteries come out with pull tabs, not glue (s5, s6)."
+  },
+  {
+   "id": "battery-a",
+   "name": {
+    "ko": "아래쪽 배터리 (큰 셀)",
+    "en": "Bottom battery (large cell)"
+   },
+   "category": "battery",
+   "half": "a",
+   "bbox": [
+    6,
+    17,
+    1.05,
+    69.4,
+    73,
+    5
+   ],
+   "shape": {
+    "template": "battery",
+    "r": 2.5
+   },
+   "step": 4,
+   "sourceIds": [
+    "s1",
+    "s5",
+    "s7",
+    "s9"
+   ],
+   "confidence": "verified",
+   "attachedTo": "battery-a-tabs",
+   "fastening": {
+    "type": "adhesive+press-connector"
+   },
+   "key": true,
+   "desc": {
+    "ko": "아래 반쪽의 큰 배터리. 두 셀을 합쳐 4,300mAh예요.",
+    "en": "The large cell in the bottom half; the two cells add up to 4,300 mAh."
+   },
+   "notes": "Two cells, 4,300 mAh total (s1, s7). Big cell in the bottom half as in the Flip5 (s9). Split ~3,200 mAh estimated by volume."
+  },
+  {
+   "id": "battery-b-tabs",
+   "name": {
+    "ko": "위 배터리 당김 테이프",
+    "en": "Pull-tab adhesive, top battery"
+   },
+   "category": "adhesive",
+   "half": "b",
+   "bbox": [
+    6,
+    131,
+    1,
+    69.4,
+    152,
+    1.05
+   ],
+   "shape": {
+    "template": "adhesive",
+    "r": 2
+   },
+   "step": 4,
+   "sourceIds": [
+    "s5",
+    "s6"
+   ],
+   "confidence": "verified",
+   "attachedTo": "frame-b",
+   "fastening": {
+    "type": "adhesive"
+   }
+  },
+  {
+   "id": "battery-b",
+   "name": {
+    "ko": "위쪽 배터리 (작은 셀)",
+    "en": "Top battery (small cell)"
+   },
+   "category": "battery",
+   "half": "b",
+   "bbox": [
+    6,
+    131,
+    1.05,
+    69.4,
+    152,
+    4
+   ],
+   "shape": {
+    "template": "battery",
+    "r": 2.5
+   },
+   "step": 4,
+   "sourceIds": [
+    "s5",
+    "s7",
+    "s9"
+   ],
+   "confidence": "verified",
+   "attachedTo": "battery-b-tabs",
+   "fastening": {
+    "type": "adhesive+press-connector"
+   },
+   "key": true,
+   "desc": {
+    "ko": "위 반쪽의 작은 배터리. 메인보드 바로 위에 있어요.",
+    "en": "The small cell in the top half, next to the main board."
+   },
+   "notes": "Small cell in the top half (Flip5, s9). About 1,100 mAh by volume, estimated."
+  },
+  {
+   "id": "vibration-motor",
+   "name": {
+    "ko": "진동 모터",
+    "en": "Vibration motor"
+   },
+   "category": "haptics",
+   "half": "a",
+   "bbox": [
+    3,
+    2,
+    1.05,
+    16,
+    12,
+    3.6
+   ],
+   "shape": {
+    "template": "motor",
+    "r": 1
+   },
+   "step": 5,
+   "sourceIds": [
+    "s8"
+   ],
+   "confidence": "estimated",
+   "attachedTo": "frame-a",
+   "fastening": {
+    "type": "adhesive+press-connector"
+   },
+   "notes": "In the display module per the Flip5 guide (s8). Position estimated."
+  },
+  {
+   "id": "front-camera",
+   "name": {
+    "ko": "전면 카메라 10MP",
+    "en": "Front camera 10 MP"
+   },
+   "category": "camera",
+   "half": "b",
+   "bbox": [
+    34.7,
+    155.5,
+    0.6,
+    40.7,
+    161.5,
+    3.2
+   ],
+   "shape": {
+    "template": "camera",
+    "r": 1,
+    "barrel": 0.8,
+    "lenses": [
+     [
+      37.7,
+      158.5,
+      1.6
+     ]
+    ],
+    "face": "down"
+   },
+   "step": 5,
+   "confidence": "estimated",
+   "attachedTo": "frame-b",
+   "fastening": {
+    "type": "adhesive+press-connector"
+   },
+   "passesThrough": [
+    "frame-b"
+   ],
+   "notes": "10 MP F2.2 (s1). Glued in on the Flip5 (s9). Sits under the punch hole; passes through the midplate."
+  },
+  {
+   "id": "receiver",
+   "name": {
+    "ko": "통화 스피커 (리시버)",
+    "en": "Earpiece receiver"
+   },
+   "category": "audio",
+   "half": "b",
+   "bbox": [
+    44,
+    157,
+    1.05,
+    56,
+    164.5,
+    2.8
+   ],
+   "shape": {
+    "template": "speaker",
+    "r": 1,
+    "slots": 4
+   },
+   "step": 5,
+   "sourceIds": [
+    "s8"
+   ],
+   "confidence": "estimated",
+   "attachedTo": "frame-b",
+   "fastening": {
+    "type": "adhesive+press-connector"
+   },
+   "notes": "In the display module per the Flip5 guide (s8). Position estimated."
+  },
+  {
+   "id": "top-antenna-flex",
+   "name": {
+    "ko": "위쪽 안테나·마이크 연결 FPCB",
+    "en": "Top antenna and mic flex"
+   },
+   "category": "antenna",
+   "half": "b",
+   "bbox": [
+    3,
+    154,
+    1.05,
+    30,
+    165,
+    1.4
+   ],
+   "shape": {
+    "template": "box",
+    "r": 1,
+    "mat": "flex"
+   },
+   "step": 5,
+   "sourceIds": [
+    "s8"
+   ],
+   "confidence": "estimated",
+   "attachedTo": "frame-b",
+   "fastening": {
+    "type": "adhesive+press-connector"
+   }
+  },
+  {
+   "id": "mic-top",
+   "name": {
+    "ko": "위쪽 마이크",
+    "en": "Top microphone"
+   },
+   "category": "audio",
+   "half": "b",
+   "bbox": [
+    10,
+    159,
+    1.4,
+    14,
+    163,
+    2
+   ],
+   "shape": {
+    "template": "box",
+    "r": 0.6,
+    "mat": "metal"
+   },
+   "step": 5,
+   "sourceIds": [],
+   "confidence": "estimated",
+   "attachedTo": "top-antenna-flex",
+   "fastening": {
+    "type": "solder"
+   }
+  },
+  {
+   "id": "camera-wide",
+   "name": {
+    "ko": "후면 광각 카메라 50MP (OIS)",
+    "en": "Rear wide camera 50 MP (OIS)"
+   },
+   "category": "camera",
+   "half": "b",
+   "bbox": [
+    55,
+    91.5,
+    1.05,
+    71,
+    104.5,
+    6.1
+   ],
+   "shape": {
+    "template": "camera",
+    "r": 1,
+    "barrel": 1.2,
+    "lenses": [
+     [
+      63,
+      98,
+      5
+     ]
+    ]
+   },
+   "step": 6,
+   "confidence": "estimated",
+   "attachedTo": "frame-b",
+   "fastening": {
+    "type": "clip+press-connector"
+   },
+   "key": true,
+   "desc": {
+    "ko": "광학식 손떨림 보정이 있는 50MP 메인 카메라. 힌지 바로 위에 있어요.",
+    "en": "50 MP main camera with OIS, just above the hinge."
+   },
+   "passesThrough": [
+    "upper-sus-plate",
+    "cover-display",
+    "cover-display-adhesive"
+   ],
+   "notes": "50 MP F1.8 OIS (s1). On the main PBA in the Flip5 guide (s8). Place estimated from the cover layout."
+  },
+  {
+   "id": "camera-ultrawide",
+   "name": {
+    "ko": "후면 초광각 카메라 12MP",
+    "en": "Rear ultrawide camera 12 MP"
+   },
+   "category": "camera",
+   "half": "b",
+   "bbox": [
+    56.5,
+    105.5,
+    1.05,
+    69.5,
+    116.5,
+    6.1
+   ],
+   "shape": {
+    "template": "camera",
+    "r": 1,
+    "barrel": 1,
+    "lenses": [
+     [
+      63,
+      111,
+      4.2
+     ]
+    ]
+   },
+   "step": 6,
+   "confidence": "estimated",
+   "attachedTo": "frame-b",
+   "fastening": {
+    "type": "clip+press-connector"
+   },
+   "passesThrough": [
+    "upper-sus-plate",
+    "cover-display",
+    "cover-display-adhesive"
+   ]
+  },
+  {
+   "id": "flash",
+   "name": {
+    "ko": "플래시",
+    "en": "Flash LED"
+   },
+   "category": "other",
+   "half": "b",
+   "bbox": [
+    49,
+    95.5,
+    1.05,
+    53,
+    100.5,
+    4.5
+   ],
+   "shape": {
+    "template": "box",
+    "r": 0.8,
+    "mat": "shine"
+   },
+   "step": 6,
+   "confidence": "estimated",
+   "attachedTo": "frame-b",
+   "fastening": {
+    "type": "adhesive+press-connector"
+   },
+   "notes": "Flash listed in s1. Position estimated."
+  },
+  {
+   "id": "main-pba",
+   "name": {
+    "ko": "메인보드 (엑시노스 2600)",
+    "en": "Main board (Exynos 2600)"
+   },
+   "category": "board",
+   "half": "b",
+   "bbox": [
+    4,
+    90.8,
+    1.05,
+    47,
+    128,
+    1.8
+   ],
+   "shape": {
+    "template": "pcb",
+    "r": 1,
+    "thick": 0.35,
+    "passives": 70,
+    "chips": [
+     [
+      9,
+      98,
+      21,
+      110,
+      0.4,
+      "#2b2b2b"
+     ],
+     [
+      24,
+      98,
+      34,
+      108,
+      0.35,
+      "#2b2b2b"
+     ]
+    ]
+   },
+   "step": 7,
+   "confidence": "estimated",
+   "attachedTo": "frame-b",
+   "fastening": {
+    "type": "screw"
+   },
+   "key": true,
+   "desc": {
+    "ko": "엑시노스 2600이 올라간 메인보드(북미 모델은 스냅드래곤 8 엘리트 5세대). 위 반쪽 힌지 옆에 있어요.",
+    "en": "Main board with the Exynos 2600 (Snapdragon 8 Elite Gen 5 in North America), beside the hinge in the top half."
+   },
+   "notes": "Exynos 2600 (s2). Main PBA in the top half carrying the chipset (Flip5 guide s8). Size and place estimated."
+  },
+  {
+   "id": "main-shields",
+   "name": {
+    "ko": "메인보드 차폐 캔",
+    "en": "Main board shield cans"
+   },
+   "category": "shield",
+   "half": "b",
+   "bbox": [
+    6,
+    94,
+    1.8,
+    44,
+    125,
+    2.5
+   ],
+   "shape": {
+    "template": "shield",
+    "r": 0.8
+   },
+   "step": 7,
+   "sourceIds": [
+    "s8"
+   ],
+   "confidence": "estimated",
+   "attachedTo": "main-pba",
+   "fastening": {
+    "type": "solder"
+   }
+  },
+  {
+   "id": "vapour-chamber",
+   "name": {
+    "ko": "베이퍼 챔버",
+    "en": "Vapour chamber"
+   },
+   "category": "thermal",
+   "half": "b",
+   "bbox": [
+    6,
+    94,
+    2.5,
+    44,
+    125,
+    2.75
+   ],
+   "shape": {
+    "template": "plate",
+    "r": 1.5,
+    "mat": "copper"
+   },
+   "step": 7,
+   "sourceIds": [
+    "s11"
+   ],
+   "confidence": "estimated",
+   "attachedTo": "main-shields",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "notes": "First Flip vapour chamber in the Flip6 (s11); assumed carried over. Size estimated."
+  },
+  {
+   "id": "conn-main-hinge",
+   "name": {
+    "ko": "커넥터: 힌지 FPCB 2·안쪽 화면",
+    "en": "Connectors: two hinge flexes and inner screen"
+   },
+   "category": "connector",
+   "half": "b",
+   "bbox": [
+    21,
+    91,
+    1.8,
+    46.5,
+    93.6,
+    2.2
+   ],
+   "shape": {
+    "template": "connector",
+    "units": [
+     [
+      21,
+      91,
+      27,
+      93.6
+     ],
+     [
+      29,
+      91,
+      35,
+      93.6
+     ],
+     [
+      40,
+      91,
+      46.5,
+      93.6
+     ]
+    ]
+   },
+   "step": 7,
+   "sourceIds": [],
+   "confidence": "estimated",
+   "count": 3,
+   "attachedTo": "main-pba",
+   "fastening": {
+    "type": "solder"
+   },
+   "path": "press"
+  },
+  {
+   "id": "conn-main-cameras",
+   "name": {
+    "ko": "커넥터: 카메라 2·커버 화면",
+    "en": "Connectors: two cameras and cover screen"
+   },
+   "category": "connector",
+   "half": "b",
+   "bbox": [
+    44.3,
+    100,
+    1.8,
+    46.8,
+    123,
+    2.2
+   ],
+   "shape": {
+    "template": "connector",
+    "units": [
+     [
+      44.3,
+      100,
+      46.8,
+      106
+     ],
+     [
+      44.3,
+      108,
+      46.8,
+      114
+     ],
+     [
+      44.3,
+      116,
+      46.8,
+      123
+     ]
+    ]
+   },
+   "step": 7,
+   "sourceIds": [],
+   "confidence": "estimated",
+   "count": 3,
+   "attachedTo": "main-pba",
+   "fastening": {
+    "type": "solder"
+   },
+   "path": "press"
+  },
+  {
+   "id": "conn-battery-b",
+   "name": {
+    "ko": "커넥터: 위 배터리",
+    "en": "Connector: top battery"
+   },
+   "category": "connector",
+   "half": "b",
+   "bbox": [
+    20,
+    125.3,
+    1.8,
+    30,
+    127.8,
+    2.2
+   ],
+   "shape": {
+    "template": "connector"
+   },
+   "step": 7,
+   "sourceIds": [],
+   "confidence": "estimated",
+   "attachedTo": "main-pba",
+   "fastening": {
+    "type": "solder"
+   },
+   "path": "press"
+  },
+  {
+   "id": "screws-main-pba",
+   "name": {
+    "ko": "메인보드 나사",
+    "en": "Main board screws"
+   },
+   "category": "fastener",
+   "half": "b",
+   "bbox": [
+    5,
+    91.6,
+    1.05,
+    46,
+    127.6,
+    2.2
+   ],
+   "shape": {
+    "template": "screw",
+    "head": 1.4,
+    "positions": [
+     [
+      6,
+      92.6
+     ],
+     [
+      17,
+      92.6
+     ],
+     [
+      6,
+      126.6
+     ],
+     [
+      38,
+      126.6
+     ],
+     [
+      45,
+      126.6
+     ]
+    ]
+   },
+   "step": 7,
+   "confidence": "estimated",
+   "count": 5,
+   "attachedTo": "main-pba",
+   "fastening": {
+    "type": "screw",
+    "spec": "Phillips",
+    "count": 5
+   },
+   "path": "screw"
+  },
+  {
+   "id": "sim-tray",
+   "name": {
+    "ko": "나노 SIM 트레이",
+    "en": "Nano-SIM tray"
+   },
+   "category": "sim",
+   "half": "b",
+   "bbox": [
+    60,
+    118.5,
+    1.05,
+    75.4,
+    128.5,
+    1.75
+   ],
+   "shape": {
+    "template": "plate",
+    "r": 0.6,
+    "mat": "metal"
+   },
+   "step": 7,
+   "sourceIds": [
+    "s8"
+   ],
+   "confidence": "estimated",
+   "attachedTo": "frame-b",
+   "fastening": {
+    "type": "friction"
+   },
+   "passesThrough": [
+    "frame-b"
+   ],
+   "notes": "Korean model: nano-SIM + eSIM. Flip5 guide puts the tray at the top left (s8). Exact place estimated."
+  },
+  {
+   "id": "sub-pba",
+   "name": {
+    "ko": "서브보드 (USB-C·마이크)",
+    "en": "Sub board (USB-C, bottom mic)"
+   },
+   "category": "board",
+   "half": "a",
+   "bbox": [
+    18,
+    1.2,
+    1.05,
+    45,
+    13,
+    1.8
+   ],
+   "shape": {
+    "template": "pcb",
+    "r": 1,
+    "thick": 0.35,
+    "passives": 25
+   },
+   "step": 7,
+   "sourceIds": [
+    "s8"
+   ],
+   "confidence": "estimated",
+   "attachedTo": "frame-a",
+   "fastening": {
+    "type": "screw+press-connector"
+   },
+   "notes": "Sub PBA with the I/F port and bottom mic (Flip5 guide s8). Size estimated."
+  },
+  {
+   "id": "usb-c-port",
+   "name": {
+    "ko": "USB-C 단자",
+    "en": "USB-C port"
+   },
+   "category": "port",
+   "half": "a",
+   "bbox": [
+    31.7,
+    0,
+    1.85,
+    43.7,
+    7.5,
+    4.6
+   ],
+   "shape": {
+    "template": "port",
+    "r": 1.2
+   },
+   "step": 7,
+   "confidence": "estimated",
+   "attachedTo": "sub-pba",
+   "fastening": {
+    "type": "solder"
+   },
+   "passesThrough": [
+    "frame-a"
+   ],
+   "notes": "USB-C 3.2 (s2), on the sub PBA (s8). Passes through the bottom rail."
+  },
+  {
+   "id": "mic-bottom",
+   "name": {
+    "ko": "아래쪽 마이크",
+    "en": "Bottom microphone"
+   },
+   "category": "audio",
+   "half": "a",
+   "bbox": [
+    20,
+    2,
+    1.8,
+    23,
+    5,
+    2.4
+   ],
+   "shape": {
+    "template": "box",
+    "r": 0.6,
+    "mat": "metal"
+   },
+   "step": 7,
+   "sourceIds": [
+    "s8"
+   ],
+   "confidence": "estimated",
+   "attachedTo": "sub-pba",
+   "fastening": {
+    "type": "solder"
+   }
+  },
+  {
+   "id": "conn-sub",
+   "name": {
+    "ko": "커넥터: 서브보드",
+    "en": "Connector: sub board"
+   },
+   "category": "connector",
+   "half": "a",
+   "bbox": [
+    21,
+    9.5,
+    1.8,
+    27,
+    12.5,
+    2.2
+   ],
+   "shape": {
+    "template": "connector"
+   },
+   "step": 7,
+   "sourceIds": [],
+   "confidence": "estimated",
+   "attachedTo": "sub-pba",
+   "fastening": {
+    "type": "solder"
+   },
+   "path": "press"
+  },
+  {
+   "id": "screws-sub-pba",
+   "name": {
+    "ko": "서브보드 나사",
+    "en": "Sub board screws"
+   },
+   "category": "fastener",
+   "half": "a",
+   "bbox": [
+    18.5,
+    2,
+    1.05,
+    44.5,
+    12.5,
+    2.2
+   ],
+   "shape": {
+    "template": "screw",
+    "head": 1.4,
+    "positions": [
+     [
+      19.5,
+      11.5
+     ],
+     [
+      44,
+      11.5
+     ]
+    ]
+   },
+   "step": 7,
+   "confidence": "estimated",
+   "count": 2,
+   "attachedTo": "sub-pba",
+   "fastening": {
+    "type": "screw",
+    "spec": "Phillips",
+    "count": 2
+   },
+   "path": "screw"
+  },
+  {
+   "id": "flex-hinge-1",
+   "name": {
+    "ko": "힌지 횡단 FPCB 1 (서브보드↔메인보드)",
+    "en": "Cross-hinge flex 1 (sub board to main board)"
+   },
+   "category": "flex",
+   "half": "hinge",
+   "bbox": [
+    1.7,
+    10.5,
+    1.05,
+    25.5,
+    93.8,
+    1.85
+   ],
+   "shape": {
+    "template": "flex",
+    "width": 3,
+    "path": [
+     [
+      24,
+      12,
+      1.15
+     ],
+     [
+      24,
+      14.5,
+      1.15
+     ],
+     [
+      3.2,
+      14.5,
+      1.15
+     ],
+     [
+      3.2,
+      75,
+      1.15
+     ],
+     [
+      24,
+      75,
+      1.15
+     ],
+     [
+      24,
+      75.51,
+      1.15
+     ],
+     [
+      24,
+      76.02,
+      1.15
+     ],
+     [
+      24,
+      76.53,
+      1.15
+     ],
+     [
+      24,
+      77.04,
+      1.15
+     ],
+     [
+      24,
+      77.54,
+      1.15
+     ],
+     [
+      24,
+      78.05,
+      1.15
+     ],
+     [
+      24,
+      78.56,
+      1.15
+     ],
+     [
+      24,
+      79.07,
+      1.15
+     ],
+     [
+      24,
+      79.58,
+      1.15
+     ],
+     [
+      24,
+      80.09,
+      1.15
+     ],
+     [
+      24,
+      80.6,
+      1.15
+     ],
+     [
+      24,
+      81.11,
+      1.15
+     ],
+     [
+      24,
+      81.61,
+      1.15
+     ],
+     [
+      24,
+      82.12,
+      1.15
+     ],
+     [
+      24,
+      82.63,
+      1.15
+     ],
+     [
+      24,
+      83.14,
+      1.15
+     ],
+     [
+      24,
+      83.65,
+      1.15
+     ],
+     [
+      24,
+      84.16,
+      1.15
+     ],
+     [
+      24,
+      84.67,
+      1.15
+     ],
+     [
+      24,
+      85.18,
+      1.15
+     ],
+     [
+      24,
+      85.69,
+      1.15
+     ],
+     [
+      24,
+      86.19,
+      1.15
+     ],
+     [
+      24,
+      86.7,
+      1.15
+     ],
+     [
+      24,
+      87.21,
+      1.15
+     ],
+     [
+      24,
+      87.72,
+      1.15
+     ],
+     [
+      24,
+      88.23,
+      1.15
+     ],
+     [
+      24,
+      88.74,
+      1.15
+     ],
+     [
+      24,
+      89.25,
+      1.15
+     ],
+     [
+      24,
+      89.76,
+      1.15
+     ],
+     [
+      24,
+      90.26,
+      1.15
+     ],
+     [
+      24,
+      90.77,
+      1.15
+     ],
+     [
+      24,
+      91.28,
+      1.15
+     ],
+     [
+      24,
+      91.79,
+      1.15
+     ],
+     [
+      24,
+      92.3,
+      1.15
+     ]
+    ]
+   },
+   "step": 8,
+   "sourceIds": [
+    "s8",
+    "s10"
+   ],
+   "confidence": "estimated",
+   "attachedTo": "main-pba",
+   "fastening": {
+    "type": "adhesive+press-connector"
+   },
+   "notes": "Cables cross the hinge between the halves (s8 'PBA FPCB', s10). Route estimated between the hinge modules."
+  },
+  {
+   "id": "flex-hinge-2",
+   "name": {
+    "ko": "힌지 횡단 FPCB 2 (아래 배터리↔메인보드)",
+    "en": "Cross-hinge flex 2 (bottom battery to main board)"
+   },
+   "category": "flex",
+   "half": "hinge",
+   "bbox": [
+    41.5,
+    70.5,
+    1.05,
+    56.5,
+    93.8,
+    1.85
+   ],
+   "shape": {
+    "template": "flex",
+    "width": 3,
+    "path": [
+     [
+      55,
+      72,
+      1.15
+     ],
+     [
+      55,
+      75.5,
+      1.15
+     ],
+     [
+      43,
+      75.5,
+      1.15
+     ],
+     [
+      43,
+      76.01,
+      1.15
+     ],
+     [
+      43,
+      76.52,
+      1.15
+     ],
+     [
+      43,
+      77.03,
+      1.15
+     ],
+     [
+      43,
+      77.54,
+      1.15
+     ],
+     [
+      43,
+      78.05,
+      1.15
+     ],
+     [
+      43,
+      78.55,
+      1.15
+     ],
+     [
+      43,
+      79.06,
+      1.15
+     ],
+     [
+      43,
+      79.57,
+      1.15
+     ],
+     [
+      43,
+      80.08,
+      1.15
+     ],
+     [
+      43,
+      80.59,
+      1.15
+     ],
+     [
+      43,
+      81.1,
+      1.15
+     ],
+     [
+      43,
+      81.61,
+      1.15
+     ],
+     [
+      43,
+      82.12,
+      1.15
+     ],
+     [
+      43,
+      82.63,
+      1.15
+     ],
+     [
+      43,
+      83.14,
+      1.15
+     ],
+     [
+      43,
+      83.65,
+      1.15
+     ],
+     [
+      43,
+      84.15,
+      1.15
+     ],
+     [
+      43,
+      84.66,
+      1.15
+     ],
+     [
+      43,
+      85.17,
+      1.15
+     ],
+     [
+      43,
+      85.68,
+      1.15
+     ],
+     [
+      43,
+      86.19,
+      1.15
+     ],
+     [
+      43,
+      86.7,
+      1.15
+     ],
+     [
+      43,
+      87.21,
+      1.15
+     ],
+     [
+      43,
+      87.72,
+      1.15
+     ],
+     [
+      43,
+      88.23,
+      1.15
+     ],
+     [
+      43,
+      88.74,
+      1.15
+     ],
+     [
+      43,
+      89.25,
+      1.15
+     ],
+     [
+      43,
+      89.75,
+      1.15
+     ],
+     [
+      43,
+      90.26,
+      1.15
+     ],
+     [
+      43,
+      90.77,
+      1.15
+     ],
+     [
+      43,
+      91.28,
+      1.15
+     ],
+     [
+      43,
+      91.79,
+      1.15
+     ],
+     [
+      43,
+      92.3,
+      1.15
+     ]
+    ]
+   },
+   "step": 8,
+   "sourceIds": [
+    "s8",
+    "s10"
+   ],
+   "confidence": "estimated",
+   "attachedTo": "main-pba",
+   "fastening": {
+    "type": "adhesive+press-connector"
+   }
+  },
+  {
+   "id": "inner-display-flex",
+   "name": {
+    "ko": "안쪽 화면 연결 케이블",
+    "en": "Inner display flex"
+   },
+   "category": "flex",
+   "half": "b",
+   "bbox": [
+    30.5,
+    88.1,
+    1,
+    33.5,
+    93.8,
+    1.8
+   ],
+   "shape": {
+    "template": "flex",
+    "width": 3,
+    "path": [
+     [
+      32,
+      89.6,
+      1.1
+     ],
+     [
+      32,
+      92.3,
+      1.1
+     ]
+    ]
+   },
+   "step": 8,
+   "sourceIds": [
+    "s10"
+   ],
+   "confidence": "estimated",
+   "attachedTo": "inner-display",
+   "fastening": {
+    "type": "press-connector"
+   },
+   "notes": "The inner screen's cable goes to the motherboard on the other half (Flip5, s10)."
+  },
+  {
+   "id": "top-rear-assembly",
+   "name": {
+    "ko": "위쪽 리어 어셈블리 (안테나)",
+    "en": "Top rear assembly (antenna carrier)"
+   },
+   "category": "antenna",
+   "half": "b",
+   "bbox": [
+    4,
+    90.8,
+    2.85,
+    47,
+    128.5,
+    4.45
+   ],
+   "shape": {
+    "template": "plate",
+    "r": 1.5,
+    "mat": "black"
+   },
+   "step": 9,
+   "sourceIds": [
+    "s8"
+   ],
+   "confidence": "estimated",
+   "attachedTo": "frame-b",
+   "fastening": {
+    "type": "screw"
+   },
+   "notes": "Flip5 guide: top rear assembly with the antennas (s8). Shape estimated."
+  },
+  {
+   "id": "screws-top-rear",
+   "name": {
+    "ko": "위쪽 리어 어셈블리 나사",
+    "en": "Top rear assembly screws"
+   },
+   "category": "fastener",
+   "half": "b",
+   "bbox": [
+    4.5,
+    91.5,
+    1.05,
+    46.5,
+    128,
+    4.5
+   ],
+   "shape": {
+    "template": "screw",
+    "head": 1.4,
+    "positions": [
+     [
+      5.5,
+      92.5
+     ],
+     [
+      45.5,
+      92.5
+     ],
+     [
+      5.5,
+      127
+     ],
+     [
+      45.5,
+      127
+     ],
+     [
+      25,
+      127
+     ],
+     [
+      25,
+      92.5
+     ]
+    ]
+   },
+   "step": 9,
+   "confidence": "estimated",
+   "count": 6,
+   "attachedTo": "top-rear-assembly",
+   "fastening": {
+    "type": "screw",
+    "spec": "Phillips",
+    "count": 6
+   },
+   "path": "screw"
+  },
+  {
+   "id": "upper-sus-plate",
+   "name": {
+    "ko": "위쪽 SUS 판",
+    "en": "Upper SUS (stainless) plate"
+   },
+   "category": "bracket",
+   "half": "b",
+   "bbox": [
+    1.5,
+    89.9,
+    4.55,
+    73.9,
+    165.4,
+    4.85
+   ],
+   "shape": {
+    "template": "plate",
+    "r": 6,
+    "mat": "metal",
+    "holes": [
+     [
+      63,
+      104,
+      16.5,
+      26,
+      4
+     ],
+     [
+      51,
+      98,
+      5,
+      6,
+      2
+     ]
+    ]
+   },
+   "step": 9,
+   "sourceIds": [
+    "s8"
+   ],
+   "confidence": "estimated",
+   "attachedTo": "frame-b",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "notes": "Flip5 guide: upper SUS plate under the cover screen (s8). Camera cut-out estimated."
+  },
+  {
+   "id": "coil-nfc",
+   "name": {
+    "ko": "무선충전·NFC 코일",
+    "en": "Wireless charging + NFC coil"
+   },
+   "category": "wireless",
+   "half": "a",
+   "bbox": [
+    12,
+    21,
+    5.05,
+    64,
+    69,
+    5.35
+   ],
+   "shape": {
+    "template": "coil",
+    "r": 2,
+    "rIn": 7,
+    "rOut": 23
+   },
+   "step": 9,
+   "confidence": "estimated",
+   "attachedTo": "battery-a",
+   "fastening": {
+    "type": "adhesive+press-connector"
+   },
+   "notes": "15 W wireless charging (s2). Coil comes off over the battery after the back glass (Flip5, s10)."
+  },
+  {
+   "id": "lower-sus-plate",
+   "name": {
+    "ko": "아래쪽 SUS 판",
+    "en": "Lower SUS (stainless) plate"
+   },
+   "category": "bracket",
+   "half": "a",
+   "bbox": [
+    2,
+    1.2,
+    5.05,
+    73.4,
+    16.5,
+    5.3
+   ],
+   "shape": {
+    "template": "plate",
+    "r": 3,
+    "mat": "metal"
+   },
+   "step": 9,
+   "sourceIds": [
+    "s8"
+   ],
+   "confidence": "estimated",
+   "attachedTo": "frame-a",
+   "fastening": {
+    "type": "screw"
+   }
+  },
+  {
+   "id": "loudspeaker",
+   "name": {
+    "ko": "아래쪽 리어 어셈블리 (스피커)",
+    "en": "Lower rear assembly (loudspeaker)"
+   },
+   "category": "audio",
+   "half": "a",
+   "bbox": [
+    47,
+    1.2,
+    1.05,
+    74.4,
+    15.5,
+    4.95
+   ],
+   "shape": {
+    "template": "speaker",
+    "r": 1,
+    "slots": 5
+   },
+   "step": 9,
+   "sourceIds": [
+    "s8"
+   ],
+   "confidence": "estimated",
+   "attachedTo": "frame-a",
+   "fastening": {
+    "type": "screw+press-connector"
+   },
+   "notes": "Flip5 guide: lower rear assembly holds the speaker and NFC pad (s8). Size estimated."
+  },
+  {
+   "id": "screws-lower-rear",
+   "name": {
+    "ko": "아래쪽 리어 어셈블리 나사",
+    "en": "Lower rear assembly screws"
+   },
+   "category": "fastener",
+   "half": "a",
+   "bbox": [
+    48,
+    2,
+    1.05,
+    73.5,
+    14.5,
+    5
+   ],
+   "shape": {
+    "template": "screw",
+    "head": 1.4,
+    "positions": [
+     [
+      49,
+      13.5
+     ],
+     [
+      72.5,
+      13.5
+     ],
+     [
+      72.5,
+      3
+     ]
+    ]
+   },
+   "step": 9,
+   "confidence": "estimated",
+   "count": 3,
+   "attachedTo": "loudspeaker",
+   "fastening": {
+    "type": "screw",
+    "spec": "Phillips",
+    "count": 3
+   },
+   "path": "screw"
+  },
+  {
+   "id": "back-glass-adhesive",
+   "name": {
+    "ko": "후면 글라스 접착",
+    "en": "Back glass adhesive"
+   },
+   "category": "adhesive",
+   "half": "a",
+   "bbox": [
+    0.3,
+    0.3,
+    5.55,
+    75.1,
+    80.65,
+    5.6
+   ],
+   "shape": {
+    "template": "adhesive",
+    "r": 7,
+    "ring": 2.5
+   },
+   "step": 10,
+   "confidence": "estimated",
+   "attachedTo": "frame-a",
+   "fastening": {
+    "type": "adhesive"
+   }
+  },
+  {
+   "id": "back-glass",
+   "name": {
+    "ko": "후면 글라스 (아래쪽)",
+    "en": "Back glass, bottom half"
+   },
+   "category": "housing",
+   "half": "a",
+   "bbox": [
+    0.3,
+    0.3,
+    5.6,
+    75.1,
+    80.65,
+    6.1
+   ],
+   "shape": {
+    "template": "plate",
+    "r": 7,
+    "mat": "glass",
+    "colors": {
+     "glass": "#d9d2c3"
+    }
+   },
+   "step": 10,
+   "confidence": "estimated",
+   "attachedTo": "frame-a",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "key": true,
+   "desc": {
+    "ko": "아래 반쪽을 덮는 유리 뒷판. 접착제로 붙여요.",
+    "en": "Glass back of the bottom half, glued on."
+   },
+   "notes": "Glass back (s2); bottom half, glued (s8, s12)."
+  },
+  {
+   "id": "cover-display-adhesive",
+   "name": {
+    "ko": "커버 화면 접착",
+    "en": "Cover screen adhesive"
+   },
+   "category": "adhesive",
+   "half": "b",
+   "bbox": [
+    0.3,
+    86.35,
+    4.95,
+    75.1,
+    166.6,
+    5
+   ],
+   "shape": {
+    "template": "adhesive",
+    "r": 7,
+    "ring": 2.5
+   },
+   "step": 10,
+   "sourceIds": [
+    "s5",
+    "s6"
+   ],
+   "confidence": "verified",
+   "attachedTo": "frame-b",
+   "fastening": {
+    "type": "adhesive"
+   }
+  },
+  {
+   "id": "cover-display",
+   "name": {
+    "ko": "커버 화면 4.1인치 (플렉스윈도우)",
+    "en": "Cover screen 4.1 in (FlexWindow)"
+   },
+   "category": "display",
+   "half": "b",
+   "bbox": [
+    0.3,
+    86.35,
+    5,
+    75.1,
+    166.6,
+    6.1
+   ],
+   "shape": {
+    "template": "display",
+    "r": 7,
+    "face": "back",
+    "bezel": 1
+   },
+   "step": 10,
+   "sourceIds": [
+    "s5",
+    "s6"
+   ],
+   "confidence": "verified",
+   "attachedTo": "frame-b",
+   "fastening": {
+    "type": "adhesive+press-connector"
+   },
+   "key": true,
+   "desc": {
+    "ko": "접었을 때 보는 4.1인치 바깥 화면. 카메라가 화면을 뚫고 나와요.",
+    "en": "The 4.1-inch outer screen; the cameras come through it."
+   },
+   "notes": "4.1 in, 1048x948 (s1, s3). Inlaid in the frame and hangs by its ribbon when lifted (s5, s6). Thickness estimated."
+  },
+  {
+   "id": "camera-rings",
+   "name": {
+    "ko": "카메라 렌즈 링",
+    "en": "Camera lens rings"
+   },
+   "category": "camera",
+   "half": "b",
+   "bbox": [
+    55,
+    91.5,
+    6.1,
+    71,
+    116.5,
+    6.9
+   ],
+   "shape": {
+    "template": "camera",
+    "body": false,
+    "r": 1,
+    "lenses": [
+     [
+      63,
+      98,
+      5.6
+     ],
+     [
+      63,
+      111,
+      4.8
+     ]
+    ]
+   },
+   "step": 10,
+   "sourceIds": [
+    "s1"
+   ],
+   "confidence": "estimated",
+   "attachedTo": "cover-display",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "notes": "Two raised lens rings on the cover side. Height estimated."
+  }
+ ],
+ "steps": [
+  {
+   "n": 1,
+   "title": {
+    "ko": "안쪽 접이식 화면 (베이스)",
+    "en": "Inner folding display (base)"
+   },
+   "parts": [
+    "inner-display",
+    "inner-display-bumper",
+    "display-support-plate",
+    "hinge-protect-layer"
+   ],
+   "tools": {
+    "ko": "깨끗하고 평평한 매트",
+    "en": "clean, flat, soft mat"
+   },
+   "cautions": {
+    "ko": "화면을 위로 향하게 두지 말고, 지지판 없이 접지 마세요.",
+    "en": "Keep the screen face down and never fold the panel off its support."
+   },
+   "sourceIds": [
+    "s1",
+    "s7"
+   ]
+  },
+  {
+   "n": 2,
+   "title": {
+    "ko": "양쪽 프레임과 옆면 키",
+    "en": "Both frames and the side keys"
+   },
+   "parts": [
+    "frame-adhesive-a",
+    "frame-adhesive-b",
+    "frame-a",
+    "frame-b",
+    "power-key",
+    "volume-key",
+    "fingerprint-flex"
+   ],
+   "tools": {
+    "ko": "정렬 지그, 롤러",
+    "en": "alignment jig, roller"
+   },
+   "cautions": {
+    "ko": "두 프레임을 한 지그에 올려 위아래가 일직선이 되게 붙여요.",
+    "en": "Seat both frames in one jig so the two halves line up."
+   },
+   "sourceIds": [
+    "s2",
+    "s3",
+    "s8"
+   ]
+  },
+  {
+   "n": 3,
+   "title": {
+    "ko": "힌지: 기어 모듈 2개·커버·나사 10개",
+    "en": "Hinge: two gear modules, cover, 10 screws"
+   },
+   "parts": [
+    "hinge-left",
+    "hinge-right",
+    "screws-hinge-a",
+    "screws-hinge-b",
+    "screws-hinge-housing",
+    "hinge-housing"
+   ],
+   "tools": {
+    "ko": "십자 #00 드라이버",
+    "en": "Phillips #00 driver"
+   },
+   "cautions": {
+    "ko": "힌지에 먼지가 들어가지 않게 해요. 화면을 편 상태에서 조여요.",
+    "en": "Keep dust out of the hinge. Tighten with the phone fully open."
+   },
+   "sourceIds": [
+    "s3",
+    "s5",
+    "s6",
+    "s7"
+   ],
+   "path": "screw"
+  },
+  {
+   "n": 4,
+   "title": {
+    "ko": "배터리 두 개",
+    "en": "Two batteries"
+   },
+   "parts": [
+    "battery-a-tabs",
+    "battery-a",
+    "battery-b-tabs",
+    "battery-b"
+   ],
+   "tools": {
+    "ko": "플라스틱 스퍼저",
+    "en": "plastic spudger"
+   },
+   "cautions": {
+    "ko": "셀을 구부리거나 찌르지 마세요. 당김 테이프 끝은 밖으로 빼 둬요.",
+    "en": "Never bend or puncture a cell. Leave the pull-tab ends free."
+   },
+   "sourceIds": [
+    "s5",
+    "s6",
+    "s7"
+   ]
+  },
+  {
+   "n": 5,
+   "title": {
+    "ko": "프레임에 붙는 작은 부품",
+    "en": "Small parts on the frames"
+   },
+   "parts": [
+    "vibration-motor",
+    "front-camera",
+    "receiver",
+    "top-antenna-flex",
+    "mic-top"
+   ],
+   "tools": {
+    "ko": "핀셋",
+    "en": "tweezers"
+   },
+   "cautions": {
+    "ko": "전면 카메라 렌즈를 구멍에 맞춰요. 렌즈를 손으로 만지지 마세요.",
+    "en": "Line the front camera up with the punch hole; don't touch the lens."
+   },
+   "sourceIds": [
+    "s1",
+    "s8",
+    "s9"
+   ]
+  },
+  {
+   "n": 6,
+   "title": {
+    "ko": "후면 카메라와 플래시",
+    "en": "Rear cameras and flash"
+   },
+   "parts": [
+    "camera-wide",
+    "camera-ultrawide",
+    "flash"
+   ],
+   "tools": {
+    "ko": "핀셋, 먼지 제거용 블로어",
+    "en": "tweezers, dust blower"
+   },
+   "cautions": {
+    "ko": "OIS 카메라를 떨어뜨리지 마세요. 렌즈에 먼지가 없게 해요.",
+    "en": "Don't drop the OIS camera; keep the lenses dust-free."
+   },
+   "sourceIds": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "n": 7,
+   "title": {
+    "ko": "메인보드·서브보드·SIM 트레이",
+    "en": "Main board, sub board, SIM tray"
+   },
+   "parts": [
+    "main-pba",
+    "main-shields",
+    "vapour-chamber",
+    "conn-main-hinge",
+    "conn-main-cameras",
+    "conn-battery-b",
+    "screws-main-pba",
+    "sim-tray",
+    "sub-pba",
+    "usb-c-port",
+    "mic-bottom",
+    "conn-sub",
+    "screws-sub-pba"
+   ],
+   "tools": {
+    "ko": "십자 #00 드라이버, 열전도 테이프",
+    "en": "Phillips #00 driver, thermal tape"
+   },
+   "cautions": {
+    "ko": "보드 아래로 케이블이 끼지 않게 해요. 나사는 제자리 길이로.",
+    "en": "Don't trap any cable under a board; each screw goes back in its own hole."
+   },
+   "sourceIds": [
+    "s2",
+    "s5",
+    "s8"
+   ]
+  },
+  {
+   "n": 8,
+   "title": {
+    "ko": "힌지를 건너는 FPCB 연결",
+    "en": "Flex cables across the hinge"
+   },
+   "parts": [
+    "flex-hinge-1",
+    "flex-hinge-2",
+    "inner-display-flex"
+   ],
+   "tools": {
+    "ko": "스퍼저",
+    "en": "spudger"
+   },
+   "cautions": {
+    "ko": "FPCB는 힌지 위를 지나요. 접히는 구간을 꺾지 말고 커넥터를 수직으로 눌러요.",
+    "en": "These flexes ride over the hinge; never crease the fold zone, and press connectors straight down."
+   },
+   "sourceIds": [
+    "s8",
+    "s10"
+   ],
+   "path": "press"
+  },
+  {
+   "n": 9,
+   "title": {
+    "ko": "안테나·스피커·SUS 판·무선충전 코일",
+    "en": "Antenna, speaker, SUS plates, charging coil"
+   },
+   "parts": [
+    "loudspeaker",
+    "screws-lower-rear",
+    "lower-sus-plate",
+    "coil-nfc",
+    "top-rear-assembly",
+    "screws-top-rear",
+    "upper-sus-plate"
+   ],
+   "tools": {
+    "ko": "십자 #00 드라이버",
+    "en": "Phillips #00 driver"
+   },
+   "cautions": {
+    "ko": "코일 커넥터를 먼저 끼우고 시트를 붙여요.",
+    "en": "Plug the coil connector in before pressing its sheet down."
+   },
+   "sourceIds": [
+    "s8",
+    "s10"
+   ]
+  },
+  {
+   "n": 10,
+   "title": {
+    "ko": "후면 글라스와 커버 화면으로 닫기",
+    "en": "Close with the back glass and cover screen"
+   },
+   "parts": [
+    "back-glass-adhesive",
+    "back-glass",
+    "cover-display-adhesive",
+    "cover-display",
+    "camera-rings"
+   ],
+   "tools": {
+    "ko": "롤러, 고무 밴드, 클램프",
+    "en": "roller, rubber band, clamp"
+   },
+   "cautions": {
+    "ko": "커버 화면 케이블을 먼저 끼운 뒤 붙여요. 접착이 굳을 때까지 눌러 둬요.",
+    "en": "Plug the cover screen's cable in first, then press it down; clamp until the adhesive cures."
+   },
+   "sourceIds": [
+    "s5",
+    "s6",
+    "s12"
+   ]
+  }
+ ],
+ "meta": {
+  "interpretation": {
+   "ko": "삼성 갤럭시 Z 플립8 한국 출시 모델 (SM-F776 계열, 나노 SIM + eSIM, mmWave 없음)",
+   "en": "Samsung Galaxy Z Flip8, Korean model (SM-F776 family, nano-SIM + eSIM, no mmWave)"
+  },
+  "researchedAt": "2026-10-29",
+  "positionsEstimated": true,
+  "limitations": [
+   {
+    "ko": "플립8 분해 자료는 아직 공개되지 않았어요. 같은 외형을 쓰는 플립7의 분해 영상과, 이전 세대(플립5·플립6) 자료로 구조를 짰어요. 이전 세대에서만 확인된 부품은 '추정'으로 표시했어요.",
+    "en": "No Flip8 teardown is public yet. The build follows Flip7 teardowns (same shell) and older Flip5/Flip6 material; parts known only from older generations are marked estimated."
+   },
+   {
+    "ko": "내부 부품의 위치·크기·나사 개수는 공개된 수치가 없어 모두 추정했어요.",
+    "en": "No internal positions, sizes or screw counts are published, so all of them are estimated."
+   },
+   {
+    "ko": "두 배터리의 용량 나눔(약 3,200 + 1,100mAh)은 부피로 추정한 값이에요. 공식 수치는 합계 4,300mAh뿐이에요.",
+    "en": "The split between the two cells (about 3,200 + 1,100 mAh) is estimated from volume; only the 4,300 mAh total is official."
+   },
+   {
+    "ko": "안쪽 화면은 힌지 축을 작은 반지름으로 감싸며 휘게 그렸어요. 실제 물방울형 접힘과 모양이 달라요.",
+    "en": "The inner screen is drawn wrapping the hinge axis on a small radius; the real teardrop bend is shaped differently."
+   },
+   {
+    "ko": "힌지는 기어 모듈 두 개를 단순한 블록으로 그렸고, 접었을 때 등판(스파인)은 네모난 막대로 표시돼요.",
+    "en": "The hinge's two gear modules are drawn as plain blocks, and the shut spine as a square bar."
+   },
+   {
+    "ko": "자료끼리 다른 값: 삼성 캐나다는 메인 화면을 6.7인치로, iFixit은 커버 해상도를 1048×984로 적었어요. 삼성 한국 공식 값(6.9인치, 1048×948)을 따랐어요.",
+    "en": "Conflicts: Samsung Canada lists a 6.7-inch main screen and iFixit a 1048x984 cover; Samsung Korea's figures (6.9 in, 1048x948) are used."
+   },
+   {
+    "ko": "아직 플립8 분해 자료가 공개되지 않았어요. 그래서 나사 개수와 내부 구조 상당 부분은 이전 플립 세대의 자료를 따랐고, 모두 '추정'으로 표시했어요.",
+    "en": "No Flip8 teardown was public yet, so the screw counts and much of the inside follow earlier Flip generations and are marked estimated."
+   }
+  ]
+ }
+}

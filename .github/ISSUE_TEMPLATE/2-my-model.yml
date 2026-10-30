@@ -1,0 +1,32 @@
+name: 이걸로 만들어 봤어요 / I made one
+description: Unfold로 만든 결과를 공유해 주세요. 잘 된 점도, 이상한 점도 모두 도움이 돼요.
+title: "[실행 후기] "
+labels: ["field-report"]
+body:
+  - type: input
+    id: model
+    attributes:
+      label: 요청한 모델 / Model you asked for
+    validations: { required: true }
+  - type: dropdown
+    id: result
+    attributes:
+      label: 결과 / Result
+      options: ["끝까지 잘 만들어졌어요 / Finished fine", "만들어졌지만 이상한 곳이 있어요 / Finished with problems", "중간에 멈췄어요 / It stopped"]
+    validations: { required: true }
+  - type: input
+    id: gates
+    attributes:
+      label: 게이트 결과 / Gate results
+      description: 마지막에 출력된 GATE1, GATE2 줄을 붙여 주세요.
+      placeholder: GATE1 PASS / GATE2 PASS
+  - type: textarea
+    id: what
+    attributes:
+      label: 좋았던 점, 이상했던 점 / What worked, what looked wrong
+      description: 스크린숏은 환영해요. 직접 찍은 화면만 올려 주세요.
+  - type: input
+    id: env
+    attributes:
+      label: 환경 / Environment
+      placeholder: macOS 15, Node 22, Claude Code 2.x

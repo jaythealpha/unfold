@@ -1,0 +1,3507 @@
+{
+ "product": {
+  "name": "Apple iPhone Duo",
+  "maker": "Apple",
+  "modelCodes": [
+   "A3447",
+   "A3719",
+   "A3720"
+  ],
+  "dims": {
+   "w": 164.6,
+   "l": 117.8,
+   "t": 5.2
+  },
+  "foldedDims": {
+   "w": 84.1,
+   "l": 117.8,
+   "t": 11.3
+  },
+  "fold": {
+   "axis": "y",
+   "at": 82.3,
+   "gap": 0.9,
+   "b": "+",
+   "spine": 1.8
+  },
+  "weight_g": 254,
+  "battery_mAh": 4883,
+  "coverDisplay_in": 5.4,
+  "innerDisplay_in": 7.6,
+  "notes": "Open 164.6 x 117.8 x 5.2 mm, shut 84.1 x 117.8 x 11.3 mm, 254 g (Apple). Batteries 11.56 Wh (2,962 mAh) + 7.5 Wh (1,921 mAh) = 4,883 mAh per teardowns; Apple publishes no mAh. fold.at assumes symmetric halves; gap = 11.3 - 2 x 5.2 = 0.9 mm (estimated). Orientation: open, inner display down, seen from the back: half A (back glass, logic board, cameras, Touch ID and Camera Control on the free edge x=0, volume on the top edge) on the left; half B (cover display, I/O board, USB-C) on the right. This assumes the usual book-fold layout with the hinge on the left of the cover screen; Apple's procedures are done with the phone shut. Apple's own repair manual is the main source for part names, halves, screws and order; nearly all bbox positions are estimated."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "title": "Apple - iPhone Duo Technical Specifications",
+   "url": "https://www.apple.com/iphone-duo/specs/",
+   "covers": "Official open 164.6 x 117.8 x 5.2 mm and folded 84.1 x 117.8 x 11.3 mm, 254 g, 7.6 in inner / 5.4 in outer display resolutions, camera specs, dual batteries, USB-C, Touch ID side button, Camera Control, volume buttons, model A3447, titanium enclosure, aluminium internal frame, titanium hinge cover, sapphire lens cover"
+  },
+  {
+   "id": "s2",
+   "title": "Apple Newsroom - Apple unveils iPhone Duo",
+   "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/",
+   "covers": "Hinge with more than 100 components and integrated closure magnet array; 3D-printed titanium hinge cover; inner display stack (polymer cover layer, glass above and below panel, sliding adhesives, titanium bottom plate); one battery per half; vapor chamber tied to the A20 Pro"
+  },
+  {
+   "id": "s3",
+   "title": "Apple Support - iPhone Duo Repair Manual (table of contents)",
+   "url": "https://support.apple.com/en-us/127682",
+   "covers": "List of service procedures: back glass, camera, FaceTime camera, battery 1, logic board, Taptic Engine, bottom speaker, main microphone, outer display, cover layer, top speaker, outer front camera, battery 2, I/O board, USB-C connector, enclosure, inner display, buttons"
+  },
+  {
+   "id": "s4",
+   "title": "Apple Support - iPhone Duo Internal View, Orderable Parts, and Exploded View",
+   "url": "https://support.apple.com/en-us/127676",
+   "covers": "Which half each part lives in (back-glass side vs outer-display side), part names, cowlings, antennas 1/2/4, interposer and hinge flex cables, inner display layer order (adhesive strips, foams, cover layer, trim, grounding foams)"
+  },
+  {
+   "id": "s5",
+   "title": "Apple Support - iPhone Duo Screws",
+   "url": "https://support.apple.com/en-us/127678",
+   "covers": "Screw head families used: crosshead, pentalobe, super screw, Torx Plus, trilobe; torque driver colours"
+  },
+  {
+   "id": "s6",
+   "title": "Apple Support - iPhone Duo Tools",
+   "url": "https://support.apple.com/en-us/127677",
+   "covers": "Bits (PL1.1, trilobe, crosshead, super screw, Torx Plus 3IP), torque drivers, heated display fixture, inner display fixture, battery press plates, 9 V clips"
+  },
+  {
+   "id": "s7",
+   "title": "Apple Support - iPhone Duo Back Glass",
+   "url": "https://support.apple.com/en-us/127660",
+   "covers": "2 PL1.1 screws at the bottom edge, heat + adhesive cut, battery connector cowling with 2 trilobe screws, battery flex and back glass flex connectors, perimeter adhesive"
+  },
+  {
+   "id": "s8",
+   "title": "Apple Support - iPhone Duo Camera",
+   "url": "https://support.apple.com/en-us/127661",
+   "covers": "Rear camera removal: 7 trilobe (3 cowlings), 4 crosshead in camera spacer + 1 in camera corner, 2 super screws; Wi-Fi, upper antenna 4 and two camera flex connectors"
+  },
+  {
+   "id": "s9",
+   "title": "Apple Support - iPhone Duo FaceTime Camera",
+   "url": "https://support.apple.com/en-us/127663",
+   "covers": "Under-display FaceTime camera is adhesive-mounted in the enclosure, behind a cowling with 2 trilobe screws; logic board upper cowling 3 trilobe"
+  },
+  {
+   "id": "s10",
+   "title": "Apple Support - iPhone Duo Battery 1",
+   "url": "https://support.apple.com/en-us/127657",
+   "covers": "Battery 1 (back-glass side) uses electrically debonded adhesive with two tabs; ground clip on the bottom speaker's lower right screw; press plate reinstall"
+  },
+  {
+   "id": "s11",
+   "title": "Apple Support - iPhone Duo Logic Board",
+   "url": "https://support.apple.com/en-us/127665",
+   "covers": "Logic board: 3 super screws, upper antenna 1 (1 trilobe), 2 crosshead into the antenna flex, 7 further flex connectors; removed after camera and FaceTime camera"
+  },
+  {
+   "id": "s12",
+   "title": "Apple Support - iPhone Duo Taptic Engine",
+   "url": "https://support.apple.com/en-us/127669",
+   "covers": "Taptic Engine: 2 crosshead screws, own flex; lower antenna flex (3 trilobe) adhered over it and along the enclosure side toward the logic board; removed after the bottom speaker"
+  },
+  {
+   "id": "s13",
+   "title": "Apple Support - iPhone Duo Bottom Speaker",
+   "url": "https://support.apple.com/en-us/127668",
+   "covers": "Bottom speaker: 4 crosshead screws, grounding clip/springs, no connector named"
+  },
+  {
+   "id": "s14",
+   "title": "Apple Support - iPhone Duo Main Microphone",
+   "url": "https://support.apple.com/en-us/127670",
+   "covers": "Main microphone: 1 super screw + adhesive + flex connector, removed after the Taptic Engine"
+  },
+  {
+   "id": "s15",
+   "title": "Apple Support - iPhone Duo Outer Display",
+   "url": "https://support.apple.com/en-us/127671",
+   "covers": "Outer display: 2 PL1.1 screws by the USB-C port, perimeter adhesive + internal clips, 2 trilobe under screw caps, I/O board cowling 6 trilobe, ALS cowling 1 crosshead, battery/outer display/ALS flex connectors"
+  },
+  {
+   "id": "s16",
+   "title": "Apple Support - iPhone Duo Top Speaker",
+   "url": "https://support.apple.com/en-us/127662",
+   "covers": "Top speaker: 3 crosshead screws, tilts into a slot at the top of the enclosure"
+  },
+  {
+   "id": "s17",
+   "title": "Apple Support - iPhone Duo Outer Front Camera",
+   "url": "https://support.apple.com/en-us/127664",
+   "covers": "Outer front camera: 2 crosshead screws, one flex connector routed under the ALS flex"
+  },
+  {
+   "id": "s18",
+   "title": "Apple Support - iPhone Duo Battery 2",
+   "url": "https://support.apple.com/en-us/127667",
+   "covers": "Battery 2 (outer-display side): electrically debonded adhesive, two tabs, ground at the top speaker's lower right screw, lifted up and to the right"
+  },
+  {
+   "id": "s19",
+   "title": "Apple Support - iPhone Duo Input/Output Board",
+   "url": "https://support.apple.com/en-us/127666",
+   "covers": "I/O board: 6 trilobe cowling + 2 trilobe on grounding springs, 2 crosshead, 5 super screws, four further flex connectors"
+  },
+  {
+   "id": "s20",
+   "title": "Apple Support - iPhone Duo USB-C Connector",
+   "url": "https://support.apple.com/en-us/127674",
+   "covers": "USB-C connector at the bottom of the outer-display half: 2 Torx Plus 3IP screws + adhesive, removed after the I/O board"
+  },
+  {
+   "id": "s21",
+   "title": "Apple Support - iPhone Duo Enclosure",
+   "url": "https://support.apple.com/en-us/127862",
+   "covers": "Enclosure transfer order per half (back-glass side: logic board, battery 1, camera, FaceTime camera, back glass; outer-display side: I/O board, battery 2, outer front camera, inner display, outer display)"
+  },
+  {
+   "id": "s22",
+   "title": "Apple Support - iPhone Duo Inner Display",
+   "url": "https://support.apple.com/en-us/127871",
+   "covers": "Inner display: trim with hinge clips and 21 glue pockets, flex connector reached from the outer-display side, perimeter adhesive, grounding foams per corner, display foam seal"
+  },
+  {
+   "id": "s23",
+   "title": "Apple Support - iPhone Duo Inner Display Assembly",
+   "url": "https://support.apple.com/en-us/127673",
+   "covers": "Inner display assembly service part carries enclosure + hinge; all modules transfer to it"
+  },
+  {
+   "id": "s24",
+   "title": "Apple Support - iPhone Duo Volume Buttons",
+   "url": "https://support.apple.com/en-us/127863",
+   "covers": "Volume buttons: bracket + flex (crosshead screws), roll bars and clips, upper antenna 2 (2 crosshead), microphone cowling (1 crosshead); reached after the logic board"
+  },
+  {
+   "id": "s25",
+   "title": "Apple Support - iPhone Duo Touch ID/Camera Control Buttons",
+   "url": "https://support.apple.com/en-us/127870",
+   "covers": "Touch ID and Camera Control buttons: 5 screws in outer/upper-inner/lower-inner brackets and a cowling, two cowlings, flex to the logic board; reached after back glass, camera and battery"
+  },
+  {
+   "id": "s26",
+   "title": "Apple Support - iPhone Duo Cover Layer",
+   "url": "https://support.apple.com/en-us/127672",
+   "covers": "User-replaceable polymer cover layer adhered over the inner display"
+  },
+  {
+   "id": "s27",
+   "title": "iFixit - iPhone Duo Teardown (news article)",
+   "url": "https://www.ifixit.com/News/119895/iphone-duo-teardown",
+   "covers": "Hinge construction (sync gears, springs, linked joints, curved guides, centre support bar), one pleated flex crossing the hinge, display cable through the hinge centre, single-layer logic board + separate I/O board, battery Wh (left 7.5, right 11.6), 4 pentalobe screws, outer display clips+screws+adhesive"
+  },
+  {
+   "id": "s28",
+   "title": "iFixit - iPhone Duo device page",
+   "url": "https://www.ifixit.com/c/iPhone_Duo",
+   "covers": "Model numbers A3447/A3719/A3720, dimensions, volume buttons on the top edge, Touch ID power button and Camera Control on the right edge, titanium rails"
+  },
+  {
+   "id": "s29",
+   "title": "9to5Mac - iFixit tears down iPhone Duo",
+   "url": "https://9to5mac.com/2026/10/25/ifixit-tears-down-iphone-duo-finds-possible-causes-of-early-screen-failures/",
+   "covers": "One cell under the back glass, one under the outer display; 11.567 Wh + 7.506 Wh; trim held by clips"
+  },
+  {
+   "id": "s30",
+   "title": "MacRumors - iPhone Duo Teardowns Reveal Two Batteries and More",
+   "url": "https://macrumors.com/2026/10/24/iphone-duo-teardown-videos/",
+   "covers": "REWA and Phone Repair Guru teardown videos; cell ratings 2,962 mAh / 1,921 mAh; modular USB-C"
+  },
+  {
+   "id": "s31",
+   "title": "iPhone in Canada - iPhone Duo teardown (Phone Repair Guru summary)",
+   "url": "https://www.iphoneincanada.ca/2026/10/24/iphone-duo-teardown-two-batteries-modular-usb-c/",
+   "covers": "USB-C held by two T4 screws, single-layer logic board, vapour chamber on the A20 Pro, magnet array in the MagSafe ring, silicone-edged outer display frame"
+  },
+  {
+   "id": "s32",
+   "title": "iClarified - iPhone Duo teardowns reveal dual-battery design",
+   "url": "https://www.iclarified.com/103014/iphone-duo-teardowns-reveal-dual-battery-design-and-repair-challenges-video",
+   "covers": "Vapour chamber on the logic-board half, aluminium alloy plate in the other half; antenna wraps the rear camera and overlaps its flexes"
+  },
+  {
+   "id": "s33",
+   "title": "MacRumors - iPhone Duo: Everything We Know (roundup)",
+   "url": "https://www.macrumors.com/roundup/iphone-duo/",
+   "covers": "Two rear cameras in a raised plateau, button edges, USB-C on the bottom edge, carbon-fibre support plates under the hinge area, hole-punch outer camera"
+  },
+  {
+   "id": "s34",
+   "title": "MacRumors - Apple Announces Foldable iPhone Duo",
+   "url": "https://www.macrumors.com/2026/09/09/apple-announces-foldable-iphone-duo/",
+   "covers": "Components packed into the camera plateau; titanium plate at the bottom of the inner display stack"
+  },
+  {
+   "id": "s35",
+   "title": "HotHardware - iPhone Duo teardown exposes hidden flaws in folding screen hinge",
+   "url": "https://hothardware.com/news/iphone-duo-teardown-exposes-hidden-flaws-folding-screen-hinge",
+   "covers": "Central support bar; opening for the display flex next to the hinge; adhesive dust barriers"
+  },
+  {
+   "id": "s36",
+   "title": "MacRumors Forums - Why iPhone Duo's under-screen camera isn't in the corner (leaker claim)",
+   "url": "https://forums.macrumors.com/threads/why-iphone-duos-under-screen-camera-isnt-in-the-corner.2488955/",
+   "covers": "Low-trust: inner under-display camera sits toward the middle rather than the corner; hint that the outer camera is at the top-right"
+  },
+  {
+   "id": "s37",
+   "title": "Gizchina - iPhone Duo teardown reveals easy USB-C repairs",
+   "url": "https://www.gizchina.com/apple/iphone-duo-teardown-reveals-easy-usb-c-repairs-but-a-major-foldable-display-challenge",
+   "covers": "25 W wireless charging coil in the rear section; USB-C module with two T4 screws"
+  }
+ ],
+ "parts": [
+  {
+   "id": "inner-display",
+   "name_en": "Inner folding display",
+   "name_ko": "안쪽 폴더블 디스플레이",
+   "category": "display",
+   "half": "hinge",
+   "count": 1,
+   "bbox": [
+    3.0,
+    3.0,
+    0.0,
+    161.6,
+    114.8,
+    1.0
+   ],
+   "shape": "Flexible OLED stack, rounded rectangle about 158.6 x 111.8 mm, folds along y at x=82.3; under-display camera window in half A",
+   "step": 1,
+   "sourceIds": [
+    "s1",
+    "s2",
+    "s22",
+    "s4"
+   ],
+   "confidence": "verified",
+   "notes": "7.6 in, 1878x2670 px at 430 ppi (active area about 157.7 x 110.9 mm). Stack per Apple: polymer cover layer, glass above and below the panel, sliding viscoelastic adhesives, titanium bottom plate. Service part with the enclosure is the 'inner display assembly'. Base part; z 0-0.15 is the cover layer.",
+   "positionConfidence": "estimated",
+   "key": true,
+   "desc_en": "The 7.6-inch folding screen that everything else is built on.",
+   "desc_ko": "모든 부품이 올라가는 7.6인치 접히는 화면."
+  },
+  {
+   "id": "cover-layer",
+   "name_en": "Inner display cover layer (nano-texture)",
+   "name_ko": "안쪽 화면 커버 레이어 (나노텍스처)",
+   "category": "display",
+   "half": "hinge",
+   "count": 1,
+   "bbox": [
+    3.0,
+    3.0,
+    0.0,
+    161.6,
+    114.8,
+    0.15
+   ],
+   "shape": "Thin polymer film the size of the inner display, with camera hole and fixture pinholes",
+   "attachedTo": "inner-display",
+   "fastening": {
+    "type": "adhesive",
+    "spec": "pressure-sensitive, rolled on with fixture"
+   },
+   "step": 1,
+   "sourceIds": [
+    "s26",
+    "s2",
+    "s4"
+   ],
+   "confidence": "verified",
+   "notes": "User-replaceable film (Apple part 923-16004). In real service it is rolled on last from the display side; listed in step 1 because it sits at z=0 inside the display box. passesThrough: same hinge-side-wall artefact as the trim.",
+   "positionConfidence": "estimated",
+   "passesThrough": [
+    "enclosure-a",
+    "enclosure-b"
+   ]
+  },
+  {
+   "id": "inner-display-trim",
+   "name_en": "Inner display trim (bezel)",
+   "name_ko": "안쪽 화면 트림 (베젤)",
+   "category": "housing",
+   "half": "hinge",
+   "count": 1,
+   "bbox": [
+    1.0,
+    1.0,
+    0.0,
+    163.6,
+    116.8,
+    0.6
+   ],
+   "shape": "Thin rectangular ring around the inner display, about 2 mm wide, with clips at the hinge",
+   "attachedTo": "inner-display",
+   "fastening": {
+    "type": "clip+adhesive",
+    "spec": "hinge clips + glue in 21 pockets"
+   },
+   "step": 1,
+   "sourceIds": [
+    "s22",
+    "s27",
+    "s29",
+    "s4"
+   ],
+   "confidence": "verified",
+   "notes": "Glued into 21 glue pockets around the enclosure perimeter and hooked at the hinge with clips; iFixit removed it intact. Modelled as attached to the display (it overlaps the display border) so it can be placed with the display. passesThrough the enclosures only because a box frame draws a hinge-side wall down to z=0; the real frames stop above the display there.",
+   "positionConfidence": "estimated",
+   "passesThrough": [
+    "enclosure-a",
+    "enclosure-b"
+   ]
+  },
+  {
+   "id": "inner-display-adhesive-a",
+   "name_en": "Inner display adhesive (half A)",
+   "name_ko": "안쪽 화면 접착 시트 (A쪽)",
+   "category": "adhesive",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    3.0,
+    3.0,
+    1.0,
+    79.1,
+    114.8,
+    1.2
+   ],
+   "shape": "Die-cut adhesive sheet with polyester film strips",
+   "attachedTo": "inner-display",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "step": 2,
+   "sourceIds": [
+    "s22",
+    "s4"
+   ],
+   "confidence": "verified",
+   "notes": "Apple: perimeter adhesive plus large middle polyester strips; display is heated and cut free.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "inner-display-adhesive-b",
+   "name_en": "Inner display adhesive (half B)",
+   "name_ko": "안쪽 화면 접착 시트 (B쪽)",
+   "category": "adhesive",
+   "half": "b",
+   "count": 1,
+   "bbox": [
+    85.5,
+    3.0,
+    1.0,
+    161.6,
+    114.8,
+    1.2
+   ],
+   "shape": "Die-cut adhesive sheet with polyester film strips",
+   "attachedTo": "inner-display",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "step": 2,
+   "sourceIds": [
+    "s22",
+    "s4"
+   ],
+   "confidence": "verified",
+   "notes": "Mirror of half A.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "inner-display-foam",
+   "name_en": "Inner display foam seal",
+   "name_ko": "안쪽 화면 폼 실",
+   "category": "adhesive",
+   "half": "hinge",
+   "count": 2,
+   "bbox": [
+    1.0,
+    1.0,
+    1.0,
+    163.6,
+    116.8,
+    1.2
+   ],
+   "shape": "Thin foam strips around the display perimeter",
+   "attachedTo": "inner-display",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "step": 2,
+   "sourceIds": [
+    "s4",
+    "s22"
+   ],
+   "confidence": "verified",
+   "notes": "Exploded view lists two inner display foams; glue is injected between the display adhesive and this foam seal.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "grounding-foams-a",
+   "name_en": "Grounding foams (half A corners)",
+   "name_ko": "접지 폼 (A쪽 모서리)",
+   "category": "other",
+   "half": "a",
+   "count": 2,
+   "bbox": [
+    3.0,
+    3.0,
+    1.0,
+    8.0,
+    114.8,
+    1.2
+   ],
+   "shape": "Small corner-shaped conductive foam pads",
+   "attachedTo": "inner-display",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "step": 2,
+   "sourceIds": [
+    "s22",
+    "s4"
+   ],
+   "confidence": "estimated",
+   "notes": "Apple: each foam matches its corner. Count (2 per half) and exact corners are estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "grounding-foams-b",
+   "name_en": "Grounding foams (half B corners)",
+   "name_ko": "접지 폼 (B쪽 모서리)",
+   "category": "other",
+   "half": "b",
+   "count": 2,
+   "bbox": [
+    156.6,
+    3.0,
+    1.0,
+    161.6,
+    114.8,
+    1.2
+   ],
+   "shape": "Small corner-shaped conductive foam pads",
+   "attachedTo": "inner-display",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "step": 2,
+   "sourceIds": [
+    "s22",
+    "s4"
+   ],
+   "confidence": "estimated",
+   "notes": "As half A; estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "support-plate-a",
+   "name_en": "Carbon-fibre display support plate (half A)",
+   "name_ko": "카본 파이버 디스플레이 지지판 (A쪽)",
+   "category": "bracket",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    66.3,
+    3.0,
+    1.0,
+    78.1,
+    114.8,
+    1.2
+   ],
+   "shape": "Thin flat plate along the fold zone",
+   "attachedTo": "inner-display",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "step": 2,
+   "sourceIds": [
+    "s2",
+    "s33",
+    "s34"
+   ],
+   "confidence": "estimated",
+   "notes": "Apple/MacRumors mention carbon-fibre support plates under the display/hinge area. Split into one plate per side of the fold and the 12.8 mm width are estimates.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "support-plate-b",
+   "name_en": "Carbon-fibre display support plate (half B)",
+   "name_ko": "카본 파이버 디스플레이 지지판 (B쪽)",
+   "category": "bracket",
+   "half": "b",
+   "count": 1,
+   "bbox": [
+    86.5,
+    3.0,
+    1.0,
+    98.3,
+    114.8,
+    1.2
+   ],
+   "shape": "Thin flat plate along the fold zone",
+   "attachedTo": "inner-display",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "step": 2,
+   "sourceIds": [
+    "s2",
+    "s33",
+    "s34"
+   ],
+   "confidence": "estimated",
+   "notes": "Mirror of half A; estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "enclosure-a",
+   "name_en": "Enclosure, half A (back-glass side)",
+   "name_ko": "외장 프레임 A쪽 (후면 유리 쪽)",
+   "category": "housing",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    0.0,
+    0.0,
+    0.0,
+    79.1,
+    117.8,
+    5.2
+   ],
+   "shape": "Titanium side rails (about 1 mm) around an aluminium internal frame; midplate at z 1.2-1.6; cut-outs for buttons and the FaceTime camera",
+   "attachedTo": "inner-display",
+   "fastening": {
+    "type": "adhesive",
+    "spec": "inner display adhesive sheet"
+   },
+   "step": 3,
+   "sourceIds": [
+    "s1",
+    "s4",
+    "s21",
+    "s28"
+   ],
+   "confidence": "verified",
+   "notes": "Grade 5 titanium rails + recycled aluminium internal frame, ceramic-fibre antenna splits. Apple's 'Enclosure' service part is both halves joined by the hinge; split here per half. Wall thickness and midplate height estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "enclosure-b",
+   "name_en": "Enclosure, half B (outer-display side)",
+   "name_ko": "외장 프레임 B쪽 (바깥 화면 쪽)",
+   "category": "housing",
+   "half": "b",
+   "count": 1,
+   "bbox": [
+    85.5,
+    0.0,
+    0.0,
+    164.6,
+    117.8,
+    5.2
+   ],
+   "shape": "Titanium side rails around an aluminium alloy plate; midplate at z 1.2-1.5; USB-C opening in the bottom rail",
+   "attachedTo": "inner-display",
+   "fastening": {
+    "type": "adhesive",
+    "spec": "inner display adhesive sheet"
+   },
+   "step": 3,
+   "sourceIds": [
+    "s1",
+    "s4",
+    "s21",
+    "s32"
+   ],
+   "confidence": "verified",
+   "notes": "Same service part as half A (joined by the hinge). iClarified: this half uses an aluminium alloy plate instead of the vapour chamber. Dimensions estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "hinge-support-bar",
+   "name_en": "Hinge centre support bar",
+   "name_ko": "힌지 중앙 지지 바",
+   "category": "hinge",
+   "half": "hinge",
+   "count": 1,
+   "bbox": [
+    80.3,
+    2.0,
+    1.0,
+    84.3,
+    115.8,
+    1.4
+   ],
+   "shape": "Long narrow bar on the display side of the hinge, along y",
+   "attachedTo": "hinge-mechanism",
+   "fastening": {
+    "type": "integral"
+   },
+   "step": 3,
+   "sourceIds": [
+    "s27",
+    "s35"
+   ],
+   "confidence": "verified",
+   "notes": "iFixit: a centre pivot and centre support bar under the display crease; its clearance when shut is iFixit's leading theory for cracked inner screens. Width/height estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "hinge-mechanism",
+   "name_en": "Hinge mechanism",
+   "name_ko": "힌지 메커니즘",
+   "category": "hinge",
+   "half": "hinge",
+   "count": 1,
+   "bbox": [
+    79.1,
+    1.0,
+    1.4,
+    85.5,
+    116.8,
+    4.0
+   ],
+   "shape": "Long spine module along y: synchronisation gears, springs, chain of linked metal joints riding curved guides, magnets",
+   "attachedTo": "enclosure-a",
+   "fastening": {
+    "type": "integral",
+    "spec": "factory-fitted to both enclosure halves; screws not documented"
+   },
+   "step": 3,
+   "sourceIds": [
+    "s2",
+    "s27",
+    "s33",
+    "s23"
+   ],
+   "confidence": "verified",
+   "notes": "More than 100 parts (Apple). Contains an integrated magnet array for closure (Apple). Not a separate orderable part: it comes with the enclosure. The real rotating plates reach further under each half than this 6.4 mm spine box; screw count unknown.",
+   "positionConfidence": "estimated",
+   "key": true,
+   "desc_en": "Titanium hinge of 100+ parts that lets the halves fold and holds the screen flat.",
+   "desc_ko": "100개 넘는 부품의 티타늄 힌지. 두 쪽을 접고 펼친 화면을 평평하게 받친다."
+  },
+  {
+   "id": "hinge-flex",
+   "name_en": "Hinge flex cable (pleated, crosses the fold)",
+   "name_ko": "힌지 플렉스 케이블 (주름형, 접힘부 통과)",
+   "category": "flex",
+   "half": "hinge",
+   "count": 1,
+   "bbox": [
+    74.0,
+    98.0,
+    1.6,
+    91.0,
+    104.0,
+    3.2
+   ],
+   "shape": "Accordion-pleated ribbon crossing the hinge through a gap",
+   "attachedTo": "hinge-mechanism",
+   "fastening": {
+    "type": "integral",
+    "spec": "routed through hinge gap"
+   },
+   "step": 3,
+   "sourceIds": [
+    "s27",
+    "s4"
+   ],
+   "confidence": "verified",
+   "notes": "iFixit: one pleated flex carries power and data (video, audio) between halves; one battery charges through it. Apple lists 'hinge and interposer flex cables'. Its y position along the hinge is estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "hinge-cover",
+   "name_en": "Hinge cover (3D-printed titanium)",
+   "name_ko": "힌지 커버 (3D 프린팅 티타늄)",
+   "category": "hinge",
+   "half": "hinge",
+   "count": 1,
+   "bbox": [
+    79.1,
+    0.0,
+    4.0,
+    85.5,
+    117.8,
+    5.0
+   ],
+   "shape": "Long curved spine shell, full length of the phone, micro-blasted",
+   "attachedTo": "hinge-mechanism",
+   "fastening": {
+    "type": "integral"
+   },
+   "step": 3,
+   "sourceIds": [
+    "s1",
+    "s2",
+    "s33"
+   ],
+   "confidence": "verified",
+   "notes": "100% recycled titanium, 3D-printed, micro-blasted. Outermost spine when shut; recessed between the halves when open (z 4.0-5.0 estimated).",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "side-button-touch-id",
+   "name_en": "Side button with Touch ID",
+   "name_ko": "Touch ID 측면 버튼",
+   "category": "button",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    0.0,
+    76.0,
+    2.0,
+    2.0,
+    92.0,
+    3.6
+   ],
+   "shape": "Long pill button in the free-edge rail with fingerprint sensor",
+   "attachedTo": "enclosure-a",
+   "fastening": {
+    "type": "clip",
+    "spec": "button clip + roll bar + shim"
+   },
+   "step": 4,
+   "sourceIds": [
+    "s1",
+    "s25",
+    "s28"
+   ],
+   "confidence": "verified",
+   "notes": "iFixit: power button and Camera Control on the right edge (seen from the cover screen) = the free edge of half A (x=0 here). Pushed out through the rail; held by clip and roll bar. y position estimated.",
+   "positionConfidence": "estimated",
+   "passesThrough": [
+    "enclosure-a"
+   ]
+  },
+  {
+   "id": "camera-control-button",
+   "name_en": "Camera Control button",
+   "name_ko": "카메라 컨트롤 버튼",
+   "category": "button",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    0.0,
+    46.0,
+    2.0,
+    2.0,
+    60.0,
+    3.6
+   ],
+   "shape": "Flush sapphire-faced pill in the free-edge rail",
+   "attachedTo": "enclosure-a",
+   "fastening": {
+    "type": "clip",
+    "spec": "button clip + roll bar + shim"
+   },
+   "step": 4,
+   "sourceIds": [
+    "s1",
+    "s25",
+    "s28"
+   ],
+   "confidence": "verified",
+   "notes": "Same edge as the side button; y position estimated (below the side button, as on other iPhones).",
+   "positionConfidence": "estimated",
+   "passesThrough": [
+    "enclosure-a"
+   ]
+  },
+  {
+   "id": "touchid-cc-brackets",
+   "name_en": "Touch ID / Camera Control brackets",
+   "name_ko": "Touch ID·카메라 컨트롤 브래킷",
+   "category": "bracket",
+   "half": "a",
+   "count": 3,
+   "bbox": [
+    2.0,
+    44.0,
+    1.6,
+    3.9,
+    94.0,
+    4.2
+   ],
+   "shape": "Three small stamped brackets behind the buttons (outer, upper inner, lower inner)",
+   "attachedTo": "enclosure-a",
+   "fastening": {
+    "type": "screw",
+    "spec": "see screws-touchid-cc"
+   },
+   "step": 4,
+   "sourceIds": [
+    "s25"
+   ],
+   "confidence": "verified",
+   "notes": "Bracket names from Apple's screw table; positions estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "touchid-cc-flex",
+   "name_en": "Touch ID / Camera Control flex",
+   "name_ko": "Touch ID·카메라 컨트롤 플렉스",
+   "category": "flex",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    1.0,
+    40.0,
+    1.6,
+    50.0,
+    86.0,
+    2.0
+   ],
+   "shape": "Ribbon along the free edge, then across to the logic board",
+   "attachedTo": "enclosure-a",
+   "fastening": {
+    "type": "adhesive+press-connector"
+   },
+   "step": 4,
+   "sourceIds": [
+    "s25"
+   ],
+   "confidence": "verified",
+   "notes": "Adhered to the enclosure and brackets; ends on a logic board connector. Route estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "touchid-cc-cowlings",
+   "name_en": "Touch ID / Camera Control cowlings",
+   "name_ko": "Touch ID·카메라 컨트롤 카울링",
+   "category": "shield",
+   "half": "a",
+   "count": 2,
+   "bbox": [
+    2.0,
+    44.0,
+    4.2,
+    3.9,
+    94.0,
+    4.5
+   ],
+   "shape": "Two small metal covers, one per button",
+   "attachedTo": "touchid-cc-brackets",
+   "fastening": {
+    "type": "screw"
+   },
+   "step": 4,
+   "sourceIds": [
+    "s25",
+    "s4"
+   ],
+   "confidence": "verified",
+   "notes": "Two cowlings (one per button); one has a slot for the Camera Control flex.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "screws-touchid-cc",
+   "name_en": "Screws, Touch ID / Camera Control",
+   "name_ko": "나사: Touch ID·카메라 컨트롤",
+   "category": "fastener",
+   "half": "a",
+   "count": 5,
+   "bbox": [
+    1.5,
+    44.0,
+    3.6,
+    4.0,
+    94.0,
+    4.6
+   ],
+   "shape": "5 screws",
+   "attachedTo": "touchid-cc-brackets",
+   "fastening": {
+    "type": "screw",
+    "spec": "5 screws, gray 0.55 / blue 0.65 kgf cm",
+    "count": 5
+   },
+   "step": 4,
+   "sourceIds": [
+    "s25"
+   ],
+   "confidence": "verified",
+   "notes": "5 new screws on reassembly (J1-J5): outer bracket x2, upper inner, lower inner, cowling; gray/blue torque drivers.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "volume-buttons",
+   "name_en": "Volume buttons",
+   "name_ko": "볼륨 버튼",
+   "category": "button",
+   "half": "a",
+   "count": 2,
+   "bbox": [
+    12.0,
+    116.0,
+    2.0,
+    30.0,
+    117.8,
+    3.6
+   ],
+   "shape": "Two short buttons in the top rail",
+   "attachedTo": "enclosure-a",
+   "fastening": {
+    "type": "clip",
+    "spec": "clips + 2 roll bars + shims"
+   },
+   "step": 4,
+   "sourceIds": [
+    "s1",
+    "s24",
+    "s28",
+    "s33"
+   ],
+   "confidence": "verified",
+   "notes": "Top edge (iFixit, MacRumors); on half A because their flex goes to the logic board. x position estimated.",
+   "positionConfidence": "estimated",
+   "passesThrough": [
+    "enclosure-a"
+   ]
+  },
+  {
+   "id": "volume-bracket",
+   "name_en": "Volume button bracket",
+   "name_ko": "볼륨 버튼 브래킷",
+   "category": "bracket",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    10.0,
+    114.2,
+    1.6,
+    32.0,
+    116.0,
+    3.8
+   ],
+   "shape": "Stamped bracket behind the volume buttons",
+   "attachedTo": "enclosure-a",
+   "fastening": {
+    "type": "screw",
+    "spec": "see screws-volume-bracket"
+   },
+   "step": 4,
+   "sourceIds": [
+    "s24"
+   ],
+   "confidence": "verified",
+   "notes": "Holds the volume flex against the buttons.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "volume-flex",
+   "name_en": "Volume buttons flex",
+   "name_ko": "볼륨 버튼 플렉스",
+   "category": "flex",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    8.0,
+    113.5,
+    1.6,
+    46.0,
+    116.8,
+    2.0
+   ],
+   "shape": "Short ribbon along the top rail",
+   "attachedTo": "volume-bracket",
+   "fastening": {
+    "type": "adhesive+press-connector"
+   },
+   "step": 4,
+   "sourceIds": [
+    "s24",
+    "s4"
+   ],
+   "confidence": "verified",
+   "notes": "Separate orderable flex (923-15873); route estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "screws-volume-bracket",
+   "name_en": "Screws, volume bracket",
+   "name_ko": "나사: 볼륨 브래킷",
+   "category": "fastener",
+   "half": "a",
+   "count": 3,
+   "bbox": [
+    10.0,
+    114.2,
+    3.0,
+    32.0,
+    116.0,
+    4.0
+   ],
+   "shape": "3 crosshead screws",
+   "attachedTo": "volume-bracket",
+   "fastening": {
+    "type": "screw",
+    "spec": "crosshead 923-16029, gray 0.55 kgf cm",
+    "count": 3
+   },
+   "step": 4,
+   "sourceIds": [
+    "s24"
+   ],
+   "confidence": "verified",
+   "notes": "Reassembly lists 3 crosshead (H1-H3); removal text says 2. Using 3.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "upper-antenna-2",
+   "name_en": "Upper antenna 2 flex",
+   "name_ko": "상단 안테나 2 플렉스",
+   "category": "antenna",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    32.5,
+    114.2,
+    1.6,
+    46.0,
+    116.8,
+    2.4
+   ],
+   "shape": "Small antenna flex near the top rail",
+   "attachedTo": "enclosure-a",
+   "fastening": {
+    "type": "screw+press-connector"
+   },
+   "step": 4,
+   "sourceIds": [
+    "s24"
+   ],
+   "confidence": "verified",
+   "notes": "Position estimated (next to the volume buttons).",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "screws-upper-antenna-2",
+   "name_en": "Screws, upper antenna 2",
+   "name_ko": "나사: 상단 안테나 2",
+   "category": "fastener",
+   "half": "a",
+   "count": 2,
+   "bbox": [
+    33.0,
+    114.5,
+    2.0,
+    45.5,
+    116.5,
+    2.6
+   ],
+   "shape": "2 crosshead screws",
+   "attachedTo": "upper-antenna-2",
+   "fastening": {
+    "type": "screw",
+    "spec": "crosshead 923-16038",
+    "count": 2
+   },
+   "step": 4,
+   "sourceIds": [
+    "s24"
+   ],
+   "confidence": "verified",
+   "notes": "H4, H5.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "mic-cowling-a",
+   "name_en": "Microphone cowling (top, half A)",
+   "name_ko": "마이크 카울링 (A쪽 상단)",
+   "category": "shield",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    36.5,
+    114.2,
+    2.4,
+    46.0,
+    116.8,
+    2.9
+   ],
+   "shape": "Small metal cover over a top microphone",
+   "attachedTo": "enclosure-a",
+   "fastening": {
+    "type": "screw",
+    "spec": "1 crosshead",
+    "count": 1
+   },
+   "step": 4,
+   "sourceIds": [
+    "s24"
+   ],
+   "confidence": "verified",
+   "notes": "Installed before the logic board; 1 crosshead. Exact spot estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "main-microphone",
+   "name_en": "Main microphone",
+   "name_ko": "메인 마이크",
+   "category": "audio",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    62.0,
+    2.0,
+    1.6,
+    70.0,
+    7.0,
+    2.4
+   ],
+   "shape": "Small module with its own short flex",
+   "attachedTo": "enclosure-a",
+   "fastening": {
+    "type": "adhesive+screw+press-connector"
+   },
+   "step": 5,
+   "sourceIds": [
+    "s14",
+    "s4"
+   ],
+   "confidence": "verified",
+   "notes": "Adhesive + 1 super screw + flex connector; slides toward the top to release. Lies near the Taptic Engine (removed after it). Position estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "screw-main-microphone",
+   "name_en": "Screw, main microphone",
+   "name_ko": "나사: 메인 마이크",
+   "category": "fastener",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    63.0,
+    3.0,
+    2.0,
+    66.0,
+    6.0,
+    2.8
+   ],
+   "shape": "1 super screw",
+   "attachedTo": "main-microphone",
+   "fastening": {
+    "type": "screw",
+    "spec": "super screw 923-16050",
+    "count": 1
+   },
+   "step": 5,
+   "sourceIds": [
+    "s14"
+   ],
+   "confidence": "verified",
+   "notes": "B6, 923-16050, blue 0.65 kgf cm.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "taptic-engine",
+   "name_en": "Taptic Engine",
+   "name_ko": "탭틱 엔진",
+   "category": "haptics",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    31.0,
+    3.0,
+    1.6,
+    60.0,
+    17.0,
+    4.0
+   ],
+   "shape": "Rectangular linear actuator with screw tab and flex",
+   "attachedTo": "enclosure-a",
+   "fastening": {
+    "type": "screw+press-connector"
+   },
+   "step": 5,
+   "sourceIds": [
+    "s12",
+    "s4"
+   ],
+   "confidence": "verified",
+   "notes": "Bottom of half A, next to the bottom speaker; its screw tab slides under the lower antenna screw tab. Size/position estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "lower-antenna-flex",
+   "name_en": "Lower antenna flex",
+   "name_ko": "하단 안테나 플렉스",
+   "category": "flex",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    31.0,
+    3.0,
+    4.0,
+    78.1,
+    82.0,
+    4.3
+   ],
+   "shape": "Antenna flex over the Taptic Engine, then up the hinge-side rail to the logic board",
+   "attachedTo": "taptic-engine",
+   "fastening": {
+    "type": "adhesive+screw+press-connector"
+   },
+   "step": 5,
+   "sourceIds": [
+    "s12",
+    "s4",
+    "s11"
+   ],
+   "confidence": "verified",
+   "notes": "Strong adhesive on the Taptic Engine and enclosure side; 3 trilobe + 2 crosshead. Route estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "bottom-speaker",
+   "name_en": "Bottom speaker",
+   "name_ko": "하단 스피커",
+   "category": "audio",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    4.0,
+    1.0,
+    1.6,
+    28.0,
+    20.0,
+    4.3
+   ],
+   "shape": "Sealed speaker box at the bottom corner, grille to the bottom rail",
+   "attachedTo": "enclosure-a",
+   "fastening": {
+    "type": "screw"
+   },
+   "step": 5,
+   "sourceIds": [
+    "s13",
+    "s4"
+   ],
+   "confidence": "verified",
+   "notes": "4 crosshead screws, grounding clip; its lower right screw is the ground point for battery 1 debonding. Size estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "screws-bottom-speaker",
+   "name_en": "Screws, bottom speaker",
+   "name_ko": "나사: 하단 스피커",
+   "category": "fastener",
+   "half": "a",
+   "count": 4,
+   "bbox": [
+    4.5,
+    1.5,
+    3.8,
+    27.5,
+    19.5,
+    4.5
+   ],
+   "shape": "4 crosshead screws",
+   "attachedTo": "bottom-speaker",
+   "fastening": {
+    "type": "screw",
+    "spec": "crosshead",
+    "count": 4
+   },
+   "step": 5,
+   "sourceIds": [
+    "s13",
+    "s12"
+   ],
+   "confidence": "verified",
+   "notes": "A3/A6 orange 0.85 kgf cm, A4/A5 at 11.5 N·cm.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "screws-taptic",
+   "name_en": "Screws, Taptic Engine",
+   "name_ko": "나사: 탭틱 엔진",
+   "category": "fastener",
+   "half": "a",
+   "count": 2,
+   "bbox": [
+    31.5,
+    3.5,
+    3.6,
+    59.5,
+    16.5,
+    4.4
+   ],
+   "shape": "2 crosshead screws",
+   "attachedTo": "taptic-engine",
+   "fastening": {
+    "type": "screw",
+    "spec": "crosshead",
+    "count": 2
+   },
+   "step": 5,
+   "sourceIds": [
+    "s12"
+   ],
+   "confidence": "verified",
+   "notes": "One at 11.5 N·cm with grounding clip, one gray.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "screws-lower-antenna-trilobe",
+   "name_en": "Screws, lower antenna flex (trilobe)",
+   "name_ko": "나사: 하단 안테나 플렉스 (트라이로브)",
+   "category": "fastener",
+   "half": "a",
+   "count": 3,
+   "bbox": [
+    55.0,
+    3.0,
+    4.0,
+    78.0,
+    20.0,
+    4.6
+   ],
+   "shape": "3 trilobe screws",
+   "attachedTo": "lower-antenna-flex",
+   "fastening": {
+    "type": "screw",
+    "spec": "trilobe",
+    "count": 3
+   },
+   "step": 5,
+   "sourceIds": [
+    "s12"
+   ],
+   "confidence": "verified",
+   "notes": "Green 0.45 kgf cm.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "vapor-chamber",
+   "name_en": "Vapour chamber",
+   "name_ko": "베이퍼 챔버",
+   "category": "thermal",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    47.0,
+    82.0,
+    1.6,
+    75.5,
+    115.5,
+    2.0
+   ],
+   "shape": "Thin copper plate under the logic board",
+   "attachedTo": "enclosure-a",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "step": 6,
+   "sourceIds": [
+    "s2",
+    "s31",
+    "s32"
+   ],
+   "confidence": "verified",
+   "notes": "Apple: custom vapour chamber tied to the A20 Pro; teardowns: on the logic-board half. Footprint and attachment estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "logic-board",
+   "name_en": "Logic board (single layer)",
+   "name_ko": "메인 로직보드 (단층)",
+   "category": "board",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    47.0,
+    82.0,
+    2.0,
+    75.5,
+    115.5,
+    3.0
+   ],
+   "shape": "Compact single-layer PCB under the camera plateau, shielded",
+   "attachedTo": "enclosure-a",
+   "fastening": {
+    "type": "screw",
+    "spec": "3 super screws"
+   },
+   "step": 6,
+   "sourceIds": [
+    "s11",
+    "s27",
+    "s31",
+    "s34",
+    "s4"
+   ],
+   "confidence": "verified",
+   "notes": "A20 Pro with 12 GB RAM beside it, C2 modem, N1. Single layer, not stacked. Under the raised camera plateau (Apple: key parts packed into the plateau). Outline estimated.",
+   "positionConfidence": "estimated",
+   "key": true,
+   "desc_en": "Single-layer main board with the A20 Pro, under the camera plateau.",
+   "desc_ko": "A20 Pro가 올라간 단층 메인보드. 카메라 플래토 아래에 있다."
+  },
+  {
+   "id": "screws-logic-board",
+   "name_en": "Screws, logic board",
+   "name_ko": "나사: 로직보드",
+   "category": "fastener",
+   "half": "a",
+   "count": 3,
+   "bbox": [
+    48.0,
+    83.0,
+    2.4,
+    75.0,
+    115.0,
+    3.2
+   ],
+   "shape": "3 super screws",
+   "attachedTo": "logic-board",
+   "fastening": {
+    "type": "screw",
+    "spec": "super screw",
+    "count": 3
+   },
+   "step": 6,
+   "sourceIds": [
+    "s11"
+   ],
+   "confidence": "verified",
+   "notes": "G1 923-16040, G2/G3 923-16044, teal 0.75 kgf cm; super screws take another screw on top.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "conn-battery-1",
+   "name_en": "Battery 1 connector",
+   "name_ko": "배터리 1 커넥터",
+   "category": "connector",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    52.0,
+    82.5,
+    3.0,
+    57.0,
+    85.5,
+    3.3
+   ],
+   "shape": "Board-to-board socket",
+   "attachedTo": "logic-board",
+   "fastening": {
+    "type": "solder"
+   },
+   "step": 6,
+   "sourceIds": [
+    "s4",
+    "s7"
+   ],
+   "confidence": "verified",
+   "notes": "Position estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "conn-back-glass",
+   "name_en": "Back glass connector",
+   "name_ko": "후면 유리 커넥터",
+   "category": "connector",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    59.0,
+    82.5,
+    3.0,
+    64.0,
+    85.5,
+    3.3
+   ],
+   "shape": "Board-to-board socket for the back glass (MagSafe) flex",
+   "attachedTo": "logic-board",
+   "fastening": {
+    "type": "solder"
+   },
+   "step": 6,
+   "sourceIds": [
+    "s4",
+    "s7"
+   ],
+   "confidence": "verified",
+   "notes": "Under the battery connector cowling with the battery connector. Position estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "conn-interposer-a",
+   "name_en": "Interposer connector (logic board)",
+   "name_ko": "인터포저 커넥터 (로직보드)",
+   "category": "connector",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    70.0,
+    99.0,
+    3.0,
+    75.0,
+    103.0,
+    3.3
+   ],
+   "shape": "Board-to-board socket",
+   "attachedTo": "logic-board",
+   "fastening": {
+    "type": "solder"
+   },
+   "step": 6,
+   "sourceIds": [
+    "s4"
+   ],
+   "confidence": "verified",
+   "notes": "Position estimated (hinge side).",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "conn-camera",
+   "name_en": "Rear camera connectors",
+   "name_ko": "후면 카메라 커넥터",
+   "category": "connector",
+   "half": "a",
+   "count": 2,
+   "bbox": [
+    48.0,
+    96.0,
+    3.0,
+    53.0,
+    106.0,
+    3.3
+   ],
+   "shape": "Two sockets side by side",
+   "attachedTo": "logic-board",
+   "fastening": {
+    "type": "solder"
+   },
+   "step": 6,
+   "sourceIds": [
+    "s8"
+   ],
+   "confidence": "verified",
+   "notes": "Two camera flex connectors; covered by the camera spacer. Position estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "conn-facetime",
+   "name_en": "FaceTime camera connector",
+   "name_ko": "페이스타임 카메라 커넥터",
+   "category": "connector",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    48.0,
+    107.0,
+    3.0,
+    52.0,
+    111.0,
+    3.3
+   ],
+   "shape": "Board-to-board socket",
+   "attachedTo": "logic-board",
+   "fastening": {
+    "type": "solder"
+   },
+   "step": 6,
+   "sourceIds": [
+    "s9"
+   ],
+   "confidence": "verified",
+   "notes": "Position estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "conn-logic-board-misc",
+   "name_en": "Other logic board flex connectors",
+   "name_ko": "기타 로직보드 플렉스 커넥터",
+   "category": "connector",
+   "half": "a",
+   "count": 7,
+   "bbox": [
+    64.5,
+    82.5,
+    3.0,
+    75.5,
+    86.0,
+    3.3
+   ],
+   "shape": "Row of sockets",
+   "attachedTo": "logic-board",
+   "fastening": {
+    "type": "solder"
+   },
+   "step": 6,
+   "sourceIds": [
+    "s11"
+   ],
+   "confidence": "verified",
+   "notes": "Apple: seven further flex cables come off the logic board (likely interposer, volume, Touch ID/Camera Control, Taptic, microphone, antennas). Grouped; positions estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "interposer-flex-a",
+   "name_en": "Interposer flex (half A)",
+   "name_ko": "인터포저 플렉스 (A쪽)",
+   "category": "flex",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    70.0,
+    98.5,
+    3.0,
+    79.1,
+    103.5,
+    3.3
+   ],
+   "shape": "Short ribbon from the logic board to the hinge flex",
+   "attachedTo": "logic-board",
+   "fastening": {
+    "type": "press-connector"
+   },
+   "step": 6,
+   "sourceIds": [
+    "s4",
+    "s27"
+   ],
+   "confidence": "verified",
+   "notes": "Listed in the back-glass exploded view. Joins the hinge flex at the A-side rail (estimated).",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "upper-antenna-1",
+   "name_en": "Upper antenna 1 flex",
+   "name_ko": "상단 안테나 1 플렉스",
+   "category": "antenna",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    60.0,
+    106.5,
+    3.0,
+    75.5,
+    115.5,
+    3.4
+   ],
+   "shape": "Antenna flex at the top of the logic board",
+   "attachedTo": "logic-board",
+   "fastening": {
+    "type": "screw+press-connector"
+   },
+   "step": 6,
+   "sourceIds": [
+    "s11",
+    "s4"
+   ],
+   "confidence": "verified",
+   "notes": "Screwed to the board area, press-fit to a logic board connector. Position estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "screw-upper-antenna-1",
+   "name_en": "Screw, upper antenna 1 (trilobe)",
+   "name_ko": "나사: 상단 안테나 1 (트라이로브)",
+   "category": "fastener",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    70.0,
+    110.0,
+    3.0,
+    73.0,
+    113.0,
+    3.6
+   ],
+   "shape": "1 trilobe screw",
+   "attachedTo": "upper-antenna-1",
+   "fastening": {
+    "type": "screw",
+    "spec": "trilobe",
+    "count": 1
+   },
+   "step": 6,
+   "sourceIds": [
+    "s11"
+   ],
+   "confidence": "verified",
+   "notes": "G6 923-16026, green.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "screws-antenna-crosshead",
+   "name_en": "Screws, antenna flex (crosshead G4/G5)",
+   "name_ko": "나사: 안테나 플렉스 (십자 G4/G5)",
+   "category": "fastener",
+   "half": "a",
+   "count": 2,
+   "bbox": [
+    70.0,
+    84.0,
+    3.0,
+    78.0,
+    98.0,
+    3.6
+   ],
+   "shape": "2 crosshead screws",
+   "attachedTo": "logic-board",
+   "fastening": {
+    "type": "screw",
+    "spec": "crosshead 923-16030 + 923-16025, gray",
+    "count": 2
+   },
+   "step": 6,
+   "sourceIds": [
+    "s11",
+    "s24"
+   ],
+   "confidence": "verified",
+   "notes": "Logic board page: into the lower antenna flex; volume page: on upper antenna 1. Same two screws, location uncertain.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "battery-1-adhesive",
+   "name_en": "Battery 1 adhesive (electrically debonded)",
+   "name_ko": "배터리 1 접착 (전기 분리식)",
+   "category": "adhesive",
+   "half": "a",
+   "count": 2,
+   "bbox": [
+    5.0,
+    26.0,
+    1.6,
+    72.5,
+    78.0,
+    1.7
+   ],
+   "shape": "Two clear adhesive strips with silver pull tabs",
+   "attachedTo": "enclosure-a",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "step": 7,
+   "sourceIds": [
+    "s10",
+    "s27"
+   ],
+   "confidence": "verified",
+   "notes": "Releases with 9 V for about 90 s per tab.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "battery-1",
+   "name_en": "Battery 1 (back-glass half)",
+   "name_ko": "배터리 1 (후면 유리 쪽)",
+   "category": "battery",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    4.0,
+    25.0,
+    1.7,
+    73.5,
+    79.0,
+    4.3
+   ],
+   "shape": "Metal-shell flat cell with flex tail toward the logic board",
+   "attachedTo": "battery-1-adhesive",
+   "fastening": {
+    "type": "adhesive",
+    "spec": "e-debond strips, 2 tabs"
+   },
+   "step": 7,
+   "sourceIds": [
+    "s10",
+    "s27",
+    "s29",
+    "s30",
+    "s4"
+   ],
+   "confidence": "verified",
+   "notes": "Exists in half A (Apple). Which cell is which is NOT stated: assigned the smaller 7.5 Wh / 1,921 mAh cell here because half A also holds the board and cameras, and iFixit's 'left' cell (half A in this view) is 7.5 Wh. Size estimated.",
+   "positionConfidence": "estimated",
+   "key": true,
+   "desc_en": "Battery in the back-glass half (smaller cell, assignment inferred).",
+   "desc_ko": "후면 유리 쪽 배터리 (작은 셀로 추정)."
+  },
+  {
+   "id": "rear-camera-module",
+   "name_en": "Rear camera module (Fusion Main + Ultra Wide)",
+   "name_ko": "후면 카메라 모듈 (메인+초광각)",
+   "category": "camera",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    4.0,
+    95.0,
+    1.6,
+    36.0,
+    114.0,
+    6.0
+   ],
+   "shape": "Two lens barrels side by side in one module, horizontal row",
+   "attachedTo": "enclosure-a",
+   "fastening": {
+    "type": "screw+press-connector",
+    "spec": "2 super + 1 crosshead"
+   },
+   "step": 8,
+   "sourceIds": [
+    "s1",
+    "s8",
+    "s33",
+    "s4"
+   ],
+   "confidence": "verified",
+   "notes": "48 MP Main 26 mm f/1.6 + 48 MP Ultra Wide 13 mm f/2.2; one orderable part with two flexes. Under the plateau at the free-edge top corner (estimated from plateau layout and the under-display camera note).",
+   "positionConfidence": "estimated",
+   "passesThrough": [
+    "back-glass-a",
+    "camera-plateau"
+   ],
+   "key": true,
+   "desc_en": "Dual 48 MP rear camera module under the raised plateau.",
+   "desc_ko": "튀어나온 플래토 아래의 48MP 듀얼 후면 카메라."
+  },
+  {
+   "id": "screws-camera-super",
+   "name_en": "Screws, camera (super)",
+   "name_ko": "나사: 카메라 (슈퍼)",
+   "category": "fastener",
+   "half": "a",
+   "count": 2,
+   "bbox": [
+    5.0,
+    96.0,
+    5.0,
+    35.0,
+    113.0,
+    6.0
+   ],
+   "shape": "2 super screws",
+   "attachedTo": "rear-camera-module",
+   "fastening": {
+    "type": "screw",
+    "spec": "super screw",
+    "count": 2
+   },
+   "step": 8,
+   "sourceIds": [
+    "s8"
+   ],
+   "confidence": "verified",
+   "notes": "F1 923-16036, F2 923-16033 at 14.5 N·cm.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "screw-camera-crosshead",
+   "name_en": "Screw, camera corner (crosshead)",
+   "name_ko": "나사: 카메라 모서리 (십자)",
+   "category": "fastener",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    4.0,
+    111.0,
+    5.0,
+    7.0,
+    114.0,
+    6.0
+   ],
+   "shape": "1 crosshead screw",
+   "attachedTo": "rear-camera-module",
+   "fastening": {
+    "type": "screw",
+    "spec": "crosshead",
+    "count": 1
+   },
+   "step": 8,
+   "sourceIds": [
+    "s8"
+   ],
+   "confidence": "verified",
+   "notes": "D2 923-16060, top-left corner of the camera, 14.5 N·cm.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "wifi-flex",
+   "name_en": "Wi-Fi antenna flex",
+   "name_ko": "Wi-Fi 안테나 플렉스",
+   "category": "flex",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    36.0,
+    92.0,
+    3.0,
+    48.0,
+    96.0,
+    3.3
+   ],
+   "shape": "Short antenna ribbon to the logic board",
+   "attachedTo": "logic-board",
+   "fastening": {
+    "type": "press-connector"
+   },
+   "step": 8,
+   "sourceIds": [
+    "s8"
+   ],
+   "confidence": "verified",
+   "notes": "Route estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "upper-antenna-4",
+   "name_en": "Upper antenna 4 flex",
+   "name_ko": "상단 안테나 4 플렉스",
+   "category": "antenna",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    4.0,
+    91.5,
+    4.0,
+    47.0,
+    95.0,
+    4.3
+   ],
+   "shape": "Antenna flex wrapped along the camera module, over its flexes",
+   "attachedTo": "rear-camera-module",
+   "fastening": {
+    "type": "adhesive+press-connector"
+   },
+   "step": 8,
+   "sourceIds": [
+    "s8",
+    "s32"
+   ],
+   "confidence": "verified",
+   "notes": "Peeled back to reach the camera super screws. Shape simplified to the strip below the camera.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "camera-spacer",
+   "name_en": "Camera spacer",
+   "name_ko": "카메라 스페이서",
+   "category": "bracket",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    47.5,
+    95.5,
+    3.3,
+    54.0,
+    106.0,
+    3.7
+   ],
+   "shape": "Small metal bracket over the camera flex connectors",
+   "attachedTo": "logic-board",
+   "fastening": {
+    "type": "screw"
+   },
+   "step": 8,
+   "sourceIds": [
+    "s8",
+    "s4"
+   ],
+   "confidence": "verified",
+   "notes": "Sits under upper antenna 4 flex. Position estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "screws-camera-spacer",
+   "name_en": "Screws, camera spacer",
+   "name_ko": "나사: 카메라 스페이서",
+   "category": "fastener",
+   "half": "a",
+   "count": 4,
+   "bbox": [
+    47.5,
+    95.5,
+    3.3,
+    54.0,
+    106.0,
+    4.0
+   ],
+   "shape": "4 crosshead screws",
+   "attachedTo": "camera-spacer",
+   "fastening": {
+    "type": "screw",
+    "spec": "crosshead",
+    "count": 4
+   },
+   "step": 8,
+   "sourceIds": [
+    "s8"
+   ],
+   "confidence": "verified",
+   "notes": "D1, C6, C5, D3; gray 0.55 kgf cm.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "facetime-camera-adhesive",
+   "name_en": "FaceTime camera adhesive",
+   "name_ko": "페이스타임 카메라 접착",
+   "category": "adhesive",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    38.0,
+    103.0,
+    1.6,
+    45.0,
+    111.0,
+    1.7
+   ],
+   "shape": "Small die-cut ring",
+   "attachedTo": "enclosure-a",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "step": 9,
+   "sourceIds": [
+    "s9",
+    "s4"
+   ],
+   "confidence": "verified",
+   "notes": "Pressed 20 s.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "facetime-camera",
+   "name_en": "FaceTime camera (under inner display)",
+   "name_ko": "페이스타임 카메라 (안쪽 화면 아래)",
+   "category": "camera",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    38.0,
+    103.0,
+    1.0,
+    45.0,
+    111.0,
+    3.3
+   ],
+   "shape": "Small camera looking through the inner display",
+   "attachedTo": "enclosure-a",
+   "fastening": {
+    "type": "adhesive+press-connector"
+   },
+   "step": 9,
+   "sourceIds": [
+    "s1",
+    "s9",
+    "s36",
+    "s4"
+   ],
+   "confidence": "verified",
+   "notes": "f/1.8 under-display camera; contains IR lasers. Toward the middle rather than the corner (leaker, low trust). Seated through a midplate opening; position estimated.",
+   "positionConfidence": "estimated",
+   "passesThrough": [
+    "enclosure-a"
+   ]
+  },
+  {
+   "id": "facetime-cowling",
+   "name_en": "FaceTime camera cowling",
+   "name_ko": "페이스타임 카메라 카울링",
+   "category": "shield",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    37.0,
+    106.5,
+    3.3,
+    53.0,
+    112.0,
+    3.6
+   ],
+   "shape": "Small metal cover over the camera and its connector",
+   "attachedTo": "logic-board",
+   "fastening": {
+    "type": "screw"
+   },
+   "step": 9,
+   "sourceIds": [
+    "s9",
+    "s4"
+   ],
+   "confidence": "verified",
+   "notes": "Position estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "screws-facetime-cowling",
+   "name_en": "Screws, FaceTime cowling",
+   "name_ko": "나사: 페이스타임 카울링",
+   "category": "fastener",
+   "half": "a",
+   "count": 2,
+   "bbox": [
+    37.5,
+    107.0,
+    3.3,
+    52.5,
+    111.5,
+    3.9
+   ],
+   "shape": "2 trilobe screws",
+   "attachedTo": "facetime-cowling",
+   "fastening": {
+    "type": "screw",
+    "spec": "trilobe",
+    "count": 2
+   },
+   "step": 9,
+   "sourceIds": [
+    "s9",
+    "s8"
+   ],
+   "confidence": "verified",
+   "notes": "923-16049, gray.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "logic-board-upper-cowling",
+   "name_en": "Logic board upper cowling",
+   "name_ko": "로직보드 상단 카울링",
+   "category": "shield",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    54.5,
+    98.0,
+    3.3,
+    75.5,
+    106.0,
+    3.6
+   ],
+   "shape": "Metal cover over upper board connectors",
+   "attachedTo": "logic-board",
+   "fastening": {
+    "type": "screw"
+   },
+   "step": 9,
+   "sourceIds": [
+    "s9",
+    "s8",
+    "s4"
+   ],
+   "confidence": "verified",
+   "notes": "Position estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "screws-lb-upper-cowling",
+   "name_en": "Screws, logic board upper cowling",
+   "name_ko": "나사: 로직보드 상단 카울링",
+   "category": "fastener",
+   "half": "a",
+   "count": 3,
+   "bbox": [
+    55.0,
+    98.5,
+    3.3,
+    75.0,
+    105.5,
+    3.9
+   ],
+   "shape": "3 trilobe screws",
+   "attachedTo": "logic-board-upper-cowling",
+   "fastening": {
+    "type": "screw",
+    "spec": "trilobe",
+    "count": 3
+   },
+   "step": 9,
+   "sourceIds": [
+    "s8",
+    "s9"
+   ],
+   "confidence": "verified",
+   "notes": "923-16052 gray, 923-16045 black, 923-16051 green.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "battery-connector-cowling-a",
+   "name_en": "Battery connector cowling (half A)",
+   "name_ko": "배터리 커넥터 카울링 (A쪽)",
+   "category": "shield",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    51.5,
+    82.0,
+    3.3,
+    64.5,
+    86.0,
+    3.6
+   ],
+   "shape": "Small metal cover with hooks under the enclosure lip",
+   "attachedTo": "logic-board",
+   "fastening": {
+    "type": "screw+clip"
+   },
+   "step": 10,
+   "sourceIds": [
+    "s7",
+    "s4"
+   ],
+   "confidence": "verified",
+   "notes": "Covers battery 1 and back glass connectors. Position estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "screws-battery-cowling-a",
+   "name_en": "Screws, battery connector cowling",
+   "name_ko": "나사: 배터리 커넥터 카울링",
+   "category": "fastener",
+   "half": "a",
+   "count": 2,
+   "bbox": [
+    52.0,
+    82.5,
+    3.3,
+    64.0,
+    85.5,
+    3.9
+   ],
+   "shape": "2 trilobe screws",
+   "attachedTo": "battery-connector-cowling-a",
+   "fastening": {
+    "type": "screw",
+    "spec": "trilobe",
+    "count": 2
+   },
+   "step": 10,
+   "sourceIds": [
+    "s7"
+   ],
+   "confidence": "verified",
+   "notes": "A1/A2 923-13683, green 0.45 kgf cm.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "magsafe-coil",
+   "name_en": "MagSafe / Qi2 coil and magnet ring",
+   "name_ko": "MagSafe·Qi2 코일과 자석 링",
+   "category": "wireless",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    15.0,
+    24.0,
+    4.35,
+    61.0,
+    70.0,
+    4.6
+   ],
+   "shape": "Round coil with magnet ring, small extra magnet array in the centre",
+   "attachedTo": "back-glass-a",
+   "fastening": {
+    "type": "integral",
+    "spec": "part of back glass assembly"
+   },
+   "step": 10,
+   "sourceIds": [
+    "s1",
+    "s7",
+    "s31",
+    "s37"
+   ],
+   "confidence": "estimated",
+   "notes": "25 W MagSafe/Qi2 coil in the rear section (teardowns). That it rides on the back glass assembly (via the back glass flex) is inferred from earlier iPhones, not stated. Centre and size estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "back-glass-adhesive",
+   "name_en": "Back glass adhesive",
+   "name_ko": "후면 유리 접착",
+   "category": "adhesive",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    1.0,
+    1.0,
+    4.55,
+    78.1,
+    116.8,
+    4.6
+   ],
+   "shape": "Perimeter adhesive ring",
+   "attachedTo": "enclosure-a",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "step": 10,
+   "sourceIds": [
+    "s7",
+    "s4"
+   ],
+   "confidence": "verified",
+   "notes": "Pressed with corner and side plates.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "back-glass-a",
+   "name_en": "Back glass (Ceramic Shield)",
+   "name_ko": "후면 유리 (세라믹 실드)",
+   "category": "housing",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    1.0,
+    1.0,
+    4.6,
+    78.1,
+    116.8,
+    5.2
+   ],
+   "shape": "Flat glass panel with flex and MagSafe coil; raised plateau at the top",
+   "attachedTo": "enclosure-a",
+   "fastening": {
+    "type": "adhesive+screw+press-connector"
+   },
+   "step": 10,
+   "sourceIds": [
+    "s1",
+    "s7",
+    "s4",
+    "s31"
+   ],
+   "confidence": "verified",
+   "notes": "Ceramic Shield (not Ceramic Shield 2). Held by perimeter adhesive and 2 PL1.1 screws at the bottom edge.",
+   "positionConfidence": "estimated",
+   "key": true,
+   "desc_en": "Ceramic Shield back of half A, with the MagSafe coil.",
+   "desc_ko": "A쪽 세라믹 실드 후면 유리. MagSafe 코일이 붙어 있다."
+  },
+  {
+   "id": "camera-plateau",
+   "name_en": "Camera plateau",
+   "name_ko": "카메라 플래토",
+   "category": "housing",
+   "half": "a",
+   "count": 1,
+   "bbox": [
+    3.0,
+    92.0,
+    5.2,
+    76.0,
+    115.8,
+    6.3
+   ],
+   "shape": "Raised full-width bar across the top of half A's back",
+   "attachedTo": "back-glass-a",
+   "fastening": {
+    "type": "integral"
+   },
+   "step": 10,
+   "sourceIds": [
+    "s33",
+    "s34",
+    "s1"
+   ],
+   "confidence": "verified",
+   "notes": "Raised area housing cameras and core components (Apple). Height (about 1.1 mm) and outline estimated; part of the back glass.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "lens-covers",
+   "name_en": "Sapphire lens covers",
+   "name_ko": "사파이어 렌즈 커버",
+   "category": "camera",
+   "half": "a",
+   "count": 2,
+   "bbox": [
+    6.0,
+    97.0,
+    6.3,
+    34.0,
+    112.0,
+    6.9
+   ],
+   "shape": "Two round lens rings",
+   "attachedTo": "back-glass-a",
+   "fastening": {
+    "type": "integral",
+    "spec": "set in the camera plateau of the back glass"
+   },
+   "step": 10,
+   "sourceIds": [
+    "s1"
+   ],
+   "confidence": "verified",
+   "notes": "Sapphire crystal; ring height estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "screws-pentalobe-a",
+   "name_en": "Screws, back glass (PL1.1 pentalobe)",
+   "name_ko": "나사: 후면 유리 (PL1.1 펜타로브)",
+   "category": "fastener",
+   "half": "a",
+   "count": 2,
+   "bbox": [
+    35.0,
+    0.0,
+    4.0,
+    49.0,
+    1.0,
+    5.0
+   ],
+   "shape": "2 pentalobe screws in the bottom rail",
+   "attachedTo": "back-glass-a",
+   "fastening": {
+    "type": "screw",
+    "spec": "PL1.1 pentalobe",
+    "count": 2
+   },
+   "step": 10,
+   "sourceIds": [
+    "s7",
+    "s27"
+   ],
+   "confidence": "verified",
+   "notes": "One each side of where the USB-C port sits when the phone is shut (x mirrored from half B); gray 0.55 kgf cm.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "usb-c-connector",
+   "name_en": "USB-C connector module",
+   "name_ko": "USB-C 커넥터 모듈",
+   "category": "port",
+   "half": "b",
+   "count": 1,
+   "bbox": [
+    118.1,
+    0.0,
+    1.6,
+    127.1,
+    9.0,
+    3.6
+   ],
+   "shape": "Modular port with a short flex",
+   "attachedTo": "enclosure-b",
+   "fastening": {
+    "type": "screw+adhesive"
+   },
+   "step": 11,
+   "sourceIds": [
+    "s20",
+    "s30",
+    "s31"
+   ],
+   "confidence": "verified",
+   "notes": "Fully modular port at the bottom of half B; adhesive + 2 screws. Centred on the shut phone's bottom edge (estimated).",
+   "positionConfidence": "estimated",
+   "passesThrough": [
+    "enclosure-b"
+   ]
+  },
+  {
+   "id": "screws-usb-c",
+   "name_en": "Screws, USB-C (Torx Plus 3IP)",
+   "name_ko": "나사: USB-C (Torx Plus 3IP)",
+   "category": "fastener",
+   "half": "b",
+   "count": 2,
+   "bbox": [
+    116.0,
+    2.0,
+    2.8,
+    129.1,
+    7.0,
+    3.6
+   ],
+   "shape": "2 Torx Plus 3IP screws",
+   "attachedTo": "usb-c-connector",
+   "fastening": {
+    "type": "screw",
+    "spec": "Torx Plus 3IP",
+    "count": 2
+   },
+   "step": 11,
+   "sourceIds": [
+    "s20",
+    "s31",
+    "s37"
+   ],
+   "confidence": "verified",
+   "notes": "F5/F6 923-16055, blue 0.65 kgf cm (teardowns call them T4).",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "io-board",
+   "name_en": "Input/output board",
+   "name_ko": "입출력(I/O) 보드",
+   "category": "board",
+   "half": "b",
+   "count": 1,
+   "bbox": [
+    90.0,
+    9.5,
+    1.5,
+    160.0,
+    21.0,
+    2.3
+   ],
+   "shape": "Long narrow single-layer board along the bottom of half B",
+   "attachedTo": "enclosure-b",
+   "fastening": {
+    "type": "screw",
+    "spec": "5 super + 2 crosshead"
+   },
+   "step": 12,
+   "sourceIds": [
+    "s19",
+    "s27",
+    "s4"
+   ],
+   "confidence": "verified",
+   "notes": "Carries connectors for battery 2, outer display, inner display, interposer, USB-C. Outline estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "screws-io-super",
+   "name_en": "Screws, I/O board (super)",
+   "name_ko": "나사: I/O 보드 (슈퍼)",
+   "category": "fastener",
+   "half": "b",
+   "count": 5,
+   "bbox": [
+    91.0,
+    10.0,
+    1.8,
+    159.0,
+    20.5,
+    2.6
+   ],
+   "shape": "5 super screws",
+   "attachedTo": "io-board",
+   "fastening": {
+    "type": "screw",
+    "spec": "super screw",
+    "count": 5
+   },
+   "step": 12,
+   "sourceIds": [
+    "s19",
+    "s20"
+   ],
+   "confidence": "verified",
+   "notes": "L4, M1-M4; blue 0.65 kgf cm.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "screws-io-crosshead",
+   "name_en": "Screws, I/O board (crosshead)",
+   "name_ko": "나사: I/O 보드 (십자)",
+   "category": "fastener",
+   "half": "b",
+   "count": 2,
+   "bbox": [
+    112.0,
+    9.5,
+    1.8,
+    134.0,
+    12.0,
+    2.6
+   ],
+   "shape": "2 crosshead screws",
+   "attachedTo": "io-board",
+   "fastening": {
+    "type": "screw",
+    "spec": "crosshead",
+    "count": 2
+   },
+   "step": 12,
+   "sourceIds": [
+    "s19",
+    "s20"
+   ],
+   "confidence": "verified",
+   "notes": "L5/L6 923-16058, gray; near the USB-C connector.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "conn-inner-display",
+   "name_en": "Inner display connector",
+   "name_ko": "안쪽 화면 커넥터",
+   "category": "connector",
+   "half": "b",
+   "count": 1,
+   "bbox": [
+    96.0,
+    10.0,
+    2.3,
+    101.0,
+    14.0,
+    2.6
+   ],
+   "shape": "Board-to-board socket",
+   "attachedTo": "io-board",
+   "fastening": {
+    "type": "solder"
+   },
+   "step": 12,
+   "sourceIds": [
+    "s4",
+    "s22"
+   ],
+   "confidence": "verified",
+   "notes": "Position estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "conn-interposer-b",
+   "name_en": "Interposer connector (I/O board)",
+   "name_ko": "인터포저 커넥터 (I/O 보드)",
+   "category": "connector",
+   "half": "b",
+   "count": 1,
+   "bbox": [
+    90.0,
+    16.0,
+    2.3,
+    95.0,
+    20.5,
+    2.6
+   ],
+   "shape": "Board-to-board socket",
+   "attachedTo": "io-board",
+   "fastening": {
+    "type": "solder"
+   },
+   "step": 12,
+   "sourceIds": [
+    "s4"
+   ],
+   "confidence": "verified",
+   "notes": "Position estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "conn-io-other",
+   "name_en": "Other I/O board connectors",
+   "name_ko": "기타 I/O 보드 커넥터",
+   "category": "connector",
+   "half": "b",
+   "count": 4,
+   "bbox": [
+    118.0,
+    12.5,
+    2.3,
+    147.0,
+    21.0,
+    2.6
+   ],
+   "shape": "Row of sockets",
+   "attachedTo": "io-board",
+   "fastening": {
+    "type": "solder"
+   },
+   "step": 12,
+   "sourceIds": [
+    "s4",
+    "s15",
+    "s19"
+   ],
+   "confidence": "verified",
+   "notes": "USB-C, outer display, battery 2 and (likely) outer front camera connectors. Positions estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "interposer-flex-b",
+   "name_en": "Interposer flex (half B)",
+   "name_ko": "인터포저 플렉스 (B쪽)",
+   "category": "flex",
+   "half": "b",
+   "count": 1,
+   "bbox": [
+    86.5,
+    16.0,
+    1.5,
+    92.0,
+    104.0,
+    1.9
+   ],
+   "shape": "Ribbon down the hinge-side rail of half B to the I/O board",
+   "attachedTo": "io-board",
+   "fastening": {
+    "type": "press-connector"
+   },
+   "step": 12,
+   "sourceIds": [
+    "s4",
+    "s27"
+   ],
+   "confidence": "verified",
+   "notes": "Listed with the hinge flex in the outer-display exploded view. Route estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "inner-display-flex",
+   "name_en": "Inner display flex",
+   "name_ko": "안쪽 화면 플렉스",
+   "category": "flex",
+   "half": "hinge",
+   "count": 1,
+   "bbox": [
+    82.3,
+    8.0,
+    1.0,
+    101.0,
+    16.0,
+    2.6
+   ],
+   "shape": "Display tail through an opening next to the hinge into half B",
+   "attachedTo": "inner-display",
+   "fastening": {
+    "type": "integral+press-connector"
+   },
+   "step": 12,
+   "sourceIds": [
+    "s22",
+    "s27",
+    "s35",
+    "s4"
+   ],
+   "confidence": "verified",
+   "notes": "iFixit: display cable passes through the hinge centre; Apple: disconnected from the outer-display side. y position estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "battery-2-adhesive",
+   "name_en": "Battery 2 adhesive (electrically debonded)",
+   "name_ko": "배터리 2 접착 (전기 분리식)",
+   "category": "adhesive",
+   "half": "b",
+   "count": 2,
+   "bbox": [
+    91.0,
+    24.5,
+    1.5,
+    160.0,
+    101.0,
+    1.55
+   ],
+   "shape": "Two black-tabbed adhesive strips",
+   "attachedTo": "enclosure-b",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "step": 13,
+   "sourceIds": [
+    "s18",
+    "s27"
+   ],
+   "confidence": "verified",
+   "notes": "9 V, about 90 s per tab.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "battery-2",
+   "name_en": "Battery 2 (outer-display half)",
+   "name_ko": "배터리 2 (바깥 화면 쪽)",
+   "category": "battery",
+   "half": "b",
+   "count": 1,
+   "bbox": [
+    89.5,
+    23.5,
+    1.55,
+    161.5,
+    102.0,
+    4.05
+   ],
+   "shape": "Metal-shell flat cell, the larger of the two",
+   "attachedTo": "battery-2-adhesive",
+   "fastening": {
+    "type": "adhesive",
+    "spec": "e-debond strips, 2 tabs"
+   },
+   "step": 13,
+   "sourceIds": [
+    "s18",
+    "s27",
+    "s29",
+    "s30",
+    "s4"
+   ],
+   "confidence": "verified",
+   "notes": "Exists in half B (Apple). Assigned the larger 11.56 Wh / 2,962 mAh cell (inference, see battery-1). Size estimated; needs ~810 Wh/L at this volume.",
+   "positionConfidence": "estimated",
+   "key": true,
+   "desc_en": "Battery under the cover screen (larger cell, assignment inferred).",
+   "desc_ko": "바깥 화면 아래 배터리 (큰 셀로 추정)."
+  },
+  {
+   "id": "top-speaker",
+   "name_en": "Top speaker",
+   "name_ko": "상단 스피커",
+   "category": "audio",
+   "half": "b",
+   "count": 1,
+   "bbox": [
+    90.0,
+    104.0,
+    1.5,
+    124.0,
+    116.6,
+    4.0
+   ],
+   "shape": "Speaker box whose top tilts into a slot in the top rail",
+   "attachedTo": "enclosure-b",
+   "fastening": {
+    "type": "screw"
+   },
+   "step": 14,
+   "sourceIds": [
+    "s16",
+    "s4"
+   ],
+   "confidence": "verified",
+   "notes": "3 crosshead screws; lower right screw is the battery 2 debond ground. Size estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "screws-top-speaker",
+   "name_en": "Screws, top speaker",
+   "name_ko": "나사: 상단 스피커",
+   "category": "fastener",
+   "half": "b",
+   "count": 3,
+   "bbox": [
+    90.5,
+    104.5,
+    3.5,
+    123.5,
+    116.0,
+    4.2
+   ],
+   "shape": "3 crosshead screws",
+   "attachedTo": "top-speaker",
+   "fastening": {
+    "type": "screw",
+    "spec": "crosshead",
+    "count": 3
+   },
+   "step": 14,
+   "sourceIds": [
+    "s16"
+   ],
+   "confidence": "verified",
+   "notes": "L1-L3 923-16035, orange 0.85 kgf cm.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "outer-front-camera",
+   "name_en": "Outer front camera (12 MP Center Stage)",
+   "name_ko": "바깥 전면 카메라 (12MP 센터 스테이지)",
+   "category": "camera",
+   "half": "b",
+   "count": 1,
+   "bbox": [
+    144.0,
+    104.0,
+    1.5,
+    153.0,
+    113.0,
+    4.05
+   ],
+   "shape": "Small camera module behind the cover display's punch hole",
+   "attachedTo": "enclosure-b",
+   "fastening": {
+    "type": "screw+press-connector"
+   },
+   "step": 14,
+   "sourceIds": [
+    "s1",
+    "s17",
+    "s33",
+    "s36"
+   ],
+   "confidence": "verified",
+   "notes": "f/2.2; contains IR lasers. Placed top, toward the free edge (leaker hint); could be top centre instead.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "screws-front-camera",
+   "name_en": "Screws, outer front camera",
+   "name_ko": "나사: 바깥 전면 카메라",
+   "category": "fastener",
+   "half": "b",
+   "count": 2,
+   "bbox": [
+    144.0,
+    104.0,
+    3.5,
+    153.0,
+    113.0,
+    4.2
+   ],
+   "shape": "2 crosshead screws",
+   "attachedTo": "outer-front-camera",
+   "fastening": {
+    "type": "screw",
+    "spec": "crosshead",
+    "count": 2
+   },
+   "step": 14,
+   "sourceIds": [
+    "s17"
+   ],
+   "confidence": "verified",
+   "notes": "E5 923-16037, E6 923-16039, gray.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "ambient-light-sensor",
+   "name_en": "Ambient light sensor with flex",
+   "name_ko": "조도 센서와 플렉스",
+   "category": "other",
+   "half": "b",
+   "count": 1,
+   "bbox": [
+    129.0,
+    105.0,
+    1.5,
+    136.0,
+    110.0,
+    2.8
+   ],
+   "shape": "Tiny sensor on a flex near the top",
+   "attachedTo": "enclosure-b",
+   "fastening": {
+    "type": "adhesive+press-connector"
+   },
+   "step": 14,
+   "sourceIds": [
+    "s15",
+    "s1"
+   ],
+   "confidence": "verified",
+   "notes": "One of four ambient light sensors; aligns with a cut-out under the I/O board area per Apple. Position estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "io-board-cowling",
+   "name_en": "I/O board cowling (battery connector cowling)",
+   "name_ko": "I/O 보드 카울링 (배터리 커넥터 카울링)",
+   "category": "shield",
+   "half": "b",
+   "count": 1,
+   "bbox": [
+    90.0,
+    9.5,
+    2.6,
+    160.0,
+    21.0,
+    3.0
+   ],
+   "shape": "Long metal cover over the I/O board connectors",
+   "attachedTo": "io-board",
+   "fastening": {
+    "type": "screw"
+   },
+   "step": 15,
+   "sourceIds": [
+    "s15",
+    "s19",
+    "s20",
+    "s4"
+   ],
+   "confidence": "verified",
+   "notes": "Covers battery 2 and display connectors.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "screws-io-cowling",
+   "name_en": "Screws, I/O board cowling",
+   "name_ko": "나사: I/O 보드 카울링",
+   "category": "fastener",
+   "half": "b",
+   "count": 6,
+   "bbox": [
+    90.5,
+    10.0,
+    2.6,
+    159.5,
+    20.5,
+    3.2
+   ],
+   "shape": "6 trilobe screws",
+   "attachedTo": "io-board-cowling",
+   "fastening": {
+    "type": "screw",
+    "spec": "trilobe",
+    "count": 6
+   },
+   "step": 15,
+   "sourceIds": [
+    "s15",
+    "s19"
+   ],
+   "confidence": "verified",
+   "notes": "K1 923-13683, K2-K6 923-16061, green.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "screws-io-grounding",
+   "name_en": "Screws, I/O grounding springs (under screw caps)",
+   "name_ko": "나사: I/O 접지 스프링 (캡 아래)",
+   "category": "fastener",
+   "half": "b",
+   "count": 2,
+   "bbox": [
+    99.0,
+    21.0,
+    2.3,
+    151.0,
+    23.0,
+    3.3
+   ],
+   "shape": "2 trilobe screws with 2 caps on top",
+   "attachedTo": "io-board",
+   "fastening": {
+    "type": "screw",
+    "spec": "trilobe + screw cap",
+    "count": 2
+   },
+   "step": 15,
+   "sourceIds": [
+    "s15",
+    "s19",
+    "s4"
+   ],
+   "confidence": "verified",
+   "notes": "M5/M6 923-16043, green; hidden under 2 screw caps (923-16069). Position estimated.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "als-cowling",
+   "name_en": "Ambient light sensor cowling",
+   "name_ko": "조도 센서 카울링",
+   "category": "shield",
+   "half": "b",
+   "count": 1,
+   "bbox": [
+    128.0,
+    104.5,
+    2.8,
+    137.0,
+    110.5,
+    3.2
+   ],
+   "shape": "Small metal cover under the top speaker",
+   "attachedTo": "ambient-light-sensor",
+   "fastening": {
+    "type": "screw",
+    "spec": "1 crosshead",
+    "count": 1
+   },
+   "step": 15,
+   "sourceIds": [
+    "s15",
+    "s4"
+   ],
+   "confidence": "verified",
+   "notes": "1 crosshead J6 923-16041, blue 0.65 kgf cm.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "outer-display-adhesive",
+   "name_en": "Outer display adhesive",
+   "name_ko": "바깥 화면 접착",
+   "category": "adhesive",
+   "half": "b",
+   "count": 1,
+   "bbox": [
+    86.5,
+    1.0,
+    4.05,
+    163.6,
+    116.8,
+    4.1
+   ],
+   "shape": "Perimeter adhesive ring",
+   "attachedTo": "enclosure-b",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "step": 15,
+   "sourceIds": [
+    "s15",
+    "s4"
+   ],
+   "confidence": "verified",
+   "notes": "Pulled out at 45 degrees with tweezers.",
+   "positionConfidence": "estimated"
+  },
+  {
+   "id": "outer-display",
+   "name_en": "Outer (cover) display",
+   "name_ko": "바깥 커버 디스플레이",
+   "category": "display",
+   "half": "b",
+   "count": 1,
+   "bbox": [
+    86.5,
+    1.0,
+    4.1,
+    163.6,
+    116.8,
+    5.2
+   ],
+   "shape": "Flat OLED with Ceramic Shield 2, plastic frame with silicone edge, punch hole near top",
+   "attachedTo": "enclosure-b",
+   "fastening": {
+    "type": "adhesive+clip+screw+press-connector"
+   },
+   "step": 15,
+   "sourceIds": [
+    "s1",
+    "s15",
+    "s27",
+    "s31"
+   ],
+   "confidence": "verified",
+   "notes": "5.4 in, 1398x2034 at 460 ppi (active about 77.2 x 112.3 mm). Held by perimeter adhesive, internal clips and 2 PL1.1 screws; its flex goes to the I/O board.",
+   "positionConfidence": "estimated",
+   "key": true,
+   "desc_en": "5.4-inch cover screen that closes half B.",
+   "desc_ko": "B쪽을 덮는 5.4인치 커버 화면."
+  },
+  {
+   "id": "screws-pentalobe-b",
+   "name_en": "Screws, outer display (PL1.1 pentalobe)",
+   "name_ko": "나사: 바깥 화면 (PL1.1 펜타로브)",
+   "category": "fastener",
+   "half": "b",
+   "count": 2,
+   "bbox": [
+    111.0,
+    0.0,
+    4.2,
+    134.0,
+    1.0,
+    5.0
+   ],
+   "shape": "2 pentalobe screws in the bottom rail",
+   "attachedTo": "outer-display",
+   "fastening": {
+    "type": "screw",
+    "spec": "PL1.1 pentalobe",
+    "count": 2
+   },
+   "step": 15,
+   "sourceIds": [
+    "s15",
+    "s27"
+   ],
+   "confidence": "verified",
+   "notes": "One each side of the USB-C port; gray 0.55 kgf cm.",
+   "positionConfidence": "estimated"
+  }
+ ],
+ "steps": [
+  {
+   "n": 1,
+   "title_en": "Inner display module (base)",
+   "title_ko": "안쪽 디스플레이 모듈 (기준 부품)",
+   "parts": [
+    "inner-display",
+    "cover-layer",
+    "inner-display-trim"
+   ],
+   "tools": "Inner display fixture, alignment tray, nylon stick",
+   "cautions": "Inner screen is fragile; trim is clipped at the hinge and glued in 21 pockets",
+   "sourceIds": [
+    "s22",
+    "s26"
+   ]
+  },
+  {
+   "n": 2,
+   "title_en": "Adhesives, foams and support plates behind the display",
+   "title_ko": "디스플레이 뒷면 접착·폼·지지판",
+   "parts": [
+    "inner-display-adhesive-a",
+    "inner-display-adhesive-b",
+    "inner-display-foam",
+    "grounding-foams-a",
+    "grounding-foams-b",
+    "support-plate-a",
+    "support-plate-b"
+   ],
+   "tools": "ESD tweezers, nylon stick, glue syringe",
+   "cautions": "Large polyester strips must come off in one piece; pick the right shims by hinge cover pattern",
+   "sourceIds": [
+    "s22",
+    "s4",
+    "s2"
+   ]
+  },
+  {
+   "n": 3,
+   "title_en": "Enclosure halves and hinge",
+   "title_ko": "프레임 두 쪽과 힌지",
+   "parts": [
+    "enclosure-a",
+    "enclosure-b",
+    "hinge-support-bar",
+    "hinge-mechanism",
+    "hinge-flex",
+    "hinge-cover"
+   ],
+   "tools": "Heated inner display pocket, inner display press plate, display press",
+   "cautions": "Hinge and enclosure are one service part; cutting too deep at the hinge damages the hinge and flexes",
+   "sourceIds": [
+    "s21",
+    "s23",
+    "s27"
+   ]
+  },
+  {
+   "n": 4,
+   "title_en": "Buttons of half A",
+   "title_ko": "A쪽 버튼",
+   "parts": [
+    "side-button-touch-id",
+    "camera-control-button",
+    "touchid-cc-brackets",
+    "touchid-cc-flex",
+    "touchid-cc-cowlings",
+    "screws-touchid-cc",
+    "volume-buttons",
+    "volume-bracket",
+    "volume-flex",
+    "screws-volume-bracket",
+    "upper-antenna-2",
+    "screws-upper-antenna-2",
+    "mic-cowling-a"
+   ],
+   "tools": "Crosshead bit, gray/blue torque drivers, needle-nose pliers, ESD tweezers",
+   "cautions": "Roll bars must face up; buttons must click before final tightening",
+   "sourceIds": [
+    "s24",
+    "s25"
+   ]
+  },
+  {
+   "n": 5,
+   "title_en": "Microphone, Taptic Engine and bottom speaker",
+   "title_ko": "마이크·탭틱 엔진·하단 스피커",
+   "parts": [
+    "main-microphone",
+    "screw-main-microphone",
+    "taptic-engine",
+    "lower-antenna-flex",
+    "bottom-speaker",
+    "screws-bottom-speaker",
+    "screws-taptic",
+    "screws-lower-antenna-trilobe"
+   ],
+   "tools": "Crosshead and super screw bits, adjustable 10-34 N·cm and orange driver",
+   "cautions": "Lower antenna flex adhesive is strong; keep grounding clip orientation",
+   "sourceIds": [
+    "s12",
+    "s13",
+    "s14"
+   ]
+  },
+  {
+   "n": 6,
+   "title_en": "Vapour chamber, logic board and antenna 1",
+   "title_ko": "베이퍼 챔버·로직보드·안테나 1",
+   "parts": [
+    "vapor-chamber",
+    "logic-board",
+    "screws-logic-board",
+    "conn-battery-1",
+    "conn-back-glass",
+    "conn-interposer-a",
+    "conn-camera",
+    "conn-facetime",
+    "conn-logic-board-misc",
+    "interposer-flex-a",
+    "upper-antenna-1",
+    "screw-upper-antenna-1",
+    "screws-antenna-crosshead"
+   ],
+   "tools": "Super screw bit, teal/green/gray drivers",
+   "cautions": "Keep flexes out from under the board; logic board swap needs System Configuration",
+   "sourceIds": [
+    "s11"
+   ]
+  },
+  {
+   "n": 7,
+   "title_en": "Battery 1",
+   "title_ko": "배터리 1",
+   "parts": [
+    "battery-1-adhesive",
+    "battery-1"
+   ],
+   "tools": "Battery 1 press plate, display press, alignment shims",
+   "cautions": "New battery ships uncharged; check it is not loose",
+   "sourceIds": [
+    "s10"
+   ]
+  },
+  {
+   "n": 8,
+   "title_en": "Rear camera module",
+   "title_ko": "후면 카메라 모듈",
+   "parts": [
+    "rear-camera-module",
+    "screws-camera-super",
+    "screw-camera-crosshead",
+    "wifi-flex",
+    "upper-antenna-4",
+    "camera-spacer",
+    "screws-camera-spacer"
+   ],
+   "tools": "Super screw 50 mm bit, adjustable driver 14.5 N·cm, crosshead bit",
+   "cautions": "Do not trap upper antenna 4 under the camera; gloves for lenses",
+   "sourceIds": [
+    "s8"
+   ]
+  },
+  {
+   "n": 9,
+   "title_en": "FaceTime camera and cowlings",
+   "title_ko": "페이스타임 카메라와 카울링",
+   "parts": [
+    "facetime-camera-adhesive",
+    "facetime-camera",
+    "facetime-cowling",
+    "screws-facetime-cowling",
+    "logic-board-upper-cowling",
+    "screws-lb-upper-cowling"
+   ],
+   "tools": "Trilobe bit, black/gray/green drivers",
+   "cautions": "Press camera 20 s; camera has IR lasers",
+   "sourceIds": [
+    "s9"
+   ]
+  },
+  {
+   "n": 10,
+   "title_en": "Back glass (half A closed)",
+   "title_ko": "후면 유리 (A쪽 닫기)",
+   "parts": [
+    "battery-connector-cowling-a",
+    "screws-battery-cowling-a",
+    "magsafe-coil",
+    "back-glass-adhesive",
+    "back-glass-a",
+    "camera-plateau",
+    "lens-covers",
+    "screws-pentalobe-a"
+   ],
+   "tools": "Heated fixture, back glass press plates, PL1.1 bit, gray driver",
+   "cautions": "Connect battery last when closing; do not tilt glass over 5 degrees when opening",
+   "sourceIds": [
+    "s7"
+   ]
+  },
+  {
+   "n": 11,
+   "title_en": "USB-C connector",
+   "title_ko": "USB-C 커넥터",
+   "parts": [
+    "usb-c-connector",
+    "screws-usb-c"
+   ],
+   "tools": "Torx Plus 3IP bit, blue driver, USB-C cable for alignment",
+   "cautions": "Keep the driver low; do not touch the battery area",
+   "sourceIds": [
+    "s20"
+   ]
+  },
+  {
+   "n": 12,
+   "title_en": "I/O board and cross-hinge cables",
+   "title_ko": "I/O 보드와 힌지 통과 케이블",
+   "parts": [
+    "io-board",
+    "screws-io-super",
+    "screws-io-crosshead",
+    "conn-inner-display",
+    "conn-interposer-b",
+    "conn-io-other",
+    "interposer-flex-b",
+    "inner-display-flex"
+   ],
+   "tools": "Super screw and crosshead bits, blue/gray drivers",
+   "cautions": "Do not trap flex cables; I/O board swap needs System Configuration",
+   "sourceIds": [
+    "s19",
+    "s22",
+    "s27"
+   ]
+  },
+  {
+   "n": 13,
+   "title_en": "Battery 2",
+   "title_ko": "배터리 2",
+   "parts": [
+    "battery-2-adhesive",
+    "battery-2"
+   ],
+   "tools": "Battery 2 press plate, display press",
+   "cautions": "Lifted up and to the right on removal",
+   "sourceIds": [
+    "s18"
+   ]
+  },
+  {
+   "n": 14,
+   "title_en": "Top speaker, outer front camera, light sensor",
+   "title_ko": "상단 스피커·바깥 전면 카메라·조도 센서",
+   "parts": [
+    "top-speaker",
+    "screws-top-speaker",
+    "outer-front-camera",
+    "screws-front-camera",
+    "ambient-light-sensor"
+   ],
+   "tools": "Crosshead bit, orange and gray drivers",
+   "cautions": "Route camera flex under the ALS flex; avoid grounding springs",
+   "sourceIds": [
+    "s16",
+    "s17"
+   ]
+  },
+  {
+   "n": 15,
+   "title_en": "Cowlings and outer display (half B closed)",
+   "title_ko": "카울링과 바깥 화면 (B쪽 닫기)",
+   "parts": [
+    "io-board-cowling",
+    "screws-io-cowling",
+    "screws-io-grounding",
+    "als-cowling",
+    "outer-display-adhesive",
+    "outer-display",
+    "screws-pentalobe-b"
+   ],
+   "tools": "Outer display press plates, PL1.1 bit, gray/green/blue drivers",
+   "cautions": "Connect battery flex last; display clicks in at the clips; screws must sit flush",
+   "sourceIds": [
+    "s15"
+   ]
+  }
+ ]
+}

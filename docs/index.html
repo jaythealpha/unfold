@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Unfold</title>
+<meta name="description" content="폰 모델명 하나로 분해와 조립을 보여 주는 HTML 페이지. Claude Code 스킬 Unfold의 예제.">
+<meta property="og:title" content="Unfold">
+<meta property="og:description" content="폰 모델명 하나로, 분해와 조립을 보여 주는 HTML 페이지 한 장.">
+<meta property="og:image" content="https://jaythealpha.github.io/unfold/assets/og.png">
+<meta property="og:url" content="https://jaythealpha.github.io/unfold/">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+:root{--ink:#e9ecf1;--soft:#b9c0cb;--muted:#7f8794;--night:#0e1116;--card:#151a22;--line:#262d38;--accent:#ff5a36;--v:#9bd3b4;--e:#f1cf9a}
+*{box-sizing:border-box;margin:0}
+body{background:var(--night);color:var(--ink);font-family:"Apple SD Gothic Neo","Noto Sans KR",system-ui,sans-serif;-webkit-font-smoothing:antialiased;word-break:keep-all;line-height:1.55;
+  background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:32px 32px}
+a{color:inherit}
+main{max-width:1120px;margin:0 auto;padding:56px 20px 80px}
+.tag{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:700;padding:5px 12px;border:1.5px solid var(--ink);border-radius:999px}
+.tag i{width:8px;height:8px;border-radius:50%;background:var(--accent)}
+h1{font-size:clamp(34px,6vw,60px);line-height:1.15;letter-spacing:-.025em;margin:22px 0 14px;font-weight:800}
+h1 em{font-style:normal;color:var(--accent)}
+.lead{font-size:clamp(16px,2.2vw,19px);color:var(--soft);max-width:640px}
+.cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:11px 18px;border-radius:999px;font-weight:700;font-size:15px;text-decoration:none;border:1.5px solid var(--line);background:var(--card)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.hero{margin-top:40px;border-radius:20px;overflow:hidden;border:1px solid var(--line);background:#f5f3ef;aspect-ratio:16/10;position:relative}
+.hero iframe{width:100%;height:100%;border:0;display:block}
+.hero .cover{position:absolute;inset:0;display:grid;place-items:center;cursor:pointer;background:center/cover no-repeat}
+.hero .cover span{background:var(--accent);color:#fff;font-weight:800;padding:14px 24px;border-radius:999px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+h2{font-size:24px;margin:64px 0 18px;letter-spacing:-.01em}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;text-decoration:none;display:flex;flex-direction:column;transition:transform .15s,border-color .15s}
+.card:hover{transform:translateY(-3px);border-color:#3a4352}
+.card img{width:100%;aspect-ratio:4/3;object-fit:cover;background:#f5f3ef;display:block}
+.card div{padding:14px 16px 16px}
+.card b{font-size:18px;display:block}
+.card small{color:var(--muted);font-size:13px}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+.chip{font-size:12px;font-weight:700;padding:3px 9px;border-radius:999px;border:1px solid var(--line);color:var(--soft)}
+.chip.v{border-color:var(--v);color:var(--v)}.chip.e{border-color:var(--e);color:var(--e)}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px}
+.box h3{font-size:17px;margin-bottom:8px}
+.box p,.box li{color:var(--soft);font-size:15px}
+.box ul{padding-left:18px}
+pre{background:#0a0d11;border:1px solid var(--line);border-radius:12px;padding:14px 16px;overflow:auto;font-size:14px;margin-top:10px}
+footer{margin-top:64px;color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:20px}
+footer p+p{margin-top:8px}
+</style>
+</head>
+<body>
+<main>
+  <span class="tag"><i></i>Claude Code 스킬</span>
+  <h1>폰 모델명 하나로,<br>분해와 <em>조립</em>을 보여 주는 페이지</h1>
+  <p class="lead">Unfold는 공개된 분해·수리 자료를 조사해서 폰의 부품과 조립 순서를 모델로 만들어요. 그리고 오프라인에서 열리는 HTML 한 장으로 그려요. 바를 끌면 폰이 흩어졌다가 실제 순서대로 다시 조립돼요.</p>
+  <div class="cta">
+    <a class="btn primary" href="examples/galaxy-z-fold8.html">예제 열기</a>
+    <a class="btn" href="https://github.com/jaythealpha/unfold">GitHub에서 설치하기</a>
+  </div>
+
+  <div class="hero" id="hero">
+    <div class="cover" style="background-image:url(assets/galaxy-z-fold8.png)" role="button" tabindex="0" aria-label="갤럭시 Z 폴드8 예제 재생"><span>▶ 여기서 바로 재생</span></div>
+  </div>
+
+  <h2>예제 다섯 개</h2>
+  <div class="grid">
+    <a class="card" href="examples/galaxy-s24.html"><img src="assets/galaxy-s24.png" alt="갤럭시 S24 분해 장면" loading="lazy"><div><b>갤럭시 S24</b><small>바 형태 · 뒷면으로 열기</small><div class="chips"><span class="chip">부품 56개</span><span class="chip">14단계</span><span class="chip e">자료 확인 48%</span></div></div></a>
+    <a class="card" href="examples/galaxy-z-flip8.html"><img src="assets/galaxy-z-flip8.png" alt="갤럭시 Z 플립8 분해 장면" loading="lazy"><div><b>갤럭시 Z 플립8</b><small>위아래로 접는 폴더블</small><div class="chips"><span class="chip">부품 57개</span><span class="chip">10단계</span><span class="chip e">자료 확인 18%</span></div></div></a>
+    <a class="card" href="examples/galaxy-z-fold8.html"><img src="assets/galaxy-z-fold8.png" alt="갤럭시 Z 폴드8 분해 장면" loading="lazy"><div><b>갤럭시 Z 폴드8</b><small>책처럼 접는 폴더블</small><div class="chips"><span class="chip">부품 72개</span><span class="chip">12단계</span><span class="chip e">자료 확인 44%</span></div></div></a>
+    <a class="card" href="examples/iphone-17-pro.html"><img src="assets/iphone-17-pro.png" alt="아이폰 17 프로 분해 장면" loading="lazy"><div><b>아이폰 17 프로</b><small>바 형태 · 화면 쪽으로 열기</small><div class="chips"><span class="chip">부품 69개</span><span class="chip">17단계</span><span class="chip v">자료 확인 77%</span></div></div></a>
+    <a class="card" href="examples/iphone-duo.html"><img src="assets/iphone-duo.png" alt="아이폰 듀오 분해 장면" loading="lazy"><div><b>아이폰 듀오</b><small>책처럼 접는 폴더블</small><div class="chips"><span class="chip">부품 97개</span><span class="chip">15단계</span><span class="chip v">자료 확인 94%</span></div></div></a>
+  </div>
+
+  <h2>정직하게 표시해요</h2>
+  <div class="cols">
+    <div class="box"><h3>근거가 있는지</h3><p>부품마다 <b style="color:var(--v)">자료 확인</b>인지 <b style="color:var(--e)">추정</b>인지 표시하고, 그 비율을 페이지 위에 보여 줘요. 내부 부품의 위치와 크기는 대부분 추정이에요.</p></div>
+    <div class="box"><h3>무엇을 가져왔는지</h3><p>출처에서는 치수, 개수, 순서, 고정 방식 같은 사실만 가져와요. 문장은 새로 쓰고, 사진과 도면은 쓰지 않아요. 출처는 페이지 안에 링크로 남겨요.</p></div>
+    <div class="box"><h3>어떻게 검사했는지</h3><p>사람의 검토 없이 끝까지 돌아가기 때문에, 데이터 검사와 화면 검사 두 관문을 통과해야만 결과가 나와요. 공개 전 검증 기록은 <a href="https://github.com/jaythealpha/unfold/blob/main/VALIDATION.md">VALIDATION.md</a>에 있어요.</p></div>
+  </div>
+
+  <h2>설치</h2>
+  <div class="box">
+    <p>Claude Code에서 입력하세요.</p>
+    <pre>/plugin marketplace add jaythealpha/unfold
+/plugin install unfold@unfold</pre>
+    <p style="margin-top:12px">그다음 "갤럭시 S25 울트라가 어떻게 조립되는지 보여줘"처럼 말하면 돼요. Node 18 이상이 필요하고, 화면 검사에는 Node 22와 Chrome이 필요해요.</p>
+  </div>
+
+  <h2>틀린 곳을 알려 주세요</h2>
+  <div class="cols">
+    <a class="box" style="text-decoration:none" href="https://github.com/jaythealpha/unfold/issues/new?template=1-wrong-part.yml"><h3>부품이 틀렸어요 →</h3><p>부품, 순서, 고정 방식이 실제와 다른 곳</p></a>
+    <a class="box" style="text-decoration:none" href="https://github.com/jaythealpha/unfold/issues/new?template=2-my-model.yml"><h3>이걸로 만들어 봤어요 →</h3><p>직접 만든 결과, 잘 된 점과 이상한 점</p></a>
+  </div>
+
+  <h2 lang="en">In English</h2>
+  <div class="box" lang="en"><p>Unfold is a Claude Code skill. Name a phone and Claude researches public teardown and repair data, writes an assembly model, checks it with two automatic gates and delivers one offline HTML page: drag the bar and the phone comes apart and goes back together in the real order. Every part is marked sourced or estimated. The example pages switch to English with the EN button. Install with <code>/plugin marketplace add jaythealpha/unfold</code> and <code>/plugin install unfold@unfold</code>.</p></div>
+
+  <footer>
+    <p>제조사와 관계없는 비공식 일러스트예요. Galaxy, iPhone 등 제품명과 상표는 각 소유자의 것이에요. 수리나 제조의 근거로 쓰지 마세요.</p>
+    <p>Made with Claude Code · MIT licence · three.js (MIT)</p>
+  </footer>
+</main>
+<script>
+const hero = document.getElementById('hero'), cover = hero.querySelector('.cover');
+const go = () => { hero.innerHTML = '<iframe title="갤럭시 Z 폴드8 예제" src="examples/galaxy-z-fold8.html?play=1" allow="fullscreen"></iframe>'; };
+cover.addEventListener('click', go);
+cover.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); } });
+</script>
+</body>
+</html>

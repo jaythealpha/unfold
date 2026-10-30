@@ -1,0 +1,38 @@
+name: 부품이 틀렸어요 / Wrong part
+description: 예제나 내가 만든 페이지에서 부품, 순서, 고정 방식이 실제와 다른 곳을 알려 주세요.
+title: "[부품] "
+labels: ["accuracy"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        고쳐 주셔서 고마워요. 근거가 있으면 링크로만 남겨 주세요. 다른 사이트의 사진이나 글을 그대로 붙이지는 말아 주세요.
+        Thanks for the correction. Please link to evidence rather than pasting photos or text from other sites.
+  - type: input
+    id: model
+    attributes:
+      label: 모델 / Model
+      placeholder: 예) Galaxy Z Fold8
+    validations: { required: true }
+  - type: input
+    id: part
+    attributes:
+      label: 부품 또는 단계 / Part or step
+      description: 페이지에서 부품을 누르면 이름이 보여요. 그 이름을 적어 주세요.
+      placeholder: 예) 배터리 (battery-a), 12단계
+    validations: { required: true }
+  - type: textarea
+    id: wrong
+    attributes:
+      label: 무엇이 다른가요 / What is different
+      placeholder: 예) 배터리는 접착이 아니라 당김 탭으로 고정돼요.
+    validations: { required: true }
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 근거 링크 / Evidence (links)
+  - type: dropdown
+    id: who
+    attributes:
+      label: 어떻게 아시나요 / How do you know
+      options: ["직접 분해·수리해 봤어요 / I repair or open these", "공개 자료를 봤어요 / Public sources", "추측이에요 / A guess"]

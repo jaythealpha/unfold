@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 데모 보기 / Live demo
+    url: https://jaythealpha.github.io/unfold/
+    about: 설치 없이 예제 다섯 개를 바로 열어 볼 수 있어요.

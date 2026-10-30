@@ -1,0 +1,14 @@
+{
+  "name": "unfold",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Unfold: drag a 0-100 time bar and watch a real product assemble from its parts.",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    "./*": "./engine/*"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}

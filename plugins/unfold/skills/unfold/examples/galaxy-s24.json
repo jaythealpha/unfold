@@ -1,0 +1,2747 @@
+{
+ "product": {
+  "maker": "Samsung Electronics",
+  "modelCodes": [
+   "SM-S921B",
+   "SM-S921B/DS",
+   "SM-S921U",
+   "SM-S921U1",
+   "SM-S921W",
+   "SM-S921N",
+   "SM-S9210",
+   "SM-S921E",
+   "SM-S921E/DS"
+  ],
+  "dims": {
+   "w": 70.6,
+   "l": 147,
+   "t": 7.6
+  },
+  "weight_g": 167,
+  "battery_mAh": 4000,
+  "display_in": 6.2,
+  "notes": "167 g (Sub6) / 168 g (mmWave) per Samsung press specs. 4000 mAh typical, 3880 mAh rated. 6.2 in full rectangle (6.0 in with rounded corners), 2340x1080 Dynamic AMOLED 2X. Rear: 50 MP f/1.8 main (OIS), 10 MP f/2.4 3x telephoto (OIS), 12 MP f/2.2 ultrawide; front 12 MP f/2.2. Armor Aluminum frame, Gorilla Glass Victus 2 front and back. Coordinates: screen down, viewed from back; x=0 at left edge seen from back (the side-key side), y=0 at USB-C end, z=0 at front glass.",
+  "name": {
+   "ko": "갤럭시 S24",
+   "en": "Galaxy S24"
+  },
+  "kind": "phone"
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "title": "Samsung Philippines - Galaxy S24 | S24+ specifications",
+   "url": "https://www.samsung.com/ph/smartphones/galaxy-s24/specs/",
+   "covers": "Official dimensions 147.0x70.6x7.6 mm, 167 g, 4000 mAh, 6.2 in display, camera MP/apertures, materials"
+  },
+  {
+   "id": "s2",
+   "title": "GSMArena - Samsung Galaxy S24 full specifications",
+   "url": "https://www.gsmarena.com/samsung_galaxy_s24-12773.php",
+   "covers": "Cross-check of dimensions, weight, 15 W Qi wireless charging, model codes, camera focal lengths"
+  },
+  {
+   "id": "s3",
+   "title": "iFixit - Samsung Galaxy S24 device page",
+   "url": "https://www.ifixit.com/Device/Samsung_Galaxy_S24",
+   "covers": "Model code list (SM-S921x), list of available repair guides; no full teardown exists on iFixit"
+  },
+  {
+   "id": "s4",
+   "title": "iFixit - Galaxy S24 Back Cover Replacement",
+   "url": "https://www.ifixit.com/Guide/Samsung+Galaxy+S24+Back+Cover+Replacement/175059",
+   "covers": "Back cover is glued on all four edges plus a spot above the flash cutout; heat-and-pick removal"
+  },
+  {
+   "id": "s5",
+   "title": "iFixit - Galaxy S24 Motherboard Replacement",
+   "url": "https://www.ifixit.com/Guide/Samsung+Galaxy+S24+Motherboard+Replacement/175127",
+   "covers": "Removal order down to motherboard; 13 + 5 + 2 screw counts; connector names/locations; rear cameras ride on the motherboard; ultrawide held by two metal pegs"
+  },
+  {
+   "id": "s6",
+   "title": "iFixit - Galaxy S24 USB-C Port and Daughterboard Replacement",
+   "url": "https://www.ifixit.com/Guide/Samsung+Galaxy+S24+USB-C+Port+and+Daughterboard+Replacement/175097",
+   "covers": "Coil and loudspeaker come out as one assembly; USB-C soldered to daughterboard; daughterboard screws (states 3 x 3.4 mm); two interconnect cables labelled SUB"
+  },
+  {
+   "id": "s7",
+   "title": "iFixit - Galaxy S24 Screen Replacement",
+   "url": "https://www.ifixit.com/Guide/Samsung+Galaxy+S24+Screen+Replacement/175579",
+   "covers": "Display separates from the frame toward the front (adhesive); separate display cable from bottom-left to the motherboard"
+  },
+  {
+   "id": "s8",
+   "title": "iFixit - Galaxy S24 Battery Replacement (pull tab)",
+   "url": "https://www.ifixit.com/Guide/Samsung+Galaxy+S24+Battery+Replacement/175612",
+   "covers": "Battery held by pull-tab adhesive film peeled toward the left edge; mmWave and battery cables bent up before removal"
+  },
+  {
+   "id": "s9",
+   "title": "iFixit - Galaxy S24 Screen and Battery Assembly Replacement",
+   "url": "https://www.ifixit.com/Guide/Samsung+Galaxy+S24+Screen+and+Battery+Assembly+Replacement/175577",
+   "covers": "Deepest documented disassembly: full order, 24 screws total (3.5/3.4/2.5 mm), SIM tray at bottom, front camera glued in a frame recess, unnamed antenna on conductive tape, mmWave antenna + bracket, daughterboard; residual part = screen + battery + frame"
+  },
+  {
+   "id": "s10",
+   "title": "iFixit - Galaxy S24 Earpiece Speaker Replacement",
+   "url": "https://www.ifixit.com/Guide/Samsung+Galaxy+S24+Earpiece+Speaker+Replacement/175126",
+   "covers": "Earpiece speaker assembly: 5 x 3.5 mm screws, connector pried from its left side"
+  },
+  {
+   "id": "s11",
+   "title": "iFixit - Galaxy S24 Front Camera Replacement",
+   "url": "https://www.ifixit.com/Guide/Samsung+Galaxy+S24+Front+Camera+Replacement/175146",
+   "covers": "Front camera reachable after earpiece removal; held by strong adhesive/epoxy in a frame recess; press connector"
+  },
+  {
+   "id": "s12",
+   "title": "iFixit - Galaxy S24 Rear Cameras Replacement",
+   "url": "https://www.ifixit.com/Guide/Samsung+Galaxy+S24+Rear+Cameras+Replacement/175125",
+   "covers": "Three rear camera modules each on a press connector; removed from the motherboard after it is lifted out"
+  },
+  {
+   "id": "s13",
+   "title": "iFixit - Galaxy S24 Battery Replacement (alternate, community guide)",
+   "url": "https://www.ifixit.com/Guide/Samsung+Galaxy+S24+Battery+Replacement/200645",
+   "covers": "Conflicting account: says 8 coil screws and glued battery; treated as low-confidence"
+  },
+  {
+   "id": "s14",
+   "title": "GSMArena - Samsung Galaxy S24 teardown results in 9/10 reparability score (PBKreviews video)",
+   "url": "https://www.gsmarena.com/samsung_galaxy_s24_teardown_results_in_9_10_reparability_score-news-61408.php",
+   "covers": "Dual-layer (stacked) mainboard, vapor chamber about twice the S23's, front camera glued, battery pull tab, individually replaceable rear lens covers, no UWB antenna on base S24"
+  },
+  {
+   "id": "s15",
+   "title": "SamMobile - Galaxy S24 teardown video shows how easy repair is",
+   "url": "https://www.sammobile.com/news/galaxy-s24-teardown-video-shows-how-easy-repair/",
+   "covers": "Battery on adhesive with pull tab; back panel glued; most internals screwed rather than glued"
+  },
+  {
+   "id": "s16",
+   "title": "Samsung Mobile Press - Galaxy S24 tech specs (seen via search snippet only)",
+   "url": "https://www.samsungmobilepress.com/media-assets/galaxy-s24?tab=specs",
+   "covers": "Weight 167 g Sub6 / 168 g mmWave; rated battery 3880 mAh. Page did not render on fetch, so this is from a search-result summary"
+  }
+ ],
+ "parts": [
+  {
+   "id": "frame",
+   "name_en": "Armor Aluminum frame / midframe (front housing body)",
+   "name_ko": "아머 알루미늄 프레임(미드프레임)",
+   "category": "housing",
+   "count": 1,
+   "bbox": [
+    0,
+    0,
+    0,
+    70.6,
+    147,
+    7
+   ],
+   "attachedTo": "display",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "step": 1,
+   "sourceIds": [
+    "s1",
+    "s9"
+   ],
+   "confidence": "verified",
+   "shape": {
+    "template": "housing",
+    "r": 8.5,
+    "wall": 1.4,
+    "floorAt": [
+     1.3,
+     2
+    ],
+    "floorMat": "metal",
+    "screen": false,
+    "colors": {
+     "alu": "#b4b1dc"
+    },
+    "holes": [
+     [
+      13.5,
+      119.5,
+      15,
+      41,
+      2
+     ]
+    ],
+    "bands": [
+     [
+      "x0",
+      18
+     ],
+     [
+      "x0",
+      129
+     ],
+     [
+      "x1",
+      18
+     ],
+     [
+      "x1",
+      129
+     ],
+     [
+      "y0",
+      15
+     ],
+     [
+      "y0",
+      55
+     ],
+     [
+      "y1",
+      16
+     ],
+     [
+      "y1",
+      55
+     ]
+    ]
+   },
+   "shapeNote": "full-size rounded rect 70.6x147 aluminum side rails with an internal midplate (~z 1.3-2.0) carrying a battery bay, camera holes at upper left and a recess for the front camera at top centre",
+   "notes": "Base part. Samsung/iFixit sell 'screen and battery assembly' = frame + display + battery as one unit (s9). Container part: other parts sit inside its bbox. Rail height and midplate z are estimated.",
+   "key": true,
+   "desc": {
+    "ko": "알루미늄 프레임과 중간판. 디스플레이를 앞에 붙이고, 나머지 부품을 뒤에서 차례로 얹어요.",
+    "en": "Aluminium frame with its midplate. The display bonds to the front; everything else goes in from the back."
+   }
+  },
+  {
+   "id": "display",
+   "name_en": "Display assembly (Gorilla Glass Victus 2 + Dynamic AMOLED 2X panel)",
+   "name_ko": "디스플레이 어셈블리(전면 유리+AMOLED 패널)",
+   "category": "display",
+   "count": 1,
+   "bbox": [
+    0.35,
+    0.35,
+    0,
+    70.25,
+    146.65,
+    1.3
+   ],
+   "fastening": null,
+   "step": 1,
+   "sourceIds": [
+    "s1",
+    "s7"
+   ],
+   "confidence": "verified",
+   "shape": {
+    "template": "display",
+    "r": 8,
+    "bezel": 1.3,
+    "hole": [
+     35.3,
+     140.2,
+     1.6
+    ]
+   },
+   "shapeNote": "flat rounded rect ~69.9x146.3 with a centred punch hole near the top edge and a flex tail folded behind the panel at the bottom",
+   "notes": "Separates from the frame toward the front after heating (s7). Panel thickness (1.3 mm) is estimated.",
+   "key": true,
+   "desc": {
+    "ko": "6.2인치 디스플레이. 앞면 유리와 패널이 한 덩어리로 붙어 있어요.",
+    "en": "6.2-inch display: cover glass and panel bonded as one unit."
+   },
+   "attachedTo": null
+  },
+  {
+   "id": "display-adhesive",
+   "name_en": "Display-to-frame adhesive",
+   "name_ko": "디스플레이 접착제",
+   "category": "adhesive",
+   "count": 1,
+   "bbox": [
+    0.35,
+    0.35,
+    1.3,
+    70.25,
+    146.65,
+    1.4
+   ],
+   "attachedTo": "display",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "step": 1,
+   "sourceIds": [
+    "s7"
+   ],
+   "confidence": "verified",
+   "shape": {
+    "template": "adhesive",
+    "r": 8,
+    "ring": 1.6
+   },
+   "shapeNote": "thin perimeter ring under the display edge",
+   "notes": "Exists per s7 (replacement adhesive listed); exact outline estimated."
+  },
+  {
+   "id": "display-flex-connector",
+   "name_en": "Display panel flex connector (left of daughterboard)",
+   "name_ko": "디스플레이 FPCB 커넥터",
+   "category": "connector",
+   "count": 1,
+   "bbox": [
+    18,
+    12,
+    2,
+    23.5,
+    18,
+    2.6
+   ],
+   "attachedTo": "display",
+   "fastening": {
+    "type": "press-connector"
+   },
+   "step": 1,
+   "sourceIds": [
+    "s5",
+    "s7"
+   ],
+   "confidence": "verified",
+   "shape": {
+    "template": "connector"
+   },
+   "shapeNote": "small rectangular press-connector at the end of the display flex tail coming through the midplate",
+   "notes": "s5/s7 place it at the bottom-left, just left of the daughterboard; xy estimated."
+  },
+  {
+   "id": "vapor-chamber",
+   "name_en": "Vapor chamber (heat spreader)",
+   "name_ko": "베이퍼 챔버",
+   "category": "thermal",
+   "count": 1,
+   "bbox": [
+    24,
+    97,
+    1.4,
+    62,
+    133,
+    2
+   ],
+   "attachedTo": "frame",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "step": 1,
+   "sourceIds": [
+    "s14"
+   ],
+   "confidence": "estimated",
+   "shape": {
+    "template": "plate",
+    "r": 2,
+    "mat": "copper"
+   },
+   "shapeNote": "thin flat copper plate under the motherboard area",
+   "notes": "s14 confirms a VC about twice the S23's area but gives no outline; position under the SoC area and size are guesses. Not removed in any iFixit guide, so treated as part of the front housing."
+  },
+  {
+   "id": "power-key",
+   "name_en": "Side (power) key",
+   "name_ko": "측면(전원) 버튼",
+   "category": "button",
+   "count": 1,
+   "bbox": [
+    0,
+    89,
+    2.6,
+    1.4,
+    97,
+    5
+   ],
+   "attachedTo": "frame",
+   "fastening": {
+    "type": "clip"
+   },
+   "step": 1,
+   "confidence": "estimated",
+   "shape": {
+    "template": "button",
+    "r": 0.6,
+    "colors": {
+     "alu": "#b4b1dc"
+    }
+   },
+   "shapeNote": "short pill-shaped key in the side rail",
+   "notes": "Keys are on the right side seen from the front, i.e. x=0 seen from the back. Not covered by any guide; y positions estimated."
+  },
+  {
+   "id": "volume-key",
+   "name_en": "Volume key",
+   "name_ko": "볼륨 버튼",
+   "category": "button",
+   "count": 1,
+   "bbox": [
+    0,
+    103,
+    2.6,
+    1.4,
+    123,
+    5
+   ],
+   "attachedTo": "frame",
+   "fastening": {
+    "type": "clip"
+   },
+   "step": 1,
+   "confidence": "estimated",
+   "shape": {
+    "template": "button",
+    "r": 0.6,
+    "colors": {
+     "alu": "#b4b1dc"
+    }
+   },
+   "shapeNote": "long pill-shaped rocker above the power key",
+   "notes": "Not covered by guides; position estimated."
+  },
+  {
+   "id": "vibration-motor",
+   "name_en": "Vibration motor (linear actuator)",
+   "name_ko": "진동 모터",
+   "category": "haptics",
+   "count": 1,
+   "bbox": [
+    44,
+    17.5,
+    2.8,
+    56.5,
+    25.5,
+    5.6
+   ],
+   "attachedTo": "frame",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "step": 3,
+   "confidence": "estimated",
+   "shape": {
+    "template": "motor",
+    "r": 0.8
+   },
+   "shapeNote": "small rectangular linear motor",
+   "notes": "No S24-specific source gives its position. Not removed in s9, so it is assumed to stay in the front housing near the bottom. Treat position as a guess. Placed over the sub board, so it goes in after the sub board (estimated position)."
+  },
+  {
+   "id": "battery-adhesive",
+   "name_en": "Battery pull-tab adhesive film",
+   "name_ko": "배터리 풀탭 접착 필름",
+   "category": "adhesive",
+   "count": 1,
+   "bbox": [
+    6,
+    28,
+    1.55,
+    64.5,
+    92,
+    1.7
+   ],
+   "attachedTo": "frame",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "step": 2,
+   "sourceIds": [
+    "s8",
+    "s15"
+   ],
+   "confidence": "verified",
+   "shape": {
+    "template": "adhesive",
+    "r": 2
+   },
+   "shapeNote": "thin film under the battery with a blue pull tab exiting at the left edge (seen from back)",
+   "notes": "Peel tab toward left edge (s8). Outline estimated."
+  },
+  {
+   "id": "battery",
+   "name_en": "Battery 4000 mAh (3880 mAh rated)",
+   "name_ko": "배터리 4000mAh",
+   "category": "battery",
+   "count": 1,
+   "bbox": [
+    5.3,
+    26,
+    1.7,
+    65.3,
+    94,
+    6.6
+   ],
+   "attachedTo": "frame",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "step": 2,
+   "sourceIds": [
+    "s1",
+    "s8",
+    "s16"
+   ],
+   "confidence": "estimated",
+   "shape": {
+    "template": "battery",
+    "r": 3,
+    "color": "#2e3136",
+    "colors": {
+     "label": "#d6dae0"
+    }
+   },
+   "shapeNote": "rounded rect ~60x68x4.9 pouch cell, flex tail at top edge toward the motherboard",
+   "notes": "Capacity verified (s1, s16). Outline and placement between the bottom module and the motherboard are estimated to fit the z budget.",
+   "key": true,
+   "desc": {
+    "ko": "4,000mAh 배터리. 당김 탭이 달린 접착 필름 위에 놓여요.",
+    "en": "4,000 mAh battery, seated on a pull-tab adhesive film."
+   }
+  },
+  {
+   "id": "daughterboard",
+   "name_en": "Daughterboard (sub PCB)",
+   "name_ko": "서브 보드(도터보드)",
+   "category": "board",
+   "count": 1,
+   "bbox": [
+    24,
+    8.6,
+    2,
+    64,
+    24,
+    2.8
+   ],
+   "attachedTo": "frame",
+   "fastening": {
+    "type": "screw",
+    "spec": "Phillips #0, 3.4 mm",
+    "count": 3
+   },
+   "step": 3,
+   "sourceIds": [
+    "s6",
+    "s9"
+   ],
+   "confidence": "verified",
+   "shape": {
+    "template": "pcb",
+    "r": 1,
+    "chips": [
+     [
+      26,
+      15,
+      34,
+      22,
+      0.45,
+      "#25272b"
+     ]
+    ],
+    "passives": 40
+   },
+   "shapeNote": "wide rectangular PCB across the bottom, USB-C at its lower centre, SIM reader on the right",
+   "notes": "Existence, screws and removal verified; outline estimated. Unclips from the frame at its top-right corner (s9).",
+   "key": true,
+   "desc": {
+    "ko": "USB-C 포트와 SIM 리더가 있는 보조 보드. 케이블 두 가닥으로 메인보드와 이어져요.",
+    "en": "Sub board with the USB-C port and SIM reader, linked to the main board by two cables."
+   }
+  },
+  {
+   "id": "usb-c-port",
+   "name_en": "USB-C port",
+   "name_ko": "USB-C 포트",
+   "category": "port",
+   "count": 1,
+   "bbox": [
+    30.8,
+    1.2,
+    2.4,
+    39.8,
+    8.5,
+    5.6
+   ],
+   "attachedTo": "daughterboard",
+   "fastening": {
+    "type": "solder"
+   },
+   "step": 3,
+   "sourceIds": [
+    "s6"
+   ],
+   "confidence": "verified",
+   "shape": {
+    "template": "port",
+    "r": 1.2
+   },
+   "shapeNote": "USB-C receptacle 9x7.3x3.2, centred on the bottom edge",
+   "notes": "Soldered to the daughterboard (s6). Centred x is standard; size estimated.",
+   "passesThrough": [
+    "frame"
+   ]
+  },
+  {
+   "id": "sim-reader",
+   "name_en": "SIM card reader",
+   "name_ko": "SIM 리더",
+   "category": "sim",
+   "count": 1,
+   "bbox": [
+    44,
+    8.6,
+    2.8,
+    57,
+    17,
+    5
+   ],
+   "attachedTo": "daughterboard",
+   "fastening": {
+    "type": "solder"
+   },
+   "step": 3,
+   "confidence": "estimated",
+   "shape": {
+    "template": "shield",
+    "r": 0.5
+   },
+   "shapeNote": "small metal cage on the daughterboard",
+   "notes": "Assumed on the daughterboard right side (seen from back), behind the SIM slot. Not described by sources."
+  },
+  {
+   "id": "bottom-mic",
+   "name_en": "Bottom microphone",
+   "name_ko": "하단 마이크",
+   "category": "audio",
+   "count": 1,
+   "bbox": [
+    40.5,
+    9,
+    2.8,
+    43,
+    11.5,
+    3.6
+   ],
+   "attachedTo": "daughterboard",
+   "fastening": {
+    "type": "solder"
+   },
+   "step": 3,
+   "confidence": "estimated",
+   "shape": {
+    "template": "box",
+    "r": 0.3,
+    "mat": "black"
+   },
+   "shapeNote": "tiny MEMS mic next to the USB-C port",
+   "notes": "Not described by any source; typical location."
+  },
+  {
+   "id": "conn-sub-interconnect",
+   "name_en": "Daughterboard interconnect connectors ('SUB')",
+   "name_ko": "서브보드 인터커넥트 커넥터",
+   "category": "connector",
+   "count": 2,
+   "bbox": [
+    58,
+    15,
+    2.8,
+    64,
+    22,
+    3.4
+   ],
+   "attachedTo": "daughterboard",
+   "fastening": {
+    "type": "solder"
+   },
+   "step": 3,
+   "sourceIds": [
+    "s6",
+    "s9"
+   ],
+   "confidence": "verified",
+   "shape": {
+    "template": "connector",
+    "units": [
+     [
+      58,
+      15,
+      60.6,
+      22
+     ],
+     [
+      61.4,
+      15,
+      64,
+      22
+     ]
+    ]
+   },
+   "shapeNote": "two small press-connectors side by side",
+   "notes": "Two connectors (s6, s9); location on the right of the board estimated."
+  },
+  {
+   "id": "screws-daughterboard",
+   "name_en": "Daughterboard screws",
+   "name_ko": "서브보드 나사",
+   "category": "fastener",
+   "count": 3,
+   "bbox": [
+    25,
+    9,
+    2,
+    63,
+    23,
+    3.4
+   ],
+   "attachedTo": "frame",
+   "fastening": {
+    "type": "screw",
+    "spec": "Phillips #0, 3.4 mm",
+    "count": 3
+   },
+   "step": 3,
+   "sourceIds": [
+    "s6"
+   ],
+   "confidence": "verified",
+   "shape": {
+    "template": "screw",
+    "head": 2,
+    "positions": [
+     [
+      26.5,
+      10.5
+     ],
+     [
+      61.5,
+      21.5
+     ],
+     [
+      61.5,
+      10.5
+     ]
+    ]
+   },
+   "shapeNote": "Phillips screws spread around the board",
+   "notes": "Three 3.4 mm Phillips screws per s6 (step 25); s9 shows two. s6 is followed. Positions estimated.",
+   "path": "screw"
+  },
+  {
+   "id": "mmwave-antenna",
+   "name_en": "5G mmWave antenna module (mmWave models only)",
+   "name_ko": "5G mmWave 안테나 모듈",
+   "category": "antenna",
+   "count": 1,
+   "bbox": [
+    65.3,
+    100,
+    1.5,
+    69.2,
+    122,
+    5.4
+   ],
+   "attachedTo": "frame",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "step": 4,
+   "sourceIds": [
+    "s9",
+    "s5"
+   ],
+   "confidence": "verified",
+   "shape": {
+    "template": "box",
+    "r": 0.5,
+    "mat": "black"
+   },
+   "shapeNote": "slim rectangular module standing beside the right rail",
+   "notes": "In a frame recess with adhesive, connector on the right edge of the motherboard (s5, s9). Only on mmWave SKUs (e.g. SM-S921U). xy estimated."
+  },
+  {
+   "id": "mmwave-bracket",
+   "name_en": "mmWave antenna bracket",
+   "name_ko": "mmWave 안테나 브래킷",
+   "category": "bracket",
+   "count": 1,
+   "bbox": [
+    65,
+    99,
+    5.5,
+    69.3,
+    123,
+    6.3
+   ],
+   "attachedTo": "frame",
+   "fastening": {
+    "type": "screw",
+    "spec": "Phillips #0, 2.5 mm",
+    "count": 2
+   },
+   "step": 4,
+   "sourceIds": [
+    "s9"
+   ],
+   "confidence": "verified",
+   "shape": {
+    "template": "plate",
+    "r": 0.6
+   },
+   "shapeNote": "thin metal strip bracket over the antenna module",
+   "notes": "Lifted out of its recess via the bottom screw hole (s9). Size estimated."
+  },
+  {
+   "id": "screws-mmwave",
+   "name_en": "mmWave bracket screws",
+   "name_ko": "mmWave 브래킷 나사",
+   "category": "fastener",
+   "count": 2,
+   "bbox": [
+    65.5,
+    99.5,
+    5.5,
+    69,
+    122.5,
+    6.5
+   ],
+   "attachedTo": "mmwave-bracket",
+   "fastening": {
+    "type": "screw",
+    "spec": "Phillips #0, 2.5 mm",
+    "count": 2
+   },
+   "step": 4,
+   "sourceIds": [
+    "s9"
+   ],
+   "confidence": "verified",
+   "shape": {
+    "template": "screw",
+    "head": 2,
+    "positions": [
+     [
+      67.25,
+      101
+     ],
+     [
+      67.25,
+      121
+     ]
+    ]
+   },
+   "shapeNote": "two screws at the ends of the bracket",
+   "path": "screw"
+  },
+  {
+   "id": "mmwave-cable",
+   "name_en": "5G mmWave cable (from motherboard bottom-left edge)",
+   "name_ko": "5G mmWave 케이블",
+   "category": "flex",
+   "count": 1,
+   "bbox": [
+    2.5,
+    13.7,
+    2.5,
+    30.3,
+    98.8,
+    6.9
+   ],
+   "attachedTo": "frame",
+   "fastening": {
+    "type": "press-connector"
+   },
+   "step": 4,
+   "sourceIds": [
+    "s5",
+    "s8"
+   ],
+   "confidence": "estimated",
+   "shape": {
+    "template": "flex",
+    "width": 1.6,
+    "path": [
+     [
+      29.5,
+      98,
+      6.2
+     ],
+     [
+      27,
+      95.3,
+      6.2
+     ],
+     [
+      3.3,
+      94.8,
+      2.6
+     ],
+     [
+      3.3,
+      20,
+      2.6
+     ],
+     [
+      8,
+      14.5,
+      2.6
+     ]
+    ]
+   },
+   "shapeNote": "long narrow flex routed along the left rail (route guessed)",
+   "notes": "s5 disconnects a '5G mmWave' connector on the motherboard bottom-left edge; s8 bends it up but no guide removes it. Its far end and routing are undocumented."
+  },
+  {
+   "id": "antenna-conductive-tape",
+   "name_en": "Conductive tape under the antenna",
+   "name_ko": "안테나 하부 도전 테이프",
+   "category": "adhesive",
+   "count": 1,
+   "bbox": [
+    42,
+    135,
+    1.9,
+    65,
+    145.6,
+    2
+   ],
+   "attachedTo": "frame",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "step": 5,
+   "sourceIds": [
+    "s9"
+   ],
+   "confidence": "verified",
+   "shape": {
+    "template": "adhesive",
+    "r": 0.5,
+    "mat": "metal"
+   },
+   "shapeNote": "thin conductive tape strip",
+   "notes": "s9 notes conductive tape under the antenna may need transfer. Position follows the antenna estimate."
+  },
+  {
+   "id": "antenna-top",
+   "name_en": "Antenna module (unnamed in source)",
+   "name_ko": "안테나 모듈(명칭 미상)",
+   "category": "antenna",
+   "count": 1,
+   "bbox": [
+    42,
+    135,
+    2,
+    65,
+    145.6,
+    3
+   ],
+   "attachedTo": "frame",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "step": 5,
+   "sourceIds": [
+    "s9"
+   ],
+   "confidence": "estimated",
+   "shape": {
+    "template": "box",
+    "r": 0.6,
+    "mat": "black"
+   },
+   "shapeNote": "small flat antenna carrier pried from a notch at its bottom edge",
+   "notes": "s9 removes an unnamed antenna (adhesive + conductive tape) after the front camera. Its location is not stated. Placed at top right as a guess."
+  },
+  {
+   "id": "front-camera-adhesive",
+   "name_en": "Front camera adhesive/epoxy",
+   "name_ko": "전면 카메라 접착제",
+   "category": "adhesive",
+   "count": 1,
+   "bbox": [
+    31.2,
+    136,
+    1.3,
+    39.4,
+    144.5,
+    1.4
+   ],
+   "attachedTo": "frame",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "step": 6,
+   "sourceIds": [
+    "s11",
+    "s9"
+   ],
+   "confidence": "verified",
+   "shape": {
+    "template": "adhesive",
+    "r": 1,
+    "ring": 1.2
+   },
+   "shapeNote": "small ring of strong adhesive in the frame recess"
+  },
+  {
+   "id": "front-camera",
+   "name_en": "Front camera 12 MP",
+   "name_ko": "전면 카메라 12MP",
+   "category": "camera",
+   "count": 1,
+   "bbox": [
+    31.2,
+    136,
+    1.4,
+    39.4,
+    144.5,
+    5
+   ],
+   "attachedTo": "frame",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "step": 6,
+   "sourceIds": [
+    "s1",
+    "s11",
+    "s14"
+   ],
+   "confidence": "verified",
+   "shape": {
+    "template": "camera",
+    "r": 0.8,
+    "barrel": 0.8,
+    "lenses": [
+     [
+      35.3,
+      140.2,
+      2.2
+     ]
+    ]
+   },
+   "shapeNote": "small square module behind the centred punch hole with a flex to the motherboard",
+   "notes": "Glued in a frame recess, heat 90 s to remove (s9, s11). Punch hole is centred (x=35.3); module size estimated."
+  },
+  {
+   "id": "camera-telephoto",
+   "name_en": "Telephoto camera 10 MP 3x (OIS)",
+   "name_ko": "망원 카메라 10MP 3배",
+   "category": "camera",
+   "count": 1,
+   "bbox": [
+    8,
+    100,
+    1.4,
+    19,
+    112,
+    6.9
+   ],
+   "attachedTo": "motherboard",
+   "fastening": {
+    "type": "press-connector"
+   },
+   "step": 7,
+   "sourceIds": [
+    "s1",
+    "s5",
+    "s12"
+   ],
+   "confidence": "estimated",
+   "shape": {
+    "template": "camera",
+    "r": 1,
+    "lenses": [
+     [
+      13.5,
+      106,
+      3.4
+     ]
+    ]
+   },
+   "shapeNote": "rectangular OIS module, bottom of the vertical camera column",
+   "notes": "Existence and press connector verified. The top-to-bottom order (ultrawide, main, telephoto) is from the phone's exterior and is not stated by iFixit. Module sizes estimated.",
+   "passesThrough": [
+    "frame"
+   ]
+  },
+  {
+   "id": "camera-main",
+   "name_en": "Main camera 50 MP (OIS)",
+   "name_ko": "메인 카메라 50MP",
+   "category": "camera",
+   "count": 1,
+   "bbox": [
+    6.5,
+    113,
+    1.4,
+    20.5,
+    127,
+    6.9
+   ],
+   "attachedTo": "motherboard",
+   "fastening": {
+    "type": "press-connector"
+   },
+   "step": 7,
+   "sourceIds": [
+    "s1",
+    "s5",
+    "s12"
+   ],
+   "confidence": "estimated",
+   "shape": {
+    "template": "camera",
+    "r": 1,
+    "lenses": [
+     [
+      13.5,
+      120,
+      4.6
+     ]
+    ]
+   },
+   "shapeNote": "largest square OIS module, middle of the column",
+   "notes": "Lifted off the motherboard after its connector is released (s5).",
+   "passesThrough": [
+    "frame"
+   ],
+   "key": true,
+   "desc": {
+    "ko": "50MP 메인 카메라(광학식 손떨림 보정). 메인보드에 바로 끼워져요.",
+    "en": "50 MP main camera with optical stabilisation, clipped straight onto the main board."
+   }
+  },
+  {
+   "id": "camera-ultrawide",
+   "name_en": "Ultrawide camera 12 MP",
+   "name_ko": "초광각 카메라 12MP",
+   "category": "camera",
+   "count": 1,
+   "bbox": [
+    8.5,
+    129,
+    1.4,
+    18.5,
+    139,
+    6.9
+   ],
+   "attachedTo": "motherboard",
+   "fastening": {
+    "type": "clip",
+    "spec": "two metal pegs into motherboard and main camera, plus press connector"
+   },
+   "step": 7,
+   "sourceIds": [
+    "s5",
+    "s12"
+   ],
+   "confidence": "estimated",
+   "shape": {
+    "template": "camera",
+    "r": 1,
+    "lenses": [
+     [
+      13.5,
+      134,
+      3.2
+     ]
+    ]
+   },
+   "shapeNote": "square module, top of the column, hooked by two metal pegs",
+   "notes": "Peg retention and 45 degree tilt-out verified (s5). Position estimated.",
+   "passesThrough": [
+    "frame"
+   ]
+  },
+  {
+   "id": "conn-rear-cameras",
+   "name_en": "Rear camera connectors",
+   "name_ko": "후면 카메라 커넥터",
+   "category": "connector",
+   "count": 3,
+   "bbox": [
+    22,
+    100,
+    5.6,
+    26,
+    128,
+    6
+   ],
+   "attachedTo": "motherboard",
+   "fastening": {
+    "type": "solder"
+   },
+   "step": 7,
+   "sourceIds": [
+    "s5",
+    "s12"
+   ],
+   "confidence": "estimated",
+   "shape": {
+    "template": "connector",
+    "units": [
+     [
+      22,
+      103,
+      26,
+      108
+     ],
+     [
+      22,
+      115,
+      26,
+      120
+     ],
+     [
+      22,
+      123.5,
+      26,
+      128
+     ]
+    ]
+   },
+   "shapeNote": "three press-connectors along the motherboard's left edge",
+   "notes": "Three press connectors verified; positions estimated."
+  },
+  {
+   "id": "motherboard",
+   "name_en": "Motherboard (dual-layer stacked, Snapdragon 8 Gen 3 / Exynos 2400)",
+   "name_ko": "메인보드(2층 적층)",
+   "category": "board",
+   "count": 1,
+   "bbox": [
+    22,
+    96,
+    2,
+    65,
+    134.5,
+    5.6
+   ],
+   "attachedTo": "frame",
+   "fastening": {
+    "type": "screw",
+    "spec": "Phillips #0, 3.5 mm",
+    "count": 2
+   },
+   "step": 8,
+   "sourceIds": [
+    "s5",
+    "s9",
+    "s14"
+   ],
+   "confidence": "verified",
+   "shape": {
+    "template": "pcb",
+    "r": 1.5,
+    "sandwich": true,
+    "chipH": 1.2,
+    "passives": 120,
+    "chips": [
+     [
+      31,
+      101.5,
+      47,
+      117.5,
+      1,
+      "#b9c0c8"
+     ],
+     [
+      49,
+      101.5,
+      59.5,
+      124,
+      1,
+      "#b9c0c8"
+     ],
+     [
+      31,
+      119.5,
+      47,
+      126.5,
+      0.9,
+      "#b9c0c8"
+     ]
+    ]
+   },
+   "shapeNote": "stacked sandwich PCB filling the upper area right of the camera column, shield cans on both layers",
+   "notes": "Dual-layer per s14. Outline is estimated. Lifted from its top edge (s5).",
+   "key": true,
+   "desc": {
+    "ko": "2층으로 쌓은 메인보드. 프로세서와 메모리가 금속 차폐 캔 아래에 있어요.",
+    "en": "Two-layer stacked main board; processor and memory sit under metal shield cans."
+   }
+  },
+  {
+   "id": "flash-led",
+   "name_en": "Rear flash LED",
+   "name_ko": "후면 플래시 LED",
+   "category": "other",
+   "count": 1,
+   "bbox": [
+    22.5,
+    131,
+    5.7,
+    27.5,
+    136,
+    6.9
+   ],
+   "attachedTo": "motherboard",
+   "fastening": {
+    "type": "solder"
+   },
+   "step": 8,
+   "confidence": "estimated",
+   "shape": {
+    "template": "box",
+    "r": 0.8,
+    "mat": "label"
+   },
+   "shapeNote": "small LED to the right of the top camera",
+   "notes": "s4 confirms a flash cutout near the top edge with adhesive above it; exact position and mounting estimated."
+  },
+  {
+   "id": "top-mic",
+   "name_en": "Top microphone",
+   "name_ko": "상단 마이크",
+   "category": "audio",
+   "count": 1,
+   "bbox": [
+    60,
+    136,
+    3.1,
+    63,
+    139,
+    4.5
+   ],
+   "attachedTo": "motherboard",
+   "fastening": {
+    "type": "solder"
+   },
+   "step": 8,
+   "confidence": "estimated",
+   "shape": {
+    "template": "box",
+    "r": 0.3,
+    "mat": "black"
+   },
+   "shapeNote": "tiny MEMS mic near the top edge",
+   "notes": "Not described by any source."
+  },
+  {
+   "id": "screws-motherboard",
+   "name_en": "Motherboard / rear-camera screws",
+   "name_ko": "메인보드·후면 카메라 나사",
+   "category": "fastener",
+   "count": 2,
+   "bbox": [
+    21,
+    112,
+    5,
+    30,
+    130,
+    6.2
+   ],
+   "attachedTo": "frame",
+   "fastening": {
+    "type": "screw",
+    "spec": "Phillips #0, 3.5 mm",
+    "count": 2
+   },
+   "step": 8,
+   "sourceIds": [
+    "s9",
+    "s5"
+   ],
+   "confidence": "verified",
+   "shape": {
+    "template": "screw",
+    "head": 2,
+    "positions": [
+     [
+      28.5,
+      110
+     ],
+     [
+      28.5,
+      128.5
+     ]
+    ]
+   },
+   "shapeNote": "two screws near the camera column",
+   "notes": "3.5 mm per s5 (the motherboard guide); s9 lists 3.4 mm. Count (2) agrees. Positions estimated.",
+   "path": "screw",
+   "desc": {
+    "ko": "후면 카메라 브래킷을 지나 메인보드까지 박히는 나사 두 개.",
+    "en": "Two screws that pass through the rear camera bracket into the main board."
+   }
+  },
+  {
+   "id": "conn-battery",
+   "name_en": "Battery connector (on motherboard)",
+   "name_ko": "배터리 커넥터",
+   "category": "connector",
+   "count": 1,
+   "bbox": [
+    40,
+    96.5,
+    5.6,
+    46,
+    99.5,
+    6
+   ],
+   "attachedTo": "motherboard",
+   "fastening": {
+    "type": "solder"
+   },
+   "step": 8,
+   "sourceIds": [
+    "s5",
+    "s8"
+   ],
+   "confidence": "estimated",
+   "shape": {
+    "template": "connector"
+   },
+   "shapeNote": "board-mounted press (board-to-board) connector receptacle",
+   "notes": "Existence verified by the listed guides. 'verified' entries also have a stated location (edge/corner); exact xy is still approximate."
+  },
+  {
+   "id": "conn-display-board",
+   "name_en": "Display cable connector (motherboard bottom-left)",
+   "name_ko": "디스플레이 케이블 커넥터(메인)",
+   "category": "connector",
+   "count": 1,
+   "bbox": [
+    22.5,
+    96.5,
+    5.6,
+    27,
+    99.5,
+    6
+   ],
+   "attachedTo": "motherboard",
+   "fastening": {
+    "type": "solder"
+   },
+   "step": 8,
+   "sourceIds": [
+    "s5"
+   ],
+   "confidence": "verified",
+   "shape": {
+    "template": "connector"
+   },
+   "shapeNote": "board-mounted press (board-to-board) connector receptacle",
+   "notes": "Existence verified by the listed guides. 'verified' entries also have a stated location (edge/corner); exact xy is still approximate."
+  },
+  {
+   "id": "conn-mmwave-cable-board",
+   "name_en": "5G mmWave cable connector (motherboard bottom-left)",
+   "name_ko": "mmWave 케이블 커넥터",
+   "category": "connector",
+   "count": 1,
+   "bbox": [
+    27.5,
+    96.5,
+    5.6,
+    31.5,
+    99.5,
+    6
+   ],
+   "attachedTo": "motherboard",
+   "fastening": {
+    "type": "solder"
+   },
+   "step": 8,
+   "sourceIds": [
+    "s5"
+   ],
+   "confidence": "verified",
+   "shape": {
+    "template": "connector"
+   },
+   "shapeNote": "board-mounted press (board-to-board) connector receptacle",
+   "notes": "Existence verified by the listed guides. 'verified' entries also have a stated location (edge/corner); exact xy is still approximate."
+  },
+  {
+   "id": "conn-coil",
+   "name_en": "Wireless charging coil connector",
+   "name_ko": "무선충전 코일 커넥터",
+   "category": "connector",
+   "count": 1,
+   "bbox": [
+    34,
+    96.5,
+    5.6,
+    39.5,
+    99.5,
+    6
+   ],
+   "attachedTo": "motherboard",
+   "fastening": {
+    "type": "solder"
+   },
+   "step": 8,
+   "sourceIds": [
+    "s5",
+    "s4"
+   ],
+   "confidence": "estimated",
+   "shape": {
+    "template": "connector"
+   },
+   "shapeNote": "board-mounted press (board-to-board) connector receptacle",
+   "notes": "Existence verified by the listed guides. 'verified' entries also have a stated location (edge/corner); exact xy is still approximate."
+  },
+  {
+   "id": "conn-interconnect-primary",
+   "name_en": "Primary interconnect connector (motherboard)",
+   "name_ko": "메인 인터커넥트 커넥터(1차)",
+   "category": "connector",
+   "count": 1,
+   "bbox": [
+    52,
+    96.5,
+    5.6,
+    58,
+    99.5,
+    6
+   ],
+   "attachedTo": "motherboard",
+   "fastening": {
+    "type": "solder"
+   },
+   "step": 8,
+   "sourceIds": [
+    "s5",
+    "s9"
+   ],
+   "confidence": "verified",
+   "shape": {
+    "template": "connector"
+   },
+   "shapeNote": "board-mounted press (board-to-board) connector receptacle",
+   "notes": "Existence verified by the listed guides. 'verified' entries also have a stated location (edge/corner); exact xy is still approximate."
+  },
+  {
+   "id": "conn-interconnect-main",
+   "name_en": "Secondary interconnect connector labelled MAIN (bottom-right)",
+   "name_ko": "인터커넥트 커넥터 'MAIN'",
+   "category": "connector",
+   "count": 1,
+   "bbox": [
+    58.5,
+    96.5,
+    5.6,
+    64.5,
+    99.5,
+    6
+   ],
+   "attachedTo": "motherboard",
+   "fastening": {
+    "type": "solder"
+   },
+   "step": 8,
+   "sourceIds": [
+    "s5",
+    "s9"
+   ],
+   "confidence": "verified",
+   "shape": {
+    "template": "connector"
+   },
+   "shapeNote": "board-mounted press (board-to-board) connector receptacle",
+   "notes": "Existence verified by the listed guides. 'verified' entries also have a stated location (edge/corner); exact xy is still approximate."
+  },
+  {
+   "id": "conn-mmwave-antenna",
+   "name_en": "mmWave antenna connector (motherboard right edge)",
+   "name_ko": "mmWave 안테나 커넥터",
+   "category": "connector",
+   "count": 1,
+   "bbox": [
+    61,
+    105,
+    5.6,
+    64.8,
+    110,
+    6
+   ],
+   "attachedTo": "motherboard",
+   "fastening": {
+    "type": "solder"
+   },
+   "step": 8,
+   "sourceIds": [
+    "s5",
+    "s9"
+   ],
+   "confidence": "verified",
+   "shape": {
+    "template": "connector"
+   },
+   "shapeNote": "board-mounted press (board-to-board) connector receptacle",
+   "notes": "Existence verified by the listed guides. 'verified' entries also have a stated location (edge/corner); exact xy is still approximate."
+  },
+  {
+   "id": "conn-front-camera",
+   "name_en": "Front camera connector",
+   "name_ko": "전면 카메라 커넥터",
+   "category": "connector",
+   "count": 1,
+   "bbox": [
+    36,
+    128,
+    5.6,
+    41,
+    133,
+    6
+   ],
+   "attachedTo": "motherboard",
+   "fastening": {
+    "type": "solder"
+   },
+   "step": 8,
+   "sourceIds": [
+    "s5",
+    "s11"
+   ],
+   "confidence": "estimated",
+   "shape": {
+    "template": "connector"
+   },
+   "shapeNote": "board-mounted press (board-to-board) connector receptacle",
+   "notes": "Existence verified by the listed guides. 'verified' entries also have a stated location (edge/corner); exact xy is still approximate."
+  },
+  {
+   "id": "conn-earpiece",
+   "name_en": "Earpiece speaker connector",
+   "name_ko": "이어피스 커넥터",
+   "category": "connector",
+   "count": 1,
+   "bbox": [
+    44,
+    131,
+    5.6,
+    49,
+    134.4,
+    6
+   ],
+   "attachedTo": "motherboard",
+   "fastening": {
+    "type": "solder"
+   },
+   "step": 8,
+   "sourceIds": [
+    "s10"
+   ],
+   "confidence": "estimated",
+   "shape": {
+    "template": "connector"
+   },
+   "shapeNote": "board-mounted press (board-to-board) connector receptacle",
+   "notes": "Existence verified by the listed guides. 'verified' entries also have a stated location (edge/corner); exact xy is still approximate."
+  },
+  {
+   "id": "display-cable",
+   "name_en": "Display extension cable",
+   "name_ko": "디스플레이 연장 케이블",
+   "category": "flex",
+   "count": 1,
+   "bbox": [
+    1.9,
+    13.6,
+    2.2,
+    26.1,
+    99.4,
+    6.6
+   ],
+   "attachedTo": "motherboard",
+   "fastening": {
+    "type": "press-connector"
+   },
+   "step": 9,
+   "sourceIds": [
+    "s5",
+    "s7"
+   ],
+   "confidence": "estimated",
+   "shape": {
+    "template": "flex",
+    "width": 2.8,
+    "path": [
+     [
+      20.7,
+      15,
+      2.3
+     ],
+     [
+      3.3,
+      17,
+      2.3
+     ],
+     [
+      3.3,
+      94.5,
+      2.3
+     ],
+     [
+      20,
+      95.3,
+      5.9
+     ],
+     [
+      24.7,
+      98,
+      5.9
+     ]
+    ]
+   },
+   "shapeNote": "long narrow flex along the left rail, jogging right at both ends (to display connector at bottom and motherboard bottom-left)",
+   "notes": "Separate removable cable from the display connector to the motherboard bottom-left (s5, s7). Left-rail route is estimated; bbox covers only the straight run."
+  },
+  {
+   "id": "interconnect-primary",
+   "name_en": "Primary interconnect flex (motherboard to daughterboard)",
+   "name_ko": "메인-서브 인터커넥트 FPCB(1차)",
+   "category": "flex",
+   "count": 1,
+   "bbox": [
+    53.7,
+    17.2,
+    2.9,
+    68.1,
+    99.3,
+    6.6
+   ],
+   "attachedTo": "motherboard",
+   "fastening": {
+    "type": "press-connector"
+   },
+   "step": 9,
+   "sourceIds": [
+    "s5",
+    "s6",
+    "s9"
+   ],
+   "confidence": "estimated",
+   "shape": {
+    "template": "flex",
+    "width": 2.6,
+    "path": [
+     [
+      59.3,
+      18.5,
+      3.5
+     ],
+     [
+      66.8,
+      21,
+      3
+     ],
+     [
+      66.8,
+      94.5,
+      3
+     ],
+     [
+      60,
+      95.3,
+      5.9
+     ],
+     [
+      55,
+      98,
+      5.9
+     ]
+    ]
+   },
+   "shapeNote": "long narrow flex along the right rail beside the battery",
+   "notes": "Two interconnect cables verified; routing along the right rail estimated (both board ends are at the right)."
+  },
+  {
+   "id": "interconnect-secondary",
+   "name_en": "Secondary interconnect flex ('MAIN'/'SUB' labelled)",
+   "name_ko": "메인-서브 인터커넥트 FPCB(2차)",
+   "category": "flex",
+   "count": 1,
+   "bbox": [
+    60.4,
+    17.4,
+    3.25,
+    68.5,
+    99.1,
+    6.95
+   ],
+   "attachedTo": "motherboard",
+   "fastening": {
+    "type": "press-connector"
+   },
+   "step": 9,
+   "sourceIds": [
+    "s5",
+    "s6",
+    "s9"
+   ],
+   "confidence": "estimated",
+   "shape": {
+    "template": "flex",
+    "width": 2.2,
+    "path": [
+     [
+      62.6,
+      18.5,
+      3.85
+     ],
+     [
+      67.4,
+      21.5,
+      3.35
+     ],
+     [
+      67.4,
+      94.5,
+      3.35
+     ],
+     [
+      63,
+      95.5,
+      6.25
+     ],
+     [
+      61.5,
+      98,
+      6.25
+     ]
+    ]
+   },
+   "shapeNote": "long narrow flex stacked over the primary one"
+  },
+  {
+   "id": "earpiece-module",
+   "name_en": "Earpiece speaker assembly (top cover)",
+   "name_ko": "이어피스 스피커 어셈블리(상단 커버)",
+   "category": "audio",
+   "count": 1,
+   "bbox": [
+    28,
+    135,
+    5.1,
+    65,
+    145.6,
+    6.9
+   ],
+   "attachedTo": "frame",
+   "fastening": {
+    "type": "screw",
+    "spec": "Phillips #0, 3.5 mm",
+    "count": 5
+   },
+   "step": 10,
+   "sourceIds": [
+    "s5",
+    "s10"
+   ],
+   "confidence": "estimated",
+   "shape": {
+    "template": "speaker",
+    "r": 1,
+    "slots": 3
+   },
+   "shapeNote": "plastic carrier along the top edge holding the earpiece speaker; pried from its bottom edge",
+   "notes": "5 screws and connector verified. Its footprint is estimated (a top carrier is assumed because it needs 5 screws)."
+  },
+  {
+   "id": "screws-earpiece",
+   "name_en": "Earpiece assembly screws",
+   "name_ko": "이어피스 나사",
+   "category": "fastener",
+   "count": 5,
+   "bbox": [
+    29,
+    135.5,
+    5.1,
+    64,
+    145,
+    7
+   ],
+   "attachedTo": "earpiece-module",
+   "fastening": {
+    "type": "screw",
+    "spec": "Phillips #0, 3.5 mm",
+    "count": 5
+   },
+   "step": 10,
+   "sourceIds": [
+    "s5",
+    "s10"
+   ],
+   "confidence": "verified",
+   "shape": {
+    "template": "screw",
+    "head": 2,
+    "positions": [
+     [
+      30.5,
+      137
+     ],
+     [
+      40,
+      144
+     ],
+     [
+      50,
+      137.5
+     ],
+     [
+      57,
+      144
+     ],
+     [
+      62.5,
+      137
+     ]
+    ]
+   },
+   "shapeNote": "five screws around the carrier",
+   "notes": "Positions estimated.",
+   "path": "screw"
+  },
+  {
+   "id": "battery-flex",
+   "name_en": "Battery flex and plug",
+   "name_ko": "배터리 FPCB·플러그",
+   "category": "flex",
+   "count": 1,
+   "bbox": [
+    40.25,
+    90.75,
+    6.2,
+    45.75,
+    100.75,
+    7
+   ],
+   "attachedTo": "battery",
+   "fastening": {
+    "type": "press-connector"
+   },
+   "step": 11,
+   "sourceIds": [
+    "s5",
+    "s8"
+   ],
+   "confidence": "estimated",
+   "shape": {
+    "template": "flex",
+    "width": 5.5,
+    "path": [
+     [
+      43,
+      93.5,
+      6.3
+     ],
+     [
+      43,
+      98,
+      6.3
+     ]
+    ]
+   },
+   "shapeNote": "short flex from the battery top edge folding onto the motherboard connector",
+   "notes": "Disconnected right after the coil assembly comes off, before the earpiece (s5). Shown as a separate step so the plug-in can be animated."
+  },
+  {
+   "id": "sim-tray",
+   "name_en": "SIM card tray",
+   "name_ko": "SIM 트레이",
+   "category": "sim",
+   "count": 1,
+   "bbox": [
+    44.5,
+    0,
+    3.4,
+    56.5,
+    16,
+    4.6
+   ],
+   "attachedTo": "sim-reader",
+   "fastening": {
+    "type": "clip",
+    "spec": "push-in, ejector pin"
+   },
+   "step": 12,
+   "sourceIds": [
+    "s9"
+   ],
+   "confidence": "estimated",
+   "shape": {
+    "template": "plate",
+    "r": 0.6,
+    "mat": "metal"
+   },
+   "shapeNote": "flat nano-SIM tray sliding in from the bottom edge",
+   "notes": "SIM tray on the bottom edge (s9). On the right seen from the back is estimated. Sits inside the SIM reader cage, so the bboxes overlap.",
+   "passesThrough": [
+    "frame"
+   ]
+  },
+  {
+   "id": "wireless-coil",
+   "name_en": "Wireless charging / NFC coil assembly",
+   "name_ko": "무선충전·NFC 코일 어셈블리",
+   "category": "wireless",
+   "count": 1,
+   "bbox": [
+    8,
+    28,
+    6.65,
+    63,
+    92,
+    6.92
+   ],
+   "attachedTo": "frame",
+   "fastening": {
+    "type": "screw",
+    "spec": "Phillips #0, 3.5 mm",
+    "count": 6
+   },
+   "step": 13,
+   "sourceIds": [
+    "s4",
+    "s5",
+    "s6"
+   ],
+   "confidence": "estimated",
+   "shape": {
+    "template": "coil",
+    "r": 2,
+    "rIn": 6,
+    "rOut": 22,
+    "turns": 10
+   },
+   "shapeNote": "flat rectangular coil sheet with ferrite/graphite backing over the battery, short flex to motherboard",
+   "notes": "6 screws, press connector and the fact that it comes out together with the loudspeaker are verified. Outline is estimated. NFC is assumed to share this sheet (not stated).",
+   "key": true,
+   "desc": {
+    "ko": "무선 충전 코일. 배터리 위를 덮고 나사 6개로 고정돼요.",
+    "en": "Wireless charging coil over the battery, held by six screws."
+   }
+  },
+  {
+   "id": "loudspeaker-module",
+   "name_en": "Loudspeaker module",
+   "name_ko": "하단 라우드스피커 모듈",
+   "category": "audio",
+   "count": 1,
+   "bbox": [
+    1.4,
+    1.3,
+    2.9,
+    29.8,
+    25.5,
+    6.9
+   ],
+   "attachedTo": "frame",
+   "fastening": {
+    "type": "screw+clip",
+    "spec": "Phillips #0, 3.5 mm",
+    "count": 7
+   },
+   "step": 13,
+   "sourceIds": [
+    "s5",
+    "s6"
+   ],
+   "confidence": "estimated",
+   "shape": {
+    "template": "speaker",
+    "r": 1.5,
+    "slots": 5
+   },
+   "shapeNote": "sealed speaker box at the bottom-left (seen from back), with a notch on its left edge",
+   "notes": "7 screws, clips, left-edge notch verified. Box position estimated (speaker grille is on the bottom-right seen from the front)."
+  },
+  {
+   "id": "loudspeaker-wing",
+   "name_en": "Loudspeaker module cover wing (over daughterboard)",
+   "name_ko": "스피커 모듈 커버 날개부",
+   "category": "bracket",
+   "count": 1,
+   "bbox": [
+    29.8,
+    8.6,
+    5.95,
+    69.2,
+    25.5,
+    6.9
+   ],
+   "attachedTo": "loudspeaker-module",
+   "fastening": {
+    "type": "integral"
+   },
+   "step": 13,
+   "confidence": "estimated",
+   "shape": {
+    "template": "plate",
+    "r": 1,
+    "mat": "black"
+   },
+   "shapeNote": "flat plastic extension of the speaker module across the daughterboard",
+   "notes": "Hypothesis: 7 speaker screws and the need to remove the speaker before reaching the daughterboard connectors suggest it spans the bottom. Not confirmed."
+  },
+  {
+   "id": "screws-coil",
+   "name_en": "Wireless coil screws",
+   "name_ko": "무선충전 코일 나사",
+   "category": "fastener",
+   "count": 6,
+   "bbox": [
+    7.5,
+    27.5,
+    6,
+    63.5,
+    92.5,
+    7
+   ],
+   "attachedTo": "wireless-coil",
+   "fastening": {
+    "type": "screw",
+    "spec": "Phillips #0, 3.5 mm",
+    "count": 6
+   },
+   "step": 13,
+   "sourceIds": [
+    "s5",
+    "s6",
+    "s9"
+   ],
+   "confidence": "verified",
+   "shape": {
+    "template": "screw",
+    "head": 2,
+    "positions": [
+     [
+      9,
+      29
+     ],
+     [
+      62,
+      29
+     ],
+     [
+      9,
+      60
+     ],
+     [
+      62,
+      60
+     ],
+     [
+      9,
+      91
+     ],
+     [
+      62,
+      91
+     ]
+    ]
+   },
+   "shapeNote": "six screws around the coil perimeter",
+   "notes": "s13 (community guide) says 8 screws; the 3 main guides say 6. Positions estimated.",
+   "path": "screw"
+  },
+  {
+   "id": "screws-loudspeaker",
+   "name_en": "Loudspeaker screws",
+   "name_ko": "스피커 나사",
+   "category": "fastener",
+   "count": 7,
+   "bbox": [
+    2,
+    2,
+    5.5,
+    69,
+    25,
+    7
+   ],
+   "attachedTo": "loudspeaker-module",
+   "fastening": {
+    "type": "screw",
+    "spec": "Phillips #0, 3.5 mm",
+    "count": 7
+   },
+   "step": 13,
+   "sourceIds": [
+    "s5",
+    "s6",
+    "s9"
+   ],
+   "confidence": "verified",
+   "shape": {
+    "template": "screw",
+    "head": 2,
+    "positions": [
+     [
+      3.5,
+      3.5
+     ],
+     [
+      28,
+      3.5
+     ],
+     [
+      3.5,
+      23.5
+     ],
+     [
+      28,
+      23.5
+     ],
+     [
+      40,
+      23.5
+     ],
+     [
+      55,
+      23.5
+     ],
+     [
+      67.5,
+      23.5
+     ]
+    ]
+   },
+   "shapeNote": "seven screws across the bottom module",
+   "notes": "Positions estimated.",
+   "path": "screw"
+  },
+  {
+   "id": "back-cover-adhesive",
+   "name_en": "Back cover adhesive",
+   "name_ko": "후면 커버 접착제",
+   "category": "adhesive",
+   "count": 1,
+   "bbox": [
+    0.3,
+    0.3,
+    6.92,
+    70.3,
+    146.7,
+    7
+   ],
+   "attachedTo": "frame",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "step": 14,
+   "sourceIds": [
+    "s4"
+   ],
+   "confidence": "verified",
+   "shape": {
+    "template": "adhesive",
+    "r": 8.5,
+    "ring": 1.8
+   },
+   "shapeNote": "perimeter ring plus a spot above the flash cutout",
+   "notes": "All four edges plus a flash-area patch (s4)."
+  },
+  {
+   "id": "back-cover",
+   "name_en": "Back glass (Gorilla Glass Victus 2)",
+   "name_ko": "후면 글라스",
+   "category": "housing",
+   "count": 1,
+   "bbox": [
+    0.3,
+    0.3,
+    7,
+    70.3,
+    146.7,
+    7.6
+   ],
+   "attachedTo": "frame",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "step": 14,
+   "sourceIds": [
+    "s1",
+    "s4"
+   ],
+   "confidence": "verified",
+   "shape": {
+    "template": "plate",
+    "r": 8.5,
+    "mat": "glass",
+    "colors": {
+     "glass": "#aaa7d8"
+    },
+    "holes": [
+     [
+      13.5,
+      106,
+      11.6,
+      11.6,
+      5.8
+     ],
+     [
+      13.5,
+      120,
+      11.6,
+      11.6,
+      5.8
+     ],
+     [
+      13.5,
+      134,
+      11.6,
+      11.6,
+      5.8
+     ],
+     [
+      25,
+      133.5,
+      3.4,
+      3.4,
+      1.7
+     ]
+    ]
+   },
+   "shapeNote": "flat rounded rect glass with three round camera holes in a column at upper-left and a small flash cutout",
+   "notes": "Thickness (0.6 mm) estimated.",
+   "key": true,
+   "desc": {
+    "ko": "후면 유리(Gorilla Glass Victus 2). 접착제로 붙여 방수 밀봉해요.",
+    "en": "Gorilla Glass Victus 2 back, glued down to seal the phone."
+   }
+  },
+  {
+   "id": "camera-lens-covers",
+   "name_en": "Rear camera lens covers/rings",
+   "name_ko": "후면 카메라 렌즈 커버",
+   "category": "camera",
+   "count": 3,
+   "bbox": [
+    7.5,
+    99.5,
+    7,
+    19.5,
+    140.5,
+    8.5
+   ],
+   "attachedTo": "back-cover",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "step": 14,
+   "sourceIds": [
+    "s14"
+   ],
+   "confidence": "estimated",
+   "shape": {
+    "template": "camera",
+    "body": false,
+    "lenses": [
+     [
+      13.5,
+      106,
+      5.4
+     ],
+     [
+      13.5,
+      120,
+      5.4
+     ],
+     [
+      13.5,
+      134,
+      5.4
+     ]
+    ],
+    "colors": {
+     "metal": "#b4b1dc"
+    }
+   },
+   "shapeNote": "three separate round lens rings in a vertical column",
+   "notes": "Individually replaceable per s14. Bump height (~0.9 mm) and positions estimated.",
+   "passesThrough": [
+    "back-cover"
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "n": 1,
+   "title_en": "Frame onto the display",
+   "title_ko": "디스플레이 위에 프레임 얹기",
+   "parts": [
+    "display",
+    "display-adhesive",
+    "frame",
+    "vapor-chamber",
+    "power-key",
+    "volume-key",
+    "display-flex-connector"
+   ],
+   "tools": {
+    "ko": "열풍기, 흡착 손잡이, 오프닝 툴 (분리할 때만)",
+    "en": "heat, suction handle, iFlex (only if separating)"
+   },
+   "cautions": {
+    "ko": "디스플레이는 접착으로 붙은 깨지기 쉬운 부품이에요. 서비스용 부품은 배터리가 미리 붙어서 와요.",
+    "en": "Display is a fragile, adhesive-bonded unit; the service part ships with the battery pre-installed"
+   },
+   "path": "drop",
+   "sourceIds": [
+    "s7",
+    "s9"
+   ]
+  },
+  {
+   "n": 2,
+   "title_en": "Battery onto pull-tab adhesive",
+   "title_ko": "배터리 부착(풀탭 접착)",
+   "parts": [
+    "battery-adhesive",
+    "battery"
+   ],
+   "tools": {
+    "ko": "당김 탭 (잘 안 떨어지면 이소프로필 알코올)",
+    "en": "pull tab; isopropyl alcohol if it resists"
+   },
+   "cautions": {
+    "ko": "배터리에 금속 공구를 쓰지 마세요.",
+    "en": "Never use metal tools on the battery"
+   },
+   "path": "drop",
+   "sourceIds": [
+    "s8"
+   ]
+  },
+  {
+   "n": 3,
+   "title_en": "Daughterboard with USB-C port",
+   "title_ko": "서브보드·USB-C 장착",
+   "parts": [
+    "daughterboard",
+    "usb-c-port",
+    "sim-reader",
+    "bottom-mic",
+    "conn-sub-interconnect",
+    "screws-daughterboard",
+    "vibration-motor"
+   ],
+   "tools": {
+    "ko": "십자 #0, 스퍼저",
+    "en": "Phillips #0, spudger"
+   },
+   "cautions": {
+    "ko": "USB-C 포트를 비스듬히 홈에 먼저 끼운 다음, 보드를 평평하게 눌러요.",
+    "en": "Seat the USB-C port into its recess at an angle, then press the board flat."
+   },
+   "path": "drop",
+   "sourceIds": [
+    "s6",
+    "s9"
+   ]
+  },
+  {
+   "n": 4,
+   "title_en": "5G mmWave antenna and bracket (mmWave models)",
+   "title_ko": "5G mmWave 안테나·브래킷",
+   "parts": [
+    "mmwave-antenna",
+    "mmwave-bracket",
+    "screws-mmwave",
+    "mmwave-cable"
+   ],
+   "tools": {
+    "ko": "십자 #0, 꺾인 핀셋",
+    "en": "Phillips #0, angled tweezers"
+   },
+   "cautions": {
+    "ko": "mmWave 모델에만 있어요.",
+    "en": "Only on mmWave SKUs"
+   },
+   "path": "drop",
+   "sourceIds": [
+    "s9"
+   ]
+  },
+  {
+   "n": 5,
+   "title_en": "Antenna module on conductive tape",
+   "title_ko": "안테나 모듈(도전 테이프)",
+   "parts": [
+    "antenna-conductive-tape",
+    "antenna-top"
+   ],
+   "tools": {
+    "ko": "스퍼저",
+    "en": "spudger"
+   },
+   "cautions": {
+    "ko": "전도성 테이프를 옮겨 붙여요.",
+    "en": "Transfer conductive tape"
+   },
+   "path": "drop",
+   "sourceIds": [
+    "s9"
+   ]
+  },
+  {
+   "n": 6,
+   "title_en": "Front camera into frame recess",
+   "title_ko": "전면 카메라 접착",
+   "parts": [
+    "front-camera-adhesive",
+    "front-camera"
+   ],
+   "tools": {
+    "ko": "핀셋, 얇은 양면 테이프",
+    "en": "tweezers, thin double-sided tape"
+   },
+   "cautions": {
+    "ko": "카메라 기판을 카메라 몸체에서 떼지 마세요.",
+    "en": "Do not separate camera PCB from its housing"
+   },
+   "path": "drop",
+   "sourceIds": [
+    "s9",
+    "s11"
+   ]
+  },
+  {
+   "n": 7,
+   "title_en": "Rear cameras onto motherboard",
+   "title_ko": "후면 카메라를 메인보드에 결합",
+   "parts": [
+    "camera-telephoto",
+    "camera-main",
+    "camera-ultrawide",
+    "conn-rear-cameras"
+   ],
+   "tools": {
+    "ko": "스퍼저",
+    "en": "spudger"
+   },
+   "cautions": {
+    "ko": "초광각 카메라는 핀 두 개에 걸어요. 45도로 기울여 넣어요.",
+    "en": "Ultrawide hooks onto two pegs; insert at 45 degrees"
+   },
+   "path": "press",
+   "sourceIds": [
+    "s5",
+    "s12"
+   ]
+  },
+  {
+   "n": 8,
+   "title_en": "Motherboard with cameras into frame",
+   "title_ko": "메인보드(카메라 포함) 장착",
+   "parts": [
+    "motherboard",
+    "flash-led",
+    "top-mic",
+    "screws-motherboard",
+    "conn-battery",
+    "conn-display-board",
+    "conn-mmwave-cable-board",
+    "conn-coil",
+    "conn-interconnect-primary",
+    "conn-interconnect-main",
+    "conn-mmwave-antenna",
+    "conn-front-camera",
+    "conn-earpiece"
+   ],
+   "tools": {
+    "ko": "십자 #0, 스퍼저",
+    "en": "Phillips #0, spudger"
+   },
+   "cautions": {
+    "ko": "전면 카메라와 mmWave 케이블을 보드 위로 지나가게 한 뒤 연결해요.",
+    "en": "Route front camera and mmWave cables over the board, then connect them"
+   },
+   "path": "drop",
+   "sourceIds": [
+    "s5",
+    "s9"
+   ]
+  },
+  {
+   "n": 9,
+   "title_en": "Display cable and two interconnect cables",
+   "title_ko": "디스플레이·인터커넥트 케이블 연결",
+   "parts": [
+    "display-cable",
+    "interconnect-primary",
+    "interconnect-secondary"
+   ],
+   "tools": {
+    "ko": "스퍼저",
+    "en": "spudger"
+   },
+   "cautions": {
+    "ko": "커넥터는 부품이 없는 평평한 곳만 눌러요.",
+    "en": "Press connectors only on flat areas without components"
+   },
+   "path": "press",
+   "sourceIds": [
+    "s5",
+    "s6",
+    "s7"
+   ]
+  },
+  {
+   "n": 10,
+   "title_en": "Earpiece speaker assembly",
+   "title_ko": "이어피스 스피커 어셈블리",
+   "parts": [
+    "earpiece-module",
+    "screws-earpiece"
+   ],
+   "tools": {
+    "ko": "십자 #0, 스퍼저",
+    "en": "Phillips #0, spudger"
+   },
+   "cautions": {
+    "ko": "나사를 조이기 전에 수화부 스피커를 먼저 연결해요.",
+    "en": "Connect earpiece before screwing down"
+   },
+   "path": "drop",
+   "sourceIds": [
+    "s5",
+    "s10"
+   ]
+  },
+  {
+   "n": 11,
+   "title_en": "Connect battery",
+   "title_ko": "배터리 커넥터 연결",
+   "parts": [
+    "battery-flex"
+   ],
+   "tools": {
+    "ko": "스퍼저",
+    "en": "spudger"
+   },
+   "cautions": {
+    "ko": "배터리는 내부 케이블을 모두 연결한 다음 마지막에 연결해요.",
+    "en": "Battery is connected after all internal cables (it is the first thing disconnected after the coil)"
+   },
+   "path": "press",
+   "sourceIds": [
+    "s5"
+   ]
+  },
+  {
+   "n": 12,
+   "title_en": "Insert SIM tray",
+   "title_ko": "SIM 트레이 삽입",
+   "parts": [
+    "sim-tray"
+   ],
+   "tools": {
+    "ko": "SIM 핀",
+    "en": "SIM eject tool"
+   },
+   "cautions": null,
+   "path": "slide",
+   "sourceIds": [
+    "s9"
+   ]
+  },
+  {
+   "n": 13,
+   "title_en": "Wireless coil and loudspeaker assembly",
+   "title_ko": "무선충전 코일·스피커 어셈블리",
+   "parts": [
+    "wireless-coil",
+    "loudspeaker-module",
+    "loudspeaker-wing",
+    "screws-coil",
+    "screws-loudspeaker"
+   ],
+   "tools": {
+    "ko": "십자 #0, 스퍼저",
+    "en": "Phillips #0, spudger"
+   },
+   "cautions": {
+    "ko": "스피커 테두리를 돌아가며 눌러 프레임에 딸깍 고정한 뒤 나사 13개를 조이고, 코일 커넥터를 꽂아요.",
+    "en": "Work round the speaker's rim until it snaps into the frame, then drive the 13 screws and plug in the coil."
+   },
+   "path": "drop",
+   "sourceIds": [
+    "s5",
+    "s6"
+   ]
+  },
+  {
+   "n": 14,
+   "title_en": "Back glass with new adhesive",
+   "title_ko": "후면 글라스 접착",
+   "parts": [
+    "back-cover-adhesive",
+    "back-cover",
+    "camera-lens-covers"
+   ],
+   "tools": {
+    "ko": "열풍기, 클램프, 새 접착제",
+    "en": "heat, clamps, new adhesive"
+   },
+   "cautions": {
+    "ko": "덮기 전에 동작을 확인해요. 접착제를 새로 잘 붙이지 않으면 방수 성능(IP68)이 사라져요.",
+    "en": "Test the phone before sealing; IP68 is lost unless the adhesive is reapplied well"
+   },
+   "path": "drop",
+   "sourceIds": [
+    "s4"
+   ]
+  }
+ ],
+ "meta": {
+  "interpretation": {
+   "ko": "삼성 갤럭시 S24 기본형 (SM-S921)",
+   "en": "Samsung Galaxy S24 base model (SM-S921)"
+  },
+  "researchedAt": "2026-10-29",
+  "gate2": "unknown",
+  "limitations": [
+   {
+    "ko": "내부 부품의 치수와 위치는 공개된 수치가 없어 외형 치수와 배터리 크기에 맞춰 추정했어요.",
+    "en": "No internal dimensions are published; inner positions and sizes are estimated against the outer size and the battery."
+   },
+   {
+    "ko": "보조 보드 나사 수는 자료마다 달라요(2개/3개). 보조 보드만 다루는 iFixit 가이드(3개)를 따랐어요.",
+    "en": "Sources disagree on the daughterboard screws (2 vs 3); the dedicated iFixit daughterboard guide (3) is followed."
+   },
+   {
+    "ko": "진동 모터 위치, 상단 안테나의 이름, mmWave 케이블의 다른 끝은 자료가 없어 추정했어요.",
+    "en": "The vibration motor position, the top antenna and the far end of the mmWave cable are not documented and are estimated."
+   },
+   {
+    "ko": "스피커 모듈이 보조 보드 위로 이어지는 부분(스피커 날개)은 나사 배치에서 추론한 가설이에요.",
+    "en": "The loudspeaker \"wing\" across the sub board is a hypothesis drawn from its screw layout."
+   },
+   {
+    "ko": "mmWave 안테나·브래킷은 mmWave 모델(예: SM-S921U)에만 있어요.",
+    "en": "The mmWave antenna and bracket exist only on mmWave models (e.g. SM-S921U)."
+   },
+   {
+    "ko": "케이블 경로, 나사 위치, 차폐 캔 배치는 사진 비례로 그린 그림이에요.",
+    "en": "Cable routes, screw positions and shield-can layout are drawn from photo proportions."
+   }
+  ],
+  "positionsEstimated": true
+ }
+}

@@ -1,0 +1,314 @@
+{
+ "product": {
+  "name": "Mini Phone",
+  "maker": "Test",
+  "dims": {
+   "w": 70,
+   "l": 146,
+   "t": 6.8
+  }
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "title": "Test spec sheet",
+   "url": "https://example.com/spec",
+   "covers": "dimensions"
+  }
+ ],
+ "parts": [
+  {
+   "id": "housing",
+   "name_en": "Front housing assembly with an unusually long descriptive part name",
+   "name_ko": "전면 하우징 어셈블리 (아주 긴 설명형 부품 이름 테스트용 문자열)",
+   "category": "housing",
+   "bbox": [
+    0,
+    0,
+    0,
+    70,
+    146,
+    6
+   ],
+   "shape": {
+    "template": "housing",
+    "r": 9,
+    "wall": 1.6,
+    "floor": 1.2
+   },
+   "step": 1,
+   "sourceIds": [
+    "s1"
+   ],
+   "confidence": "verified",
+   "key": true,
+   "desc": {
+    "ko": "전면 하우징 어셈블리 (아주 긴 설명형 부품 이름 테스트용 문자열)의 역할을 한 줄로 설명해요.",
+    "en": "What the Front housing assembly with an unusually long descriptive part name does, in one line."
+   }
+  },
+  {
+   "id": "board",
+   "name_en": "Main board assembly with an unusually long descriptive part name",
+   "name_ko": "메인보드 어셈블리 (아주 긴 설명형 부품 이름 테스트용 문자열)",
+   "category": "board",
+   "bbox": [
+    8,
+    92,
+    1.2,
+    62,
+    138,
+    2.4
+   ],
+   "shape": {
+    "template": "pcb",
+    "r": 2,
+    "chips": [
+     [
+      20,
+      100,
+      34,
+      114,
+      0.8,
+      "#24262a"
+     ]
+    ]
+   },
+   "attachedTo": "housing",
+   "fastening": {
+    "type": "screw"
+   },
+   "step": 2,
+   "sourceIds": [
+    "s1"
+   ],
+   "confidence": "verified",
+   "key": true,
+   "desc": {
+    "ko": "메인보드 어셈블리 (아주 긴 설명형 부품 이름 테스트용 문자열)의 역할을 한 줄로 설명해요.",
+    "en": "What the Main board assembly with an unusually long descriptive part name does, in one line."
+   }
+  },
+  {
+   "id": "battery",
+   "name_en": "Battery assembly with an unusually long descriptive part name",
+   "name_ko": "배터리 어셈블리 (아주 긴 설명형 부품 이름 테스트용 문자열)",
+   "category": "battery",
+   "bbox": [
+    9,
+    18,
+    1.2,
+    61,
+    86,
+    5.6
+   ],
+   "shape": {
+    "template": "battery",
+    "r": 3
+   },
+   "attachedTo": "housing",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "step": 2,
+   "confidence": "estimated",
+   "key": true,
+   "desc": {
+    "ko": "배터리 어셈블리 (아주 긴 설명형 부품 이름 테스트용 문자열)의 역할을 한 줄로 설명해요.",
+    "en": "What the Battery assembly with an unusually long descriptive part name does, in one line."
+   }
+  },
+  {
+   "id": "camera",
+   "name_en": "Rear camera assembly with an unusually long descriptive part name",
+   "name_ko": "후면 카메라 어셈블리 (아주 긴 설명형 부품 이름 테스트용 문자열)",
+   "category": "camera",
+   "bbox": [
+    42,
+    118,
+    2.4,
+    60,
+    140,
+    7.8
+   ],
+   "shape": {
+    "template": "camera",
+    "lenses": [
+     [
+      51,
+      124,
+      3.5
+     ],
+     [
+      51,
+      134,
+      3.5
+     ]
+    ]
+   },
+   "attachedTo": "board",
+   "fastening": {
+    "type": "press-connector"
+   },
+   "passesThrough": [
+    "back"
+   ],
+   "step": 2,
+   "confidence": "estimated"
+  },
+  {
+   "id": "screws",
+   "name_en": "Board screws assembly with an unusually long descriptive part name",
+   "name_ko": "보드 나사 어셈블리 (아주 긴 설명형 부품 이름 테스트용 문자열)",
+   "category": "fastener",
+   "count": 2,
+   "bbox": [
+    10,
+    138,
+    2.4,
+    40,
+    142,
+    4
+   ],
+   "shape": {
+    "template": "screw",
+    "head": 2,
+    "len": 1.6,
+    "positions": [
+     [
+      12,
+      140
+     ],
+     [
+      38,
+      140
+     ]
+    ]
+   },
+   "attachedTo": "board",
+   "fastening": {
+    "type": "screw",
+    "spec": "Phillips #00",
+    "count": 2
+   },
+   "step": 3,
+   "confidence": "estimated"
+  },
+  {
+   "id": "conn",
+   "name_en": "Battery connector assembly with an unusually long descriptive part name",
+   "name_ko": "배터리 커넥터 어셈블리 (아주 긴 설명형 부품 이름 테스트용 문자열)",
+   "category": "connector",
+   "bbox": [
+    30,
+    87,
+    2.4,
+    40,
+    91,
+    3.4
+   ],
+   "shape": {
+    "template": "connector"
+   },
+   "attachedTo": "board",
+   "fastening": {
+    "type": "press-connector"
+   },
+   "step": 3,
+   "confidence": "estimated"
+  },
+  {
+   "id": "coil",
+   "name_en": "Wireless charging coil assembly with an unusually long descriptive part name",
+   "name_ko": "무선 충전 코일 어셈블리 (아주 긴 설명형 부품 이름 테스트용 문자열)",
+   "category": "wireless",
+   "bbox": [
+    15,
+    40,
+    5.6,
+    55,
+    84,
+    6
+   ],
+   "shape": {
+    "template": "coil",
+    "rIn": 6,
+    "rOut": 18
+   },
+   "attachedTo": "battery",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "step": 3,
+   "confidence": "estimated"
+  },
+  {
+   "id": "back",
+   "name_en": "Back glass assembly with an unusually long descriptive part name",
+   "name_ko": "후면 유리 어셈블리 (아주 긴 설명형 부품 이름 테스트용 문자열)",
+   "category": "housing",
+   "bbox": [
+    0,
+    0,
+    6,
+    70,
+    146,
+    6.8
+   ],
+   "shape": {
+    "template": "plate",
+    "r": 9,
+    "holes": [
+     [
+      51,
+      129,
+      14,
+      26,
+      4
+     ]
+    ]
+   },
+   "attachedTo": "housing",
+   "fastening": {
+    "type": "adhesive"
+   },
+   "step": 3,
+   "sourceIds": [
+    "s1"
+   ],
+   "confidence": "verified"
+  }
+ ],
+ "steps": [
+  {
+   "n": 1,
+   "title_en": "Place the front housing",
+   "title_ko": "전면 하우징 놓기",
+   "parts": [
+    "housing"
+   ]
+  },
+  {
+   "n": 2,
+   "title_en": "Fit board, battery and camera",
+   "title_ko": "보드·배터리·카메라 장착",
+   "parts": [
+    "board",
+    "battery",
+    "camera"
+   ]
+  },
+  {
+   "n": 3,
+   "title_en": "Fasten and close",
+   "title_ko": "고정하고 닫기",
+   "parts": [
+    "screws",
+    "conn",
+    "coil",
+    "back"
+   ],
+   "path": "drop"
+  }
+ ]
+}
