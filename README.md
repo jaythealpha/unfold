@@ -1,5 +1,7 @@
 # Unfold
 
+[![check](https://github.com/jaythealpha/unfold/actions/workflows/check.yml/badge.svg)](https://github.com/jaythealpha/unfold/actions/workflows/check.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Demo](https://img.shields.io/badge/demo-GitHub%20Pages-ff5a36)](https://jaythealpha.github.io/unfold/)
+
 **폰 모델명 하나로, 분해와 조립을 보여 주는 HTML 페이지 한 장.**
 
 Unfold는 [Claude Code](https://claude.com/claude-code)용 스킬이에요. "갤럭시 Z 폴드8이 어떻게 조립되는지 보여줘"라고 하면 Claude가 공개된 분해·수리 자료를 조사해요. 그 자료로 부품과 조립 순서를 정리한 다음, 오프라인에서 열리는 페이지 한 장을 만들어요.
@@ -95,7 +97,7 @@ git clone https://github.com/jaythealpha/unfold && cp -R unfold/plugins/unfold/s
 - **부품이 실제와 다르면:** [부품이 틀렸어요](https://github.com/jaythealpha/unfold/issues/new?template=1-wrong-part.yml)
 - **직접 만들어 봤다면:** [이걸로 만들어 봤어요](https://github.com/jaythealpha/unfold/issues/new?template=2-my-model.yml). 잘 됐는지, 어디서 멈췄는지 알려 주세요.
 
-이슈는 일주일에 한 번 모아서 확인해요. 고친 내역은 [CHANGELOG.md](CHANGELOG.md)에 남겨요.
+이슈는 일주일에 한 번 모아서 확인해요. 고친 내역은 [CHANGELOG.md](CHANGELOG.md)에 남겨요. 코드나 데이터를 직접 고치고 싶다면 [CONTRIBUTING.md](CONTRIBUTING.md)를 봐 주세요. 보안 문제는 [SECURITY.md](SECURITY.md)의 방법으로 비공개로 알려 주세요.
 
 ## 저장소 구조
 
@@ -139,6 +141,6 @@ Drag the 0–100 bar and the finished phone:
   - Facts are taken from sources, never text or images, and sources appear as links.
   - It is an unofficial illustration, not affiliated with any manufacturer (see [NOTICE.md](NOTICE.md)).
 - **How it was checked:** [VALIDATION.md](VALIDATION.md)
-- **Feedback:** use the issue forms for wrong parts and field reports.
+- **Feedback:** use the issue forms for wrong parts and field reports; see [CONTRIBUTING.md](CONTRIBUTING.md) for pull requests and [SECURITY.md](SECURITY.md) for private reports.
 
 MIT licence. Bundles three.js (MIT).

@@ -1,0 +1,65 @@
+name: check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+defaults:
+  run:
+    working-directory: plugins/unfold/skills/unfold
+
+jobs:
+  test:
+    name: tests (Node ${{ matrix.node }})
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [18, 20, 22]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      - run: npm test
+
+  gates:
+    name: gates on the examples
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Gate 1 on every example, with its official dimensions
+        run: |
+          for f in examples/*.json; do
+            args=$(node -e "const p=require('./$f').product,d=p.dims,f=p.foldedDims;process.stdout.write('--official '+[d.w,d.l,d.t]+(f?' --official-folded '+[f.w,f.l,f.t]:''))")
+            out=$(node scripts/check_model.mjs "$f" $args | tail -1); echo "$f: $out"
+            [[ "$out" == "GATE1 PASS"* ]] || exit 1
+          done
+      - name: The demo pages match a fresh build
+        run: |
+          for f in examples/*.json; do
+            m=$(basename "$f" .json)
+            node scripts/build.mjs "$f" "$RUNNER_TEMP/$m.html" --gate2 pass > /dev/null
+            cmp "$RUNNER_TEMP/$m.html" "$GITHUB_WORKSPACE/docs/examples/$m.html"
+          done
+      - name: Gate 2 (quick) on one example
+        run: |
+          # the playback-speed check measures wall time, so a busy runner gets one retry
+          for i in 1 2; do
+            out=$(node scripts/shoot.mjs "$GITHUB_WORKSPACE/docs/examples/galaxy-s24.html" "$RUNNER_TEMP/shots" --quick | tail -1); echo "$out"
+            [[ "$out" == "GATE2 PASS"* ]] && exit 0
+          done
+          exit 1
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: gate2-shots
+          path: ${{ runner.temp }}/shots/*.png
+          if-no-files-found: ignore

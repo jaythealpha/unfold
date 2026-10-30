@@ -1,6 +1,6 @@
 {
   "name": "unfold",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Unfold: drag a 0-100 time bar and watch a real product assemble from its parts.",
   "type": "module",

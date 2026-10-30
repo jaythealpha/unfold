@@ -1,7 +1,7 @@
 {
   "name": "unfold",
   "description": "Name a phone and get one offline HTML page where a time bar takes it apart and puts it back together, with every part marked sourced or estimated.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "jaythealpha"
   },

@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1 — 2026-10-30
+
+- Repository housekeeping for the public release: CONTRIBUTING, CODE_OF_CONDUCT, SECURITY, a pull-request template, and a CI workflow that runs the tests on Node 18/20/22, Gate 1 on every example, a check that the demo pages match a fresh build, and a quick Gate 2.
+- LICENSE is the plain MIT text again, so GitHub detects it; the three.js notice moved to NOTICE.md.
+- The README shows the demo GIF and status badges.
+
 ## 1.0.0 — 2026-10-30
 
 First public release.
